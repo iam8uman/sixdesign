@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 import Footerr from "@/components/Footer/Footer";
 import Princing from "@/components/Pricing/Pricing";
 import Contact from "@/components/Contact/Contact";
+import OurWork from "@/components/Ourwork/Ourwork";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Herotailbits />
       <Service  />
+      <OurWork />
       <Testimonials />
       <Princing />
       <Contact />
