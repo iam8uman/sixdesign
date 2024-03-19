@@ -4,17 +4,20 @@ import BlogWrapper from "@/components/BlogWrapper";
 import Herotailbits from "@/components/Hero/Herotailbits";
 import Service from "@/components/Services/Service";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import Footerr from "@/components/Footer/Footer";
+import Princing from "@/components/Pricing/Pricing";
+import Contact from "@/components/Contact/Contact";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <BlogWrapper>
-        <Hero />
-      </BlogWrapper> */}
       <Herotailbits />
       <Service  />
       <Testimonials />
+      <Princing />
+      <Contact />
+      <Footerr />
     </>
   );
 }

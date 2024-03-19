@@ -1,174 +1,437 @@
-import React from 'react'
+import React from "react";
 
 export default function Princing() {
   return (
-    <section className="relative overflow-hidden py-10">
-      <div className="relative mx-auto max-w-7xl px-4">
-        <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
-          <h1 className="mb-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
-            Lorem ipsum dolor sit amet consectetur.
-          </h1>
-          <p className="text-lg text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis.
+    <section className="py-12 bg-white sm:py-16 lg:py-20 xl:py-24">
+      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+            Plans that scale with business
+          </h2>
+          <p className="mt-4 text-base font-normal leading-7 text-gray-600 lg:text-lg lg:mt-6 lg:leading-8">
+            Clarity gives you the blocks & components you need to create a truly
+            professional website, landing page or admin panel for your SaaS.
           </p>
         </div>
-        <div className="mx-auto max-w-5xl">
-          <div className="flex flex-wrap items-center">
-            <div className="w-full lg:-mr-2 lg:w-1/3">
-              <div className="mx-auto max-w-sm rounded-md border border-gray-200 bg-white pb-20 pl-5 pr-8 pt-6 lg:pb-8">
-                <span className="mb-2 block text-sm font-semibold text-gray-400">PREMIUM</span>
-                <span className="flex items-end">
-                  <span className="text-4xl font-extrabold leading-none">$150</span>
-                  <span className="text-sm font-semibold">/month</span>
-                </span>
-                <div className="mt-7 border-t border-gray-100 pt-5">
-                  <ul className="mb-10">
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">No Discount</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Basic Support</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Ads Banner Free</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Design Style</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Component Library</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">All limited links</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Own analytics platform</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Chat support</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Optimize hashtags</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Unlimited users</span>
-                    </li>
-                  </ul>
-                  <button
-                    type="button"
-                    className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                  >
-                    Choose Plan
-                  </button>
+
+        <div className="flex items-center justify-center mt-8 space-x-6 sm:mt-12">
+          <div className="flex items-center">
+            <input
+              type="radio"
+              id="monthly"
+              name="pricing-plans"
+              className="w-4 h-4 text-blue-600 border border-gray-200 focus:ring-1 focus:outline-none focus:ring-blue-600"
+              checked
+            />
+            <label
+              htmlFor="monthly"
+              className="block ml-3 text-sm font-medium text-gray-900 sm:text-base"
+            >
+              {" "}
+              Monthly Plan{" "}
+            </label>
+          </div>
+
+          <div className="flex items-center">
+            <input
+              type="radio"
+              id="yearly"
+              name="pricing-plans"
+              className="w-4 h-4 text-blue-600 border border-gray-200 focus:ring-1 focus:outline-none focus:ring-blue-600"
+            />
+            <label
+              htmlFor="yearly"
+              className="block ml-3 text-sm font-medium text-gray-900 sm:text-base"
+            >
+              {" "}
+              Yearly Plan{" "}
+            </label>
+            <span className="ml-1 text-sm font-medium text-blue-600">
+              {" "}
+              (Save 20%){" "}
+            </span>
+          </div>
+        </div>
+
+        <div className="grid max-w-5xl grid-cols-1 mx-auto mt-12 lg:grid-cols-3 lg:gap-8 sm:mt-16 lg:mt-20">
+          <div className="bg-white border border-gray-200 divide-y divide-gray-200 rounded-2xl sm:rounded-3xl">
+            <div className="px-4 py-5 bg-gray-50 sm:p-6 rounded-t-2xl sm:rounded-t-3xl">
+              <div className="flex items-start">
+                <span className="text-3xl shrink-0"> 👋 </span>
+                <div className="ml-6">
+                  <h3 className="text-lg font-semibold text-gray-900">Basic</h3>
+                  <p className="mt-2 text-sm font-normal text-gray-500">
+                    Lorem ipsum dolor sit amet, consec tetur adipis elit
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="-mt-4 w-full lg:-mt-0 lg:w-1/3">
-              <div className="pt-22 relative mx-auto max-w-sm rounded-lg bg-black px-10 pb-16 ">
-                <div className="absolute left-1/2 top-0 inline-flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center rounded-full bg-white p-2">
-                  <div className="flex-shrink-0 rounded-full bg-black px-5 py-4 text-sm font-semibold uppercase text-white">
-                    Most Popular
-                  </div>
-                </div>
-                <span className="mb-2 block pt-10 text-sm font-semibold text-white">GOLD</span>
-                <span className="flex items-end text-white">
-                  <span className="text-4xl font-extrabold leading-none">$100</span>
-                  <span className="text-sm font-semibold">/month</span>
-                </span>
-                <div className="mt-7 border-t border-orange-500 pt-5">
-                  <ul className="mb-10">
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">No Discount</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Basic Support</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Ads Banner Free</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Design Style</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Component Library</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">All limited links</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Own analytics platform</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Chat support</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Optimize hashtags</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-white">Unlimited users</span>
-                    </li>
-                  </ul>
-                  <button
-                    type="button"
-                    className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+
+            <div className="px-4 py-5 sm:p-6">
+              <div className="flex items-end">
+                <p className="text-5xl font-semibold text-gray-900">$0</p>
+                <p className="py-1 text-sm font-normal text-gray-500">
+                  /mo/user
+                </p>
+              </div>
+
+              <div className="mt-6">
+                <a
+                  href="#"
+                  title=""
+                  className="inline-flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white transition-all duration-200 bg-gray-400 border border-transparent rounded-xl hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                  role="button"
+                >
+                  Get 14 days free trial
+                </a>
+              </div>
+
+              <p className="mt-8 text-xs font-semibold tracking-widest text-gray-500 uppercase">
+                Best for free
+              </p>
+
+              <ul className="mt-8 space-y-4">
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
                   >
-                    Choose Plan
-                  </button>
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Full Access to Landingfolio
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  100 GB Free Storage
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Unlimited Visitors
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  10 Agents
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Live Chat Support
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="relative bg-white border border-gray-200 divide-y divide-gray-200 rounded-2xl sm:rounded-3xl mt-14 lg:mt-0">
+            <div className="absolute top-0 right-0 flex items-start -mt-8">
+              <svg
+                className="w-auto h-16 text-blue-600"
+                viewBox="0 0 83 64"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M4.27758 62.7565C4.52847 63.5461 5.37189 63.9827 6.16141 63.7318L19.0274 59.6434C19.817 59.3925 20.2536 58.5491 20.0027 57.7595C19.7518 56.97 18.9084 56.5334 18.1189 56.7842L6.68242 60.4184L3.04824 48.982C2.79735 48.1924 1.95394 47.7558 1.16441 48.0067C0.374889 48.2576 -0.0617613 49.101 0.189127 49.8905L4.27758 62.7565ZM13.4871 47.8215L12.229 47.0047L13.4871 47.8215ZM39.0978 20.5925L38.1792 19.4067L39.0978 20.5925ZM7.03921 62.9919C8.03518 61.0681 13.1417 51.1083 14.7453 48.6383L12.229 47.0047C10.5197 49.6376 5.30689 59.8127 4.37507 61.6126L7.03921 62.9919ZM14.7453 48.6383C22.0755 37.3475 29.8244 29.6738 40.0164 21.7784L38.1792 19.4067C27.7862 27.4579 19.7827 35.3698 12.229 47.0047L14.7453 48.6383ZM40.0164 21.7784C52.6582 11.9851 67.634 7.57932 82.2576 3.44342L81.4412 0.556653C66.8756 4.67614 51.3456 9.20709 38.1792 19.4067L40.0164 21.7784Z" />
+              </svg>
+              <span className="ml-2 -mt-2 text-sm font-semibold text-blue-600">
+                {" "}
+                Most popular{" "}
+              </span>
+            </div>
+
+            <div className="px-4 py-5 bg-gray-50 sm:p-6 rounded-t-2xl sm:rounded-t-3xl">
+              <div className="flex items-start">
+                <span className="text-3xl shrink-0"> 💪 </span>
+                <div className="ml-6">
+                  <h3 className="text-lg font-semibold text-gray-900">Pro</h3>
+                  <p className="mt-2 text-sm font-normal text-gray-500">
+                    Lorem ipsum dolor sit amet, consec tetur adipis elit
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="-mt-4 w-full lg:-ml-2 lg:-mt-0 lg:w-1/3">
-              <div className="rounded-b-5xl lg:rounded-r-5xl mx-auto max-w-sm border border-gray-200 bg-white pb-8 pl-8 pr-5 pt-12 lg:rounded-b-none lg:pt-6">
-                <span className="mb-2 block text-sm font-semibold text-gray-400">PREMIUM</span>
-                <span className="flex items-end">
-                  <span className="text-4xl font-extrabold leading-none">$150</span>
-                  <span className="text-sm font-semibold">/month</span>
-                </span>
-                <div className="mt-7 border-t border-gray-100 pt-5">
-                  <ul className="mb-10">
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">No Discount</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Basic Support</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Ads Banner Free</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Design Style</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Component Library</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">All limited links</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Own analytics platform</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Chat support</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Optimize hashtags</span>
-                    </li>
-                    <li className="mb-6 flex items-center">
-                      <span className="ml-2 text-sm text-gray-900">Unlimited users</span>
-                    </li>
-                  </ul>
-                  <button
-                    type="button"
-                    className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+
+            <div className="px-4 py-5 sm:p-6">
+              <div className="flex items-end">
+                <p className="text-5xl font-semibold text-gray-900">$49</p>
+                <p className="py-1 text-sm font-normal text-gray-500">
+                  /mo/user
+                </p>
+              </div>
+
+              <div className="mt-6">
+                <a
+                  href="#"
+                  title=""
+                  className="inline-flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700"
+                  role="button"
+                >
+                  Get 14 days free trial
+                </a>
+              </div>
+
+              <p className="mt-8 text-xs font-semibold tracking-widest text-gray-500 uppercase">
+                Best for free
+              </p>
+
+              <ul className="mt-8 space-y-4">
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
                   >
-                    Choose Plan
-                  </button>
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Full Access to Landingfolio
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  100 GB Free Storage
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Unlimited Visitors
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  10 Agents
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Live Chat Support
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-6 bg-white border border-gray-200 divide-y divide-gray-200 rounded-2xl sm:rounded-3xl lg:mt-0">
+            <div className="px-4 py-5 bg-gray-50 sm:p-6 rounded-t-2xl sm:rounded-t-3xl">
+              <div className="flex items-start">
+                <span className="text-3xl shrink-0"> 🚀 </span>
+                <div className="ml-6">
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Exclusive
+                  </h3>
+                  <p className="mt-2 text-sm font-normal text-gray-500">
+                    Lorem ipsum dolor sit amet, consec tetur adipis elit
+                  </p>
                 </div>
               </div>
+            </div>
+
+            <div className="px-4 py-5 sm:p-6">
+              <div className="flex items-end">
+                <p className="text-5xl font-semibold text-gray-900">$99</p>
+                <p className="py-1 text-sm font-normal text-gray-500">
+                  /mo/user
+                </p>
+              </div>
+
+              <div className="mt-6">
+                <a
+                  href="#"
+                  title=""
+                  className="inline-flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white transition-all duration-200 bg-gray-400 border border-transparent rounded-xl hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                  role="button"
+                >
+                  Get 14 days free trial
+                </a>
+              </div>
+
+              <p className="mt-8 text-xs font-semibold tracking-widest text-gray-500 uppercase">
+                Best for free
+              </p>
+
+              <ul className="mt-8 space-y-4">
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Full Access to Landingfolio
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  100 GB Free Storage
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Unlimited Visitors
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  10 Agents
+                </li>
+
+                <li className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-2 text-blue-600 shrink-0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Live Chat Support
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
