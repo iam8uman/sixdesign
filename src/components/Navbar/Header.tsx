@@ -7,7 +7,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <header className="bg-opacity-1 sticky top-0 z-10 w-full bg-white drop-shadow-lg">
+      <header className="bg-opacity-1 sticky top-0 z-10 w-full bg-white">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0 px-6">
@@ -52,47 +52,47 @@ const Header = () => {
             </button>
 
             <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-              <a
-                href="#"
+              <Link
+                href="/about"
                 title=""
                 className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
               >
                 {" "}
                 About{" "}
-              </a>
+              </Link>
 
               <Link
-                href="#"
+                href="/services"
                 title=""
                 className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
               >
                 {" "}
                 <div className="flex gap-2 justify-center ">
-                  Services <ChevronDown size={16} strokeWidth={1.75} absoluteStrokeWidth />
+                  Services
                 </div>
               </Link>
 
-              <a
-                href="#"
+              <Link
+                href="/blog"
                 title=""
                 className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
               >
                 {" "}
                 Blog{" "}
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                href="/calculator"
                 title=""
                 className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
               >
                 {" "}
                 Calculator{" "}
-              </a>
+              </Link>
             </div>
 
-            <a
-              href="#"
+            <Link
+              href="/contact"
               title=""
               className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-primary border border-transparent rounded-md lg:inline-flex hover:bg-red-700 focus:bg-blue-700"
               role="button"
@@ -103,47 +103,47 @@ const Header = () => {
                 <PhoneCall size={28} strokeWidth={1.75} absoluteStrokeWidth />
               </div>
               6475274970{" "}
-            </a>
+            </Link>
           </nav>
 
           <nav className="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
             <div className="flow-root">
               <div className="flex flex-col px-6 -my-2 space-y-1">
-                <a
+                <Link
                   href="#"
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
                   {" "}
                   Features{" "}
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
                   {" "}
                   Solutions{" "}
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
                   {" "}
                   Resources{" "}
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
                   {" "}
                   Pricing{" "}
-                </a>
+                </Link>
               </div>
             </div>
 

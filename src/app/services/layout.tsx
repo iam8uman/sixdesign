@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import { Jost  } from "next/font/google";
-import "./globals.css";
+import { Open_Sans  } from "next/font/google";
+import "@/app/globals.css";
+import Header from "@/components/Navbar/Header";
+import Footerr from "@/components/Footer/Footer";
 
 //👇 Configure our font object
-const openSans = Jost({
+const openSans = Open_Sans({
   subsets: ['latin'],
   display: 'swap',
 })
@@ -19,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={openSans.className}>{children}</body>
+      <body className={openSans.className}>
+        <Header />
+        {children}
+        <Footerr />
+        </body>
     </html>
   );
 }

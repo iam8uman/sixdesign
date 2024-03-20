@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Imgone from "@/../public/hero/image-1.png";
 import Imgtwo from "@/../public/hero/image-2.png";
+import imgHead from"@/../public/istockphoto-500558937-612x612.jpg";
 import {
   AreaChart,
   Command,
@@ -21,142 +22,126 @@ const Herotailbits = () => {
               <div className="lg:col-span-3">
                 <div className="max-w-lg">
                   <h1 className="text-2xl font-bold text-black sm:text-4xl">
-                    We know,{" "}
-                    <span className="text-primary uppercase border-primary border-2 rounded-md px-3">
-                      Real State
+                    We Know{" "}
+                    <span className="text-primary border-red-200 border-2 rounded-md px-3">
+                      Real Estate
                     </span>{" "}
                   </h1>
+                  <div className="text-2xl  mt-4">
+                    Providing expertise and solution in
+                  </div>
 
-                  <p className="mt-8 leading-8  text-base font-bold text-slate-600">
-                    Project Marketing, CRM Integration & Branding for Realtors,
-                    Brokerages & Builders{" "}
-                  </p>
-                  <div className="flex flex-wrap gap-3 py-4 font-bold">
-                    <div className="flex flex-col justify-between gap-3 sm:flex-row">
-                      <div className="flex items-center gap-1">
-                        <AreaChart className="h-5 w-5 text-red-500" /> Product
-                        Development
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <Command className="h-5 w-5 text-red-500" /> Software
-                        Development
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 py-4 pt-6 font-bold">
+                    <div>
+                      <div className="flex flex-col justify-between gap-3">
+                        <div className="flex items-center gap-2">
+                          <AreaChart className="h-5 w-5 text-red-500" /> Product
+                          Development
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <Command className="h-5 w-5 text-red-500" /> Software
+                          Development
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <MailCheck className="h-5 w-5 text-red-500" /> Email
+                          Marketing
+                        </div>
                       </div>
                     </div>
 
-                    <div className="flex flex-col gap-3 sm:flex-row">
-                      <div className="flex items-center gap-1">
-                        <MailCheck className="h-5 w-5 text-red-500" /> Email
-                        marketing
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <DatabaseZap className="h-5 w-5 text-red-500" />{" "}
-                        Customer Relationship Management
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col gap-3 sm:flex-row">
-                      <div className="flex items-center gap-1">
-                        <DatabaseZapIcon className="h-5 w-5 text-red-500" />{" "}
-                        Architecture Design
-                      </div>
-
-                      <div className="flex items-center gap-1">
-                        <Network className="h-5 w-5 text-red-500" /> Supply
-                        Chain Management
+                    <div>
+                      <div className="flex flex-col gap-3">
+                        <div className="flex items-center gap-2">
+                          <DatabaseZap className="h-5 w-5 text-red-500" />
+                          Product Development
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <DatabaseZapIcon className="h-5 w-5 text-red-500" />{" "}
+                          Architecture Design
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <Network className="h-5 w-5 text-red-500" /> Supply
+                          Chain Management
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="text-3xl mt-12 text-primary opacity-80">Get Your First Website For Free!</div>
+                  
+                    <section className="bg-white">
+                      <div className="px-2 mt-12 mx-auto sm:px-1 lg:px-2">
+                        <div className="lg:max-w-3xl">
+                          <div className="text-md text-black">
+                            Get Your First Website Build For Free!
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  
 
-                  <form action="#" method="POST" className="max-w-md mt-6">
+                  <form action="#" method="POST" className="max-w-md mt-2">
                     <div className="space-y-6">
-                      <div className="grid grid-cols-1 gap-6 sm:grid-cols-5">
-
-                        <div className="sm:col-span-6">
-                          <label htmlFor="" className="sr-only">
-                            {" "}
-                            Email Address{" "}
+                      <div className="grid grid-cols-1  sm:grid-cols-5">
+                        <div className="sm:col-span-3">
+                          <label htmlFor="email" className="sr-only">
+                            Email Address
                           </label>
                           <input
                             type="email"
-                            name=""
-                            id=""
-                            className="block w-full px-0 py-2 text-base font-medium text-black placeholder-gray-500 bg-transparent border-t-0 border-b border-l-0 border-r-0 border-gray-700 rounded-none focus:border-primary focus:outline-none focus:ring-0"
+                            id="email"
+                            className="block w-full px-4 py-2 text-base font-medium text-black placeholder-gray-500 bg-transparent  border-primary border-2 rounded-s-md focus:ring-primary focus:border-primary focus:outline-none"
                             placeholder="Email Address"
                           />
                         </div>
-                      </div>
-
-                      <div>
-                        <button
-                          type="button"
-                          className="inline-flex items-center justify-center w-full px-6 py-4 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-primary border border-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black focus:ring-offset-gray-900 hover:bg-red-700"
-                        >
-                          Get it Now!
-                        </button>
+                        <div className="sm:col-span-2 flex justify-center items-center">
+                          <button
+                            type="button"
+                            className="w-full px-8 py-2 text-sm text-white  transition-all duration-200 bg-primary  border-primary border-4 rounded-e-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary hover:bg-primary"
+                          >
+                            Make it for me
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </form>
+                  <div className="flex items-center mt-2 space-x-[-6px]">
+                    <Image
+                      height={40}
+                      width={40}
+                      className="object-cover w-10 h-10 rounded-full border-white border-2"
+                      src={Imgone}
+                      alt=""
+                    />
+
+                    <Image
+                      height={40}
+                      width={40}
+                      className="object-cover w-10 h-10 rounded-full border-white border-2"
+                      src={Imgone}
+                      alt=""
+                    />
+
+                    <Image
+                      height={40}
+                      width={40}
+                      className="object-cover w-10 h-10 rounded-full border-white border-2"
+                      src={Imgone}
+                      alt=""
+                    />
+                    <div className="text-md pl-4">
+                      +100 other expanded their real estate business!
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div className="lg:col-span-2">
-                <div className="grid grid-cols-3 gap-8 md:max-w-md lg:max-w-none">
-                  <div>
-                    <Image
-                      height={500}
-                      width={500}
-                      className="object-cover w-full h-full rounded-lg"
-                      src={Imgone}
-                      alt=""
-                    />
-                  </div>
-
-                  <div>
-                    <Image
-                      height={500}
-                      width={500}
-                      className="object-cover w-full h-full rounded-lg"
-                      src={Imgtwo}
-                      alt=""
-                    />
-                  </div>
-
-                  <div>
-                    <Image
-                      height={500}
-                      width={500}
-                      className="object-cover w-full h-full rounded-lg"
-                      src={Imgtwo}
-                      alt=""
-                    />
-                  </div>
-
-                  <div>
-                    <Image
-                      height={500}
-                      width={500}
-                      className="object-cover w-full h-full rounded-lg"
-                      src={Imgone}
-                      alt=""
-                    />
-                  </div>
-
-                  <div>
-                    <Image
-                      height={500}
-                      width={500}
-                      className="object-cover w-full h-full rounded-lg"
-                      src={Imgtwo}
-                      alt=""
-                    />
-                  </div>
-
-                  <div className="bg-gray-700 rounded-lg"></div>
-
-                  <div className="bg-gray-800 rounded-lg"></div>
-                </div>
+                <Image
+                height={700}
+                width={500}
+                src={imgHead}
+                alt='hero image'
+                />
               </div>
             </div>
           </div>

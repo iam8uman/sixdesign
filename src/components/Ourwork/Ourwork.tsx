@@ -11,11 +11,11 @@ import Link from "next/link";
 const Ourwork = () => {
   return (
     <>
-      <section className="py-12 bg-white sm:py-16 lg:py-20">
+      <section className="py-20 bg-white sm:py-24 lg:py-52">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="sm:flex sm:items-center sm:justify-between sm:space-x-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">
-              Some Glimpses of <span className="text-primary">Our Works</span>
+              Some Glimpse of <span className="text-primary">Our Works</span>
             </h2>
 
             <div className="mt-6 sm:mt-0 sm:shrink-0">
@@ -44,8 +44,8 @@ const Ourwork = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="relative overflow-hidden bg-gray-900 group rounded-xl">
-              <a href="#" title="" className="block">
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="#" title="" className="block">
                 <Image
                   height={300}
                   width={300}
@@ -53,244 +53,42 @@ const Ourwork = () => {
                   src={imgtwo}
                   alt=""
                 />
-              </a>
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 group-hover:backdrop-blur-[4px] transition-all duration-200 via-gray-800/80 to-transparent"></div>
-              <div className="absolute transition-all duration-200 opacity-0 top-4 right-4 group-hover:opacity-100">
-                <svg
-                  className="w-6 h-6 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <line x1="17" y1="7" x2="7" y2="17"></line>
-                  <polyline points="8 7 17 7 17 16"></polyline>
-                </svg>
-              </div>
-              <div className="absolute inset-x-0 bottom-0 p-6">
-                <div className="transition-all duration-300 transform translate-y-1/2 group-hover:translate-y-0">
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
                   <p className="text-lg font-bold leading-tight text-white">
-                    <a href="#" title="" className="">
-                      How to write content about your photographs
-                      <span
-                        className="absolute inset-0"
-                        aria-hidden="true"
-                      ></span>
-                    </a>
-                  </p>
-                  <p className="mt-4 text-xs font-medium text-white/70">
-                    April 09, 2022
-                  </p>
-                  <p className="mt-5 text-sm font-normal leading-6 text-white">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit
-                    quis auctor...
+                    How to write content about your photographs
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
                   </p>
                 </div>
-              </div>
-            </div>
-            <div className="relative overflow-hidden bg-gray-900 group rounded-xl">
-              <a href="#" title="" className="block">
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgthree}
-                  alt=""
-                />
-              </a>
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 group-hover:backdrop-blur-[4px] transition-all duration-200 via-gray-800/80 to-transparent"></div>
-              <div className="absolute transition-all duration-200 opacity-0 top-4 right-4 group-hover:opacity-100">
-                <svg
-                  className="w-6 h-6 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <line x1="17" y1="7" x2="7" y2="17"></line>
-                  <polyline points="8 7 17 7 17 16"></polyline>
-                </svg>
-              </div>
-              <div className="absolute inset-x-0 bottom-0 p-6">
-                <div className="transition-all duration-300 transform translate-y-1/2 group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    <a href="#" title="" className="">
-                      How to write content about your photographs
-                      <span
-                        className="absolute inset-0"
-                        aria-hidden="true"
-                      ></span>
-                    </a>
-                  </p>
-                  <p className="mt-4 text-xs font-medium text-white/70">
-                    April 09, 2022
-                  </p>
-                  <p className="mt-5 text-sm font-normal leading-6 text-white">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit
-                    quis auctor...
-                  </p>
-                </div>
-              </div>
+              </Link>
             </div>
 
             
-            <div className="relative overflow-hidden bg-gray-900 group rounded-xl">
-              <a href="#" title="" className="block">
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgfour}
-                  alt=""
-                />
-              </a>
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 group-hover:backdrop-blur-[4px] transition-all duration-200 via-gray-800/80 to-transparent"></div>
-              <div className="absolute transition-all duration-200 opacity-0 top-4 right-4 group-hover:opacity-100">
-                <svg
-                  className="w-6 h-6 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <line x1="17" y1="7" x2="7" y2="17"></line>
-                  <polyline points="8 7 17 7 17 16"></polyline>
-                </svg>
-              </div>
-              <div className="absolute inset-x-0 bottom-0 p-6">
-                <div className="transition-all duration-300 transform translate-y-1/2 group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    <a href="#" title="" className="">
-                      How to write content about your photographs
-                      <span
-                        className="absolute inset-0"
-                        aria-hidden="true"
-                      ></span>
-                    </a>
-                  </p>
-                  <p className="mt-4 text-xs font-medium text-white/70">
-                    April 09, 2022
-                  </p>
-                  <p className="mt-5 text-sm font-normal leading-6 text-white">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit
-                    quis auctor...
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative overflow-hidden bg-gray-900 group rounded-xl">
-              <a href="#" title="" className="block">
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgfive}
-                  alt=""
-                />
-              </a>
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 group-hover:backdrop-blur-[4px] transition-all duration-200 via-gray-800/80 to-transparent"></div>
-              <div className="absolute transition-all duration-200 opacity-0 top-4 right-4 group-hover:opacity-100">
-                <svg
-                  className="w-6 h-6 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <line x1="17" y1="7" x2="7" y2="17"></line>
-                  <polyline points="8 7 17 7 17 16"></polyline>
-                </svg>
-              </div>
-              <div className="absolute inset-x-0 bottom-0 p-6">
-                <div className="transition-all duration-300 transform translate-y-1/2 group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    <a href="#" title="" className="">
-                      How to write content about your photographs
-                      <span
-                        className="absolute inset-0"
-                        aria-hidden="true"
-                      ></span>
-                    </a>
-                  </p>
-                  <p className="mt-4 text-xs font-medium text-white/70">
-                    April 09, 2022
-                  </p>
-                  <p className="mt-5 text-sm font-normal leading-6 text-white">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit
-                    quis auctor...
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative overflow-hidden bg-gray-900 group rounded-xl">
-              <a href="#" title="" className="block">
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgsix}
-                  alt=""
-                />
-              </a>
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 group-hover:backdrop-blur-[4px] transition-all duration-200 via-gray-800/80 to-transparent"></div>
-              <div className="absolute transition-all duration-200 opacity-0 top-4 right-4 group-hover:opacity-100">
-                <svg
-                  className="w-6 h-6 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <line x1="17" y1="7" x2="7" y2="17"></line>
-                  <polyline points="8 7 17 7 17 16"></polyline>
-                </svg>
-              </div>
-              <div className="absolute inset-x-0 bottom-0 p-6">
-                <div className="transition-all duration-300 transform translate-y-1/2 group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    <a href="#" title="" className="">
-                      How to write content about your photographs
-                      <span
-                        className="absolute inset-0"
-                        aria-hidden="true"
-                      ></span>
-                    </a>
-                  </p>
-                  <p className="mt-4 text-xs font-medium text-white/70">
-                    April 09, 2022
-                  </p>
-                  <p className="mt-5 text-sm font-normal leading-6 text-white">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit
-                    quis auctor...
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative overflow-hidden bg-gray-900 group rounded-xl">
-              <a href="#" title="" className="block">
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="#" title="" className="block">
                 <Image
                   height={300}
                   width={300}
@@ -298,47 +96,208 @@ const Ourwork = () => {
                   src={imgtwo}
                   alt=""
                 />
-              </a>
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 group-hover:backdrop-blur-[4px] transition-all duration-200 via-gray-800/80 to-transparent"></div>
-              <div className="absolute transition-all duration-200 opacity-0 top-4 right-4 group-hover:opacity-100">
-                <svg
-                  className="w-6 h-6 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <line x1="17" y1="7" x2="7" y2="17"></line>
-                  <polyline points="8 7 17 7 17 16"></polyline>
-                </svg>
-              </div>
-              <div className="absolute inset-x-0 bottom-0 p-6">
-                <div className="transition-all duration-300 transform translate-y-1/2 group-hover:translate-y-0">
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
                   <p className="text-lg font-bold leading-tight text-white">
-                    <a href="#" title="" className="">
-                      How to write content about your photographs
-                      <span
-                        className="absolute inset-0"
-                        aria-hidden="true"
-                      ></span>
-                    </a>
-                  </p>
-                  <p className="mt-4 text-xs font-medium text-white/70">
-                    April 09, 2022
-                  </p>
-                  <p className="mt-5 text-sm font-normal leading-6 text-white">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit
-                    quis auctor...
+                    How to write content about your photographs
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
 
-        
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="#" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgtwo}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    How to write content about your photographs
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="#" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgtwo}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    How to write content about your photographs
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="#" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgtwo}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    How to write content about your photographs
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="#" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgtwo}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    How to write content about your photographs
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+
           </div>
         </div>
       </section>
