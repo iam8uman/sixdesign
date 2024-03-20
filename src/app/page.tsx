@@ -9,11 +9,12 @@ import OurWork from "@/components/Ourwork/Ourwork";
 import Herotailbits from "@/components/Hero/Herotailbits";
 import Hero from "@/components/Hero/Hero";
 import Trustedby from "@/components/Trustedby/Trustedby";
+import Header from "@/components/Navbar/Header";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Herotailbits />
       <Trustedby />
       <Service  />

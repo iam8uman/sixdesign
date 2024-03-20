@@ -57,8 +57,9 @@ export function NavigationMenuDemoz() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
+        {/* about */}
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="bg-transparent">
+          <NavigationMenuTrigger className="bg-transparent text-lg">
             About
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -92,8 +93,9 @@ export function NavigationMenuDemoz() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="bg-transparent">
+          <NavigationMenuTrigger className="bg-transparent text-lg">
             Services
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -110,18 +112,6 @@ export function NavigationMenuDemoz() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        {/* <NavigationMenuItem>
-          <Link href="/blog" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Blog
-            </NavigationMenuLink>
-          </Link>
-          <Link href="/calculator" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Calculator
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem> */}
       </NavigationMenuList>
     </NavigationMenu>
   );

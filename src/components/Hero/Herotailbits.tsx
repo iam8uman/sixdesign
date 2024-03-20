@@ -103,7 +103,7 @@ const Herotailbits = () => {
                           type="button"
                           className="inline-flex items-center justify-center w-full px-6 py-4 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-primary border border-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black focus:ring-offset-gray-900 hover:bg-gray-100"
                         >
-                          Join Waiting list
+                          Contact
                         </button>
                       </div>
                     </div>

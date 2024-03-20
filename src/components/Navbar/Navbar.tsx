@@ -6,8 +6,8 @@ import { Menu, X } from "lucide-react";
 
 import Logo from "@/icons/Logo";
 import { Button } from "@/components/ui/button";
-import { NavigationMenuDemoz } from "./NavigationMenu";
 import SixdesignLogo from "@/icons/Sixdesign-logo";
+import { NavigationMenuDemoz } from "./NavigationMenu";
 
 const menuItems = [
   {
@@ -24,7 +24,7 @@ export function Navbar() {
   };
 
   return (
-    <div className="bg-opacity-1 sticky top-0 z-10 w-full bg-slate-200 drop-shadow-lg py-2">
+    <div className="bg-opacity-1 sticky top-0 z-10 w-full bg-white drop-shadow-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex justify-between">
           <div className="inline-flex items-center space-x-2">
@@ -33,19 +33,19 @@ export function Navbar() {
             </span>
           </div>
           <div className="hidden grow items-start lg:flex lg:pl-60">
-            <div className="ml-12 inline-flex space-x-8">
+            <ul className="ml-12 inline-flex space-x-8">
               {menuItems.map((item, index) => (
-                <div key={index} className="font-medium text-black">
+                <li key={index} className="text-lg text-black">
                   <Link
                     href={item.href}
-                    className="group relative inline-flex items-center text-md text-black"
+                    className="group relative inline-flex items-center text-lg text-black"
                   >
                     {item.name}
                     <div className="absolute bottom-0 left-0 h-1 w-full origin-bottom scale-x-0 transform bg-black" />
                   </Link>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
 
