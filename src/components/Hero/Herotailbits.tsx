@@ -21,13 +21,15 @@ const Herotailbits = () => {
               <div className="lg:col-span-3">
                 <div className="max-w-lg">
                   <h1 className="text-2xl font-bold text-black sm:text-4xl">
-                    We assist{" "}
-                    <span className="text-primary uppercase">Real State</span>{" "}
-                    in expanding your business.
+                    We know,{" "}
+                    <span className="text-primary uppercase border-primary border-2 rounded-md px-3">
+                      Real State
+                    </span>{" "}
                   </h1>
 
-                  <p className="mt-12 text-base font-bold text-black">
-                    Join with us to:
+                  <p className="mt-8 leading-8  text-base font-bold text-slate-600">
+                    Project Marketing, CRM Integration & Branding for Realtors,
+                    Brokerages & Builders{" "}
                   </p>
                   <div className="flex flex-wrap gap-3 py-4 font-bold">
                     <div className="flex flex-col justify-between gap-3 sm:flex-row">
@@ -63,27 +65,15 @@ const Herotailbits = () => {
                         Chain Management
                       </div>
                     </div>
-
                   </div>
 
-                  <form action="#" method="POST" className="max-w-md mt-14">
+                  <div className="text-3xl mt-12 text-primary opacity-80">Get Your First Website For Free!</div>
+
+                  <form action="#" method="POST" className="max-w-md mt-6">
                     <div className="space-y-6">
                       <div className="grid grid-cols-1 gap-6 sm:grid-cols-5">
-                        <div className="sm:col-span-2">
-                          <label htmlFor="" className="sr-only">
-                            {" "}
-                            Your Name{" "}
-                          </label>
-                          <input
-                            type="text"
-                            name=""
-                            id=""
-                            className="block w-full px-0 py-2 text-base font-medium text-black placeholder-gray-500 bg-transparent border-t-0 border-b border-l-0 border-r-0 border-gray-700 rounded-none focus:border-primary focus:outline-none focus:ring-0"
-                            placeholder="Full Name"
-                          />
-                        </div>
 
-                        <div className="sm:col-span-3">
+                        <div className="sm:col-span-6">
                           <label htmlFor="" className="sr-only">
                             {" "}
                             Email Address{" "}
@@ -101,9 +91,9 @@ const Herotailbits = () => {
                       <div>
                         <button
                           type="button"
-                          className="inline-flex items-center justify-center w-full px-6 py-4 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-primary border border-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black focus:ring-offset-gray-900 hover:bg-gray-100"
+                          className="inline-flex items-center justify-center w-full px-6 py-4 text-xs font-bold tracking-widest text-white uppercase transition-all duration-200 bg-primary border border-transparent rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black focus:ring-offset-gray-900 hover:bg-red-700"
                         >
-                          Contact
+                          Get it Now!
                         </button>
                       </div>
                     </div>

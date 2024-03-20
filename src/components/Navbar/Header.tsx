@@ -1,4 +1,6 @@
 import SixdesignLogo from "@/icons/Sixdesign-logo";
+import { DropdownMenuIcon } from "@radix-ui/react-icons";
+import { ChevronDown, PhoneCall, PhoneCallIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -59,14 +61,16 @@ const Header = () => {
                 About{" "}
               </a>
 
-              <a
+              <Link
                 href="#"
                 title=""
                 className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
               >
                 {" "}
-                Services{" "}
-              </a>
+                <div className="flex gap-2 justify-center ">
+                  Services <ChevronDown size={16} strokeWidth={1.75} absoluteStrokeWidth />
+                </div>
+              </Link>
 
               <a
                 href="#"
@@ -94,6 +98,10 @@ const Header = () => {
               role="button"
             >
               {" "}
+              {/* Book Free Counsultation{" "} */}
+              <div className="pr-3">
+                <PhoneCall size={28} strokeWidth={1.75} absoluteStrokeWidth />
+              </div>
               6475274970{" "}
             </a>
           </nav>
