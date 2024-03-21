@@ -1,10 +1,18 @@
+"use client";
+
 import SixdesignLogo from "@/icons/Sixdesign-logo";
-import { DropdownMenuIcon } from "@radix-ui/react-icons";
-import { ChevronDown, PhoneCall, PhoneCallIcon } from "lucide-react";
+import { ChevronDown, PhoneCall } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import { NavigationMenuDemoz } from "./NavigationMenu";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <header className="bg-opacity-1 sticky top-0 z-10 w-full bg-white">
@@ -19,34 +27,21 @@ const Header = () => {
             <button
               type="button"
               className="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
+              onClick={toggleMenu}
             >
               <svg
-                className="block w-6 h-6"
+                className="block w-6 h-6 transform transition-transform duration-200"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 8h16M4 16h16"
-                />
-              </svg>
-
-              <svg
-                className="hidden w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 8h16M4 16h16"}
                 />
               </svg>
             </button>
@@ -68,7 +63,7 @@ const Header = () => {
               >
                 {" "}
                 <div className="flex gap-2 justify-center ">
-                  Services
+                  <NavigationMenuDemoz />
                 </div>
               </Link>
 
@@ -98,7 +93,6 @@ const Header = () => {
               role="button"
             >
               {" "}
-              {/* Book Free Counsultation{" "} */}
               <div className="pr-3">
                 <PhoneCall size={28} strokeWidth={1.75} absoluteStrokeWidth />
               </div>
@@ -106,7 +100,10 @@ const Header = () => {
             </Link>
           </nav>
 
-          <nav className="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
+          <nav 
+            className={`pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden ${isOpen ? 'block' : 'hidden'}`}
+            style={{ transition: 'height 0.3s ease' }}
+          >
             <div className="flow-root">
               <div className="flex flex-col px-6 -my-2 space-y-1">
                 <Link
@@ -114,8 +111,25 @@ const Header = () => {
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
-                  {" "}
-                  Features{" "}
+                  About
+                </Link>
+
+                <Link
+                  href="#"
+                  title=""
+                  className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
+                >
+                   <div className="flex justify-start bg-transparent relative right-5 ">
+                <NavigationMenuDemoz />
+              </div>
+                </Link>
+
+                <Link
+                  href="#"
+                  title=""
+                  className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
+                >
+                  Blog
                 </Link>
 
                 <Link
@@ -124,25 +138,7 @@ const Header = () => {
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
                   {" "}
-                  Solutions{" "}
-                </Link>
-
-                <Link
-                  href="#"
-                  title=""
-                  className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
-                >
-                  {" "}
-                  Resources{" "}
-                </Link>
-
-                <Link
-                  href="#"
-                  title=""
-                  className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
-                >
-                  {" "}
-                  Pricing{" "}
+                  Calculator
                 </Link>
               </div>
             </div>
@@ -151,11 +147,18 @@ const Header = () => {
               <Link
                 href="#"
                 title=""
-                className="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-primary border border-transparent rounded-md tems-center hover:bg-red-700 focus:bg-blue-700"
+                className="inline-flex justify-center px-4 py-3 text-base font-semibold w-full text-white transition-all duration-200 bg-primary border border-transparent rounded-md tems-center hover:bg-red-700 focus:bg-red-700"
                 role="button"
               >
                 {" "}
-                Book Free Counsultation{" "}
+                <div className="pr-3">
+                  <PhoneCall
+                    size={28}
+                    strokeWidth={1.75}
+                    absoluteStrokeWidth
+                  />
+                </div>
+                6475274970{" "}
               </Link>
             </div>
           </nav>

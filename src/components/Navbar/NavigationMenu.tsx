@@ -58,9 +58,9 @@ export function NavigationMenuDemoz() {
     <NavigationMenu>
       <NavigationMenuList>
         {/* about */}
-        <NavigationMenuItem>
+        <NavigationMenuItem className="hidden lg:inline-block">
           <NavigationMenuTrigger className="bg-transparent text-lg">
-            About
+            Resources
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
