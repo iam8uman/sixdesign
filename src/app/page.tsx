@@ -11,15 +11,15 @@ import Header from "@/components/Navbar/Header";
 export default function Home() {
   return (
     <>
-      <Header />
       <Herotailbits />
       <Trustedby />
-      <Service />
+      <div className="mt-20">
+        <Service />
+      </div>
       <OurWork />
       <Testimonials />
       <Princing />
       <Contact />
-      <Footerr />
     </>
   );
 }
