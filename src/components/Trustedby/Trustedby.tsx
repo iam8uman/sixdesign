@@ -3,8 +3,8 @@ import React from "react";
 import Imageee from "@/../public/hero/waverio.svg";
 import Imageee2 from "@/../public/hero/logoipsum.svg";
 import dolphy from "@/../public/hero/dolphy.svg";
-import bay from "@/../public/hero/baystreet.png";
-import dolphine from "@/../public/hero/dolphin.png";
+import bay from "@/../public/hero/bay.png";
+import dolphine from "@/../public/hero/dolphine.png";
 import elixir from "@/../public/hero/elixar.png";
 import tonyning from "@/../public/hero/tony.png";
 import BlogWrapper from "../BlogWrapper";
@@ -24,13 +24,12 @@ const Trustedby = () => {
                 <span className="text-primary ">Clients</span>
               </h2>
             </div>
-            <hr />
           </BlogWrapper>
-          <div className="flex flex-wrap mt-5 items-center justify-center max-w-5xl gap-8 mx-auto md:gap-6">
+          <div className="flex flex-wrap mt-5 items-center justify-center w-full gap-8 mx-auto md:gap-12">
             <Image
               height={500}
               width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110"
+              className="object-contain w-32 max-w-full scale-150 sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-150"
               src={bay}
               alt=""
             />
@@ -44,7 +43,7 @@ const Trustedby = () => {
             <Image
               height={500}
               width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110"
+              className="object-contain scale-150 w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-150"
               src={dolphine}
               alt=""
             />
@@ -58,7 +57,7 @@ const Trustedby = () => {
             <Image
               height={500}
               width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110"
+              className="object-contain scale-150 w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-150"
               src={tonyning}
               alt=""
             />

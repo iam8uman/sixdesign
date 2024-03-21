@@ -81,7 +81,7 @@ const Herotailbits = () => {
 
                   <form action="#" method="POST" className="max-w-md mt-2">
                     <div className="space-y-6">
-                      <div className="grid grid-cols-1  sm:grid-cols-5">
+                      <div className="grid grid-cols-2  sm:grid-cols-5">
                         <div className="sm:col-span-3">
                           <label htmlFor="email" className="sr-only">
                             Email Address
@@ -96,7 +96,7 @@ const Herotailbits = () => {
                         <div className="sm:col-span-2 flex justify-center items-center">
                           <button
                             type="button"
-                            className="w-full px-8 py-2 text-sm text-white  transition-all duration-200 bg-primary  border-primary border-4 rounded-e-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary hover:bg-primary"
+                            className="w-full px-8 py-2 text-sm sm:w-full text-white  transition-all duration-200 bg-primary  border-primary border-4 rounded-e-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary hover:bg-primary"
                           >
                             Make it for me
                           </button>
