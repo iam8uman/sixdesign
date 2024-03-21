@@ -1,15 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import Imgone from "@/../public/hero/image-1.png";
-import Imgtwo from "@/../public/hero/image-2.png";
-import imgHead from"@/../public/istockphoto-500558937-612x612.jpg";
+import imgHead from "@/../public/istockphoto-500558937-612x612.jpg";
 import {
   AreaChart,
-  Command,
-  DatabaseZap,
-  DatabaseZapIcon,
+  CircleFadingPlus,
+  Dribbble,
   MailCheck,
   Network,
+  NotebookText,
 } from "lucide-react";
 
 const Herotailbits = () => {
@@ -22,8 +21,8 @@ const Herotailbits = () => {
               <div className="lg:col-span-3">
                 <div className="max-w-lg">
                   <h1 className="text-2xl font-bold text-black sm:text-4xl">
-                    We Know{" "}
-                    <span className="text-primary border-red-200 border-2 rounded-md px-3">
+                    We Know
+                    <span className="text-primary rounded-md px-3">
                       Real Estate
                     </span>{" "}
                   </h1>
@@ -35,16 +34,15 @@ const Herotailbits = () => {
                     <div>
                       <div className="flex flex-col justify-between gap-3">
                         <div className="flex items-center gap-2">
-                          <AreaChart className="h-5 w-5 text-red-500" /> Product
-                          Development
+                          <AreaChart className="h-5 w-5 text-red-500" /> CRM for
+                          agents
                         </div>
                         <div className="flex items-center gap-2">
-                          <Command className="h-5 w-5 text-red-500" /> Software
-                          Development
+                          <Dribbble color="#ff0000" /> MLS Website
                         </div>
                         <div className="flex items-center gap-2">
-                          <MailCheck className="h-5 w-5 text-red-500" /> Email
-                          Marketing
+                          <MailCheck className="h-5 w-5 text-red-500" />
+                          Email Marketing
                         </div>
                       </div>
                     </div>
@@ -52,32 +50,30 @@ const Herotailbits = () => {
                     <div>
                       <div className="flex flex-col gap-3">
                         <div className="flex items-center gap-2">
-                          <DatabaseZap className="h-5 w-5 text-red-500" />
-                          Product Development
+                          <CircleFadingPlus color="#ff0000" />
+                          Social Media Management
                         </div>
                         <div className="flex items-center gap-2">
-                          <DatabaseZapIcon className="h-5 w-5 text-red-500" />{" "}
-                          Architecture Design
+                          <NotebookText color="#ff0000" />
+                          Landing Page
                         </div>
                         <div className="flex items-center gap-2">
-                          <Network className="h-5 w-5 text-red-500" /> Supply
-                          Chain Management
+                          <Network className="h-5 w-5 text-red-500" /> Custom
+                          Solutions
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  
-                    <section className="bg-white">
-                      <div className="px-2 mt-12 mx-auto sm:px-1 lg:px-2">
-                        <div className="lg:max-w-3xl">
-                          <div className="text-md text-black">
-                            Get Your First Website Build For Free!
-                          </div>
+                  <section className="bg-white">
+                    <div className="px-2 mt-12 mx-auto sm:px-1 lg:px-2">
+                      <div className="lg:max-w-3xl">
+                        <div className="text-md text-black">
+                          Get Your First Website Build For Free!
                         </div>
                       </div>
-                    </section>
-                  
+                    </div>
+                  </section>
 
                   <form action="#" method="POST" className="max-w-md mt-2">
                     <div className="space-y-6">
@@ -137,10 +133,10 @@ const Herotailbits = () => {
 
               <div className="lg:col-span-2">
                 <Image
-                height={700}
-                width={500}
-                src={imgHead}
-                alt='hero image'
+                  height={700}
+                  width={500}
+                  src={imgHead}
+                  alt="hero image"
                 />
               </div>
             </div>

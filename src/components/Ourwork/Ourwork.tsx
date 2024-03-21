@@ -1,11 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import imgone from "@/../public/images/2.png";
-import imgtwo from "@/../public/images/3.png";
-import imgthree from "@/../public/images/4.png";
-import imgfour from "@/../public/images/5.png";
-import imgfive from "@/../public/images/6.png";
-import imgsix from "@/../public/images/7.png";
+import imgone from "@/../public/ourwork/2.png";
+import imgtwo from "@/../public/ourwork/4.png";
+import imgthree from "@/../public/ourwork/5.png";
+import imgfour from "@/../public/ourwork/6.png";
+import imgfive from "@/../public/ourwork/7.png";
+import imgsix from "@/../public/ourwork/8.png";
+import imgseven from "@/../public/ourwork/9.png";
+import imgeight from "@/../public/ourwork/10.png";
+import imgnine from "@/../public/ourwork/11.png";
+import imgten from "@/../public/ourwork/12.png";
 import Link from "next/link";
 
 const Ourwork = () => {
@@ -14,13 +18,13 @@ const Ourwork = () => {
       <section className="py-20 bg-white sm:py-24 lg:py-52">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="sm:flex sm:items-center sm:justify-between sm:space-x-8">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">
+            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">
               Some Glimpse of <span className="text-primary">Our Works</span>
-            </h2>
+            </div>
 
             <div className="mt-6 sm:mt-0 sm:shrink-0">
-              <a
-                href="#"
+              <Link
+                href="/"
                 title=""
                 className="inline-flex items-center text-base font-medium text-gray-900 group"
               >
@@ -39,13 +43,13 @@ const Ourwork = () => {
                     d="M13 7l5 5m0 0l-5 5m5-5H6"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
 
           <div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3">
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="#" title="" className="block">
+              <Link href="https://shrutidua.com/" title="" className="block">
                 <Image
                   height={300}
                   width={300}
@@ -76,7 +80,7 @@ const Ourwork = () => {
                 </div>
                 <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
                   <p className="text-lg font-bold leading-tight text-white">
-                    How to write content about your photographs
+                    Shruti Dua
                     <span
                       className="absolute inset-0"
                       aria-hidden="true"
@@ -86,14 +90,17 @@ const Ourwork = () => {
               </Link>
             </div>
 
-            
-            <div className="relative overflow-hidden group rounded-xl">
-              <Link href="#" title="" className="block">
+            <div className="relative overflow-hidden group rounded-xl shadow-md">
+              <Link
+                href="https://oakparkvillage.ca/"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
                   className="object-cover w-full h-full"
-                  src={imgtwo}
+                  src={imgthree}
                   alt=""
                 />
                 <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
@@ -119,49 +126,7 @@ const Ourwork = () => {
                 </div>
                 <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
                   <p className="text-lg font-bold leading-tight text-white">
-                    How to write content about your photographs
-                    <span
-                      className="absolute inset-0"
-                      aria-hidden="true"
-                    ></span>
-                  </p>
-                </div>
-              </Link>
-            </div>
-
-            <div className="relative overflow-hidden group rounded-xl">
-              <Link href="#" title="" className="block">
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgtwo}
-                  alt=""
-                />
-                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div>
-                      <svg
-                        className="w-6 h-6 text-white absolute top-4 right-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z"></path>
-                        <line x1="17" y1="7" x2="7" y2="17"></line>
-                        <polyline points="8 7 17 7 17 16"></polyline>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    How to write content about your photographs
+                    Oak Park Village
                     <span
                       className="absolute inset-0"
                       aria-hidden="true"
@@ -172,12 +137,16 @@ const Ourwork = () => {
             </div>
 
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="#" title="" className="block">
+              <Link
+                href="https://empire-wynfield.ca/"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
                   className="object-cover w-full h-full"
-                  src={imgtwo}
+                  src={imgfour}
                   alt=""
                 />
                 <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
@@ -203,7 +172,7 @@ const Ourwork = () => {
                 </div>
                 <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
                   <p className="text-lg font-bold leading-tight text-white">
-                    How to write content about your photographs
+                    Empire Wynfield
                     <span
                       className="absolute inset-0"
                       aria-hidden="true"
@@ -214,12 +183,16 @@ const Ourwork = () => {
             </div>
 
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="#" title="" className="block">
+              <Link
+                href="https://knightsbridge-homes.ca/"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
                   className="object-cover w-full h-full"
-                  src={imgtwo}
+                  src={imgfive}
                   alt=""
                 />
                 <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
@@ -245,7 +218,7 @@ const Ourwork = () => {
                 </div>
                 <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
                   <p className="text-lg font-bold leading-tight text-white">
-                    How to write content about your photographs
+                    Kingsbridge Homes
                     <span
                       className="absolute inset-0"
                       aria-hidden="true"
@@ -256,12 +229,16 @@ const Ourwork = () => {
             </div>
 
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="#" title="" className="block">
+              <Link
+                href="https://queensland-condos.ca/"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
                   className="object-cover w-full h-full"
-                  src={imgtwo}
+                  src={imgsix}
                   alt=""
                 />
                 <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
@@ -287,7 +264,7 @@ const Ourwork = () => {
                 </div>
                 <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
                   <p className="text-lg font-bold leading-tight text-white">
-                    How to write content about your photographs
+                    Queensland Condos
                     <span
                       className="absolute inset-0"
                       aria-hidden="true"
@@ -297,7 +274,173 @@ const Ourwork = () => {
               </Link>
             </div>
 
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="https://niagara77.ca/" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgeight}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    Niagara77 Condos
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
 
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="https://boutintower.ca/" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgnine}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    Boutin Tower
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="https://tonyning.ca/" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgone}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    Tony Ning
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+            <div className="relative overflow-hidden group rounded-xl">
+              <Link href="https://primontcondo.ca/" title="" className="block">
+                <Image
+                  height={300}
+                  width={300}
+                  className="object-cover w-full h-full"
+                  src={imgten}
+                  alt=""
+                />
+                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div>
+                      <svg
+                        className="w-6 h-6 text-white absolute top-4 right-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <line x1="17" y1="7" x2="7" y2="17"></line>
+                        <polyline points="8 7 17 7 17 16"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                  <p className="text-lg font-bold leading-tight text-white">
+                    Primont Place Condos
+                    <span
+                      className="absolute inset-0"
+                      aria-hidden="true"
+                    ></span>
+                  </p>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

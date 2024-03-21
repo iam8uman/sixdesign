@@ -1,7 +1,7 @@
 "use client";
 
 import SixdesignLogo from "@/icons/Sixdesign-logo";
-import { ChevronDown, PhoneCall } from "lucide-react";
+import { PhoneCall } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
 import { NavigationMenuDemoz } from "./NavigationMenu";
