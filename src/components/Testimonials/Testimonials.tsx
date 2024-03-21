@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import avatar from "@/../public/avatar.jpg"
+
 
 const Testimonials = () => {
   return (
@@ -32,10 +34,7 @@ const Testimonials = () => {
               <div className="absolute -inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
                 <div
                   className="w-full h-full max-w-5xl mx-auto rounded-3xl opacity-30 blur-lg filter"
-                  style={{
-                    background:
-                      "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)",
-                  }}
+                 
                 ></div>
               </div>
 
@@ -88,9 +87,7 @@ const Testimonials = () => {
 
                       <blockquote className="flex-1 mt-8">
                         <p className="text-lg leading-relaxed text-gray-900 font-pj">
-                          “You made it so simple. My new site is so much faster
-                          and easier to work with than my old site. I just
-                          choose the page, make the change.”
+                          “ SixDesign.ca delivers exceptional web design, exceeding expectations with professionalism, creativity, and seamless communication. Highly recommended for outstanding results.”
                         </p>
                       </blockquote>
                     </div>
@@ -100,12 +97,12 @@ const Testimonials = () => {
                         height={44}
                         width={44}
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src={avatar}
                         alt=""
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">
-                          Leslie Alexander
+                          Tony Stark
                         </p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">
                           Freelance React Developer
@@ -163,9 +160,7 @@ const Testimonials = () => {
 
                       <blockquote className="flex-1 mt-8">
                         <p className="text-lg leading-relaxed text-gray-900 font-pj">
-                          “Simply the best. Better than all the rest. I’d
-                          recommend this product to beginners and advanced
-                          users.”
+                          “Transformative web design services by SixDesign.ca redefine online presence. With creativity, professionalism, and seamless communication, they ensure remarkable results. Highly recommended.”
                         </p>
                       </blockquote>
                     </div>
@@ -175,7 +170,7 @@ const Testimonials = () => {
                         height={44}
                         width={44}
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src={avatar}
                         alt=""
                       />
                       <div className="ml-4">
@@ -238,9 +233,7 @@ const Testimonials = () => {
 
                       <blockquote className="flex-1 mt-8">
                         <p className="text-lg leading-relaxed text-gray-900 font-pj">
-                          “I cannot believe that I have got a brand new landing
-                          page after getting Omega. It was super easy to edit
-                          and publish.”
+                          “Elevate your online presence with exceptional web design services from SixDesign.ca. Experience creativity, professionalism, and seamless communication for remarkable results.”
                         </p>
                       </blockquote>
                     </div>

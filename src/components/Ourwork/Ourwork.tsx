@@ -15,7 +15,7 @@ import Link from "next/link";
 const Ourwork = () => {
   return (
     <>
-      <section className="py-20 bg-white sm:py-24 lg:py-52">
+      <section className="py-8 bg-white sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="sm:flex sm:items-center sm:justify-between sm:space-x-8">
             <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">

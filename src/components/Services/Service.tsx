@@ -75,7 +75,7 @@ const Service = () => {
                     />
                     <div className="ml-5 mr-auto">
                       <p className="text-xl font-semibold text-black">
-                        Social Media Management
+                        Social Media Marketing
                       </p>
                     </div>
                     <svg
