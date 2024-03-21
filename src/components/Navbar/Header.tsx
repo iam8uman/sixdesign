@@ -19,7 +19,7 @@ const Header = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0 px-6">
-              <Link href="#" title="" className="flex">
+              <Link href="/" title="" className="flex">
                 <SixdesignLogo size="sm" />
               </Link>
             </div>

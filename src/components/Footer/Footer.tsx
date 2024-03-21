@@ -45,7 +45,7 @@ const Footerr = () => {
         <div className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-7 gap-x-8 xl:gap-x-16">
             <div className="max-w-md mx-auto text-center xl:col-span-3 lg:max-w-sm lg:mt-6 lg:text-left">
-              <div className="text-2xl text-white sm:text-3xl lg:text-4xl flex gap-1 font-bold md:justify-start align-middle mb-3 sm:justify-center ">
+              <div className="text-2xl text-white sm:text-3xl lg:text-4xl flex gap-1 font-bold lg:justify-start align-middle mb-3 justify-center ">
                 <SixdesignLogo size="sm" />
                 <div className="pb-2 lg:relative lg:bottom-1 ">SixDesign</div>
               </div>
