@@ -43,18 +43,18 @@ const Footerr = () => {
         </div>
 
         <div className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-2 xl:grid-cols-7 gap-x-8 xl:gap-x-16">
+          <div className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-7 gap-x-8 xl:gap-x-16">
             <div className="max-w-md mx-auto text-center xl:col-span-3 lg:max-w-sm lg:mt-6 lg:text-left">
-              <div className="text-2xl text-white sm:text-3xl lg:text-4xl flex gap-1 font-bold justify-start align-middle mb-3">
+              <div className="text-2xl text-white sm:text-3xl lg:text-4xl flex gap-1 font-bold md:justify-start align-middle mb-3 sm:justify-center ">
                 <SixdesignLogo size="sm" />
-                <div className="pb-2 relative bottom-1">SixDesign</div>
+                <div className="pb-2 lg:relative lg:bottom-1 ">SixDesign</div>
               </div>
               <p className="text-slate-200">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda eligendi expedita obcaecati quos ab fugit tempore
                 reprehenderit voluptatem id cumque!
               </p>
-              <div className="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
+              <div className="relative inline-flex items-center justify-center mt-4 sm:mt-6 group">
                 <div className="absolute transition-all duration-200 rounded-md -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
                 <Link
                   href="#"
@@ -70,8 +70,8 @@ const Footerr = () => {
 
             <div className="overflow-hidden lg:-ml-12 lg:-my-8 bg-base-900 rounded-xl xl:col-span-4">
               <div className="p-8 sm:p-12">
-                <div className="grid grid-cols-2 gap-y-12 sm:grid-cols-3 gap-x-12 xl:gap-x-16">
-                  <div>
+                <div className="grid grid-cols-2 gap-y-12 sm:grid-cols-3 gap-x-12 xl:gap-x-16 ">
+                  <div className="hidden lg:inline-block">
                     <h6 className="text-base font-semibold text-white">
                       Platform
                     </h6>
@@ -123,7 +123,7 @@ const Footerr = () => {
                     </ul>
                   </div>
 
-                  <div>
+                  <div className="hidden lg:inline-block">
                     <h6 className="text-base font-semibold text-white">
                       Resources
                     </h6>
@@ -175,7 +175,7 @@ const Footerr = () => {
                     </ul>
                   </div>
 
-                  <div>
+                  <div className="hidden lg:inline-block">
                     <h6 className="text-base font-semibold text-white">
                       Legals
                     </h6>
@@ -228,7 +228,7 @@ const Footerr = () => {
                   </div>
                 </div>
 
-                <hr className="mt-12 border-gray-800 sm:mt-8" />
+                <hr className="mt-6 border-gray-800 sm:mt-8" />
 
                 <div className="flex items-center justify-between mt-6">
                   <span className="text-lg font-normal text-gray-400">

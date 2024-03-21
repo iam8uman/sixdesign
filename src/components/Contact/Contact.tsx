@@ -9,8 +9,8 @@ import curvelinemobile from "@/../public/curve-line-mobile.svg";
 export default function Contact() {
   return (
     <>
-      <section className="py-10 bg-gray-100 sm:py-16 lg:py-24">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <section className="py-10 bg-white sm:py-16 lg:py-24">
+        <div className=" mx-auto sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl">
               Contact us
@@ -26,7 +26,7 @@ export default function Contact() {
               <div className="overflow-hidden bg-white rounded-xl">
                 <div className="p-6">
                   <svg
-                    className="flex-shrink-0 w-10 h-10 mx-auto text-gray-400"
+                    className="flex-shrink-0 w-10 h-10 mx-auto text-primary"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ export default function Contact() {
               <div className="overflow-hidden bg-white rounded-xl">
                 <div className="p-6">
                   <svg
-                    className="flex-shrink-0 w-10 h-10 mx-auto text-gray-400"
+                    className="flex-shrink-0 w-10 h-10 mx-auto text-primary"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -76,7 +76,7 @@ export default function Contact() {
               <div className="overflow-hidden bg-white rounded-xl">
                 <div className="p-6">
                   <svg
-                    className="flex-shrink-0 w-10 h-10 mx-auto text-gray-400"
+                    className="flex-shrink-0 w-10 h-10 mx-auto text-primary"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"

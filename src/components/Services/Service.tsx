@@ -6,9 +6,9 @@ const Service = () => {
   return (
     <>
       <section className=" px-4 mt-20 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
-        <div className="flex items-center justify-start gap-4 py-6">
-          <div className="text-4xl font-bold text-black px-8">
-            What we offer to grow your real estate business
+        <div className="flex items-center justify-center gap-4 py-6">
+          <div className=" lg:text-5xl text-black px-8 text-lg font-bold leading-tight">
+            What we offer to grow you Real Estate
           </div>
         </div>
 

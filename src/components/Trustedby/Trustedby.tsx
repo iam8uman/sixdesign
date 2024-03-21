@@ -24,40 +24,41 @@ const Trustedby = () => {
                 <span className="text-primary ">Clients</span>
               </h2>
             </div>
+            <hr />
           </BlogWrapper>
-          <div className="flex flex-wrap items-center justify-center max-w-5xl gap-8 mx-auto md:gap-6">
+          <div className="flex flex-wrap mt-5 items-center justify-center max-w-5xl gap-8 mx-auto md:gap-6">
             <Image
               height={500}
               width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44"
+              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110"
+              src={bay}
+              alt=""
+            />
+            <Image
+              height={500}
+              width={500}
+              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110 backdrop-blur-none"
               src={dolphy}
               alt=""
             />
             <Image
               height={500}
               width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44"
-              src={dolphy}
+              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110"
+              src={dolphine}
               alt=""
             />
             <Image
               height={500}
               width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44"
+              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110"
               src={elixir}
               alt=""
             />
             <Image
               height={500}
               width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44"
-              src={elixir}
-              alt=""
-            />
-            <Image
-              height={500}
-              width={500}
-              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-40"
+              className="object-contain w-32 max-w-full sm:h-8 md:h-10 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-110"
               src={tonyning}
               alt=""
             />
