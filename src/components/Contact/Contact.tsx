@@ -18,7 +18,7 @@ export default function Contact() {
                   Register today!
                 </h3>
 
-                <form action="#" method="POST" className="mt-4 mx-20">
+                <form action="#" method="POST" className="mt-4 mx-32">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                     <div className="sm:col-span-2">
                       <div className="mt-2.5 relative">
