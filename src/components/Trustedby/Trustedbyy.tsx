@@ -45,7 +45,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-auto h-14  sm:w-16 sm:scale-50 lg:w-24 max-w-full lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-auto h-14  sm:w-16 sm:scale-50 lg:w-24 max-w-full lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75  hover:grayscale-0 grayscale"
                 src={dolphy}
                 alt=""
               />
@@ -55,7 +55,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-auto h-14  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-auto h-14  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale"
                 src={elixir}
                 alt=""
               />
@@ -65,7 +65,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-auto h-14  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-auto h-14  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale"
                 src={Imgoneeee}
                 alt=""
               />
