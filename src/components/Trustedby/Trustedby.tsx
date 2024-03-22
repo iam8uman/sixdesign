@@ -17,39 +17,53 @@ const Trustedby = () => {
               <span className="text-primary ">Clients</span>
             </h2>
           </div>
-          <div className="grid grid-cols-5 mt-10 items-center justify-center w-full gap-6 mx-auto md:gap-14">
+          <div className="grid grid-cols-7 mt-10 items-center justify-center w-full">
             <Image
               height={1000} // Double the height
               width={1000} // Double the width
-              className="object-contain lg:w-64 sm:w-36 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+              className="object-contain  sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
               src={bay}
               alt=""
             />
             <Image
               height={1000} // Double the height
               width={1000} // Double the width
-              className="object-contain scale-125 lg:w-36 max-w-full sm:h-16 md:h-20 sm:w-32 transition-transform duration-300 ease-in-out transform hover:scale-150 backdrop-blur-none hover:grayscale-0 grayscale"
+              className="object-contain scale-125  max-w-full sm:h-16 md:h-16 sm:w-24 transition-transform duration-300 ease-in-out transform hover:scale-150 backdrop-blur-none hover:grayscale-0 grayscale"
               src={dolphy}
               alt=""
             />
             <Image
               height={1000} // Double the height
               width={1000} // Double the width
-              className="object-contain scale-250 w-64 max-w-full sm:h-16 md:h-20 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+              className="object-contain scale-250 max-w-full sm:h-16 md:h-16 sm:w-16 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
               src={dolphine}
               alt=""
             />
             <Image
               height={1000} // Double the height
               width={1000} // Double the width
-              className="object-contain scale-125 w-36 max-w-full sm:h-16 md:h-20 sm:w-32 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+              className="object-contain scale-125 w-36 max-w-full sm:h-16 md:h-20 sm:w-24 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
               src={elixir}
               alt=""
             />
             <Image
               height={1000} // Double the height
               width={1000} // Double the width
-              className="object-contain lg:scale-300 w-64 max-w-full sm:h-16 md:h-20 sm:w-44 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+              className="object-contain scale-125 w-36 max-w-full sm:h-16 md:h-20 sm:w-24 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+              src={elixir}
+              alt=""
+            />
+            <Image
+              height={1000} // Double the height
+              width={1000} // Double the width
+              className="object-contain scale-125 w-36 max-w-full sm:h-16 md:h-20 sm:w-24 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+              src={elixir}
+              alt=""
+            />
+            <Image
+              height={1000} // Double the height
+              width={1000} // Double the width
+              className="object-contain lg:scale-300 w-64 max-w-full sm:h-16 md:h-16 sm:w-24 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
               src={tonyning}
               alt=""
             />

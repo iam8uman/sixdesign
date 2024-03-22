@@ -49,7 +49,12 @@ const Ourwork = () => {
 
           <div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3">
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="https://shrutidua.com/" title="" className="block">
+              <Link
+                href="https://shrutidua.com/"
+                target="_blank"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
@@ -95,6 +100,7 @@ const Ourwork = () => {
                 href="https://oakparkvillage.ca/"
                 title=""
                 className="block"
+                target="_blank"
               >
                 <Image
                   height={300}
@@ -141,6 +147,7 @@ const Ourwork = () => {
                 href="https://empire-wynfield.ca/"
                 title=""
                 className="block"
+                target="_blank"
               >
                 <Image
                   height={300}
@@ -187,6 +194,7 @@ const Ourwork = () => {
                 href="https://knightsbridge-homes.ca/"
                 title=""
                 className="block"
+                target="_blank"
               >
                 <Image
                   height={300}
@@ -233,6 +241,7 @@ const Ourwork = () => {
                 href="https://queensland-condos.ca/"
                 title=""
                 className="block"
+                target="_blank"
               >
                 <Image
                   height={300}
@@ -275,7 +284,12 @@ const Ourwork = () => {
             </div>
 
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="https://niagara77.ca/" title="" className="block">
+              <Link
+                href="https://niagara77.ca/"
+                target="_blank"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
@@ -317,7 +331,12 @@ const Ourwork = () => {
             </div>
 
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="https://boutintower.ca/" title="" className="block">
+              <Link
+                href="https://boutintower.ca/"
+                target="_blank"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
@@ -359,7 +378,12 @@ const Ourwork = () => {
             </div>
 
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="https://tonyning.ca/" title="" className="block">
+              <Link
+                href="https://tonyning.ca/"
+                target="_blank"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
@@ -401,7 +425,12 @@ const Ourwork = () => {
             </div>
 
             <div className="relative overflow-hidden group rounded-xl">
-              <Link href="https://primontcondo.ca/" title="" className="block">
+              <Link
+                href="https://primontcondo.ca/"
+                target="_blank"
+                title=""
+                className="block"
+              >
                 <Image
                   height={300}
                   width={300}
