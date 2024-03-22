@@ -22,11 +22,11 @@ const Ourwork = () => {
               Some Glimpse of <span className="text-primary sm:w-full"> Our Works</span>
             </div>
 
-            <div className="mt-6 sm:mt-0 sm:shrink-0">
+            <div className="mt-6 sm:mt-0 sm:shrink-0 sm:text-center hidden md:inline-block">
               <Link
                 href="/"
                 title=""
-                className="inline-flex items-center text-base font-medium text-gray-900 group"
+                className="inline-flex items-center text-base font-medium  text-gray-900 group"
               >
                 See all our works
                 <svg

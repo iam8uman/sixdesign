@@ -17,7 +17,7 @@ const Testimonials = () => {
               </h2>
             </div>
 
-            <div className="relative mt-8 md:mt-16 md:order-2">
+            <div className="relative mt-8 md:mt-10 md:order-2">
               <div className="absolute -inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
                 <div className="w-full h-full max-w-5xl mx-auto rounded-3xl opacity-30 blur-lg filter"></div>
               </div>
