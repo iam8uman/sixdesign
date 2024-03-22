@@ -25,7 +25,7 @@ export default function Contact() {
                         <input
                           type="text"
                           id="name"
-                          className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 bg-transparent rounded-lg border-2 border-gray-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                          className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600  rounded-lg border-2 border-gray-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                           placeholder=""
                         />
                         <label
@@ -43,7 +43,7 @@ export default function Contact() {
                           <input
                             type="phone"
                             id="phone"
-                            className="block px-2.5 pb-4 pt-4 w-full text-md bg-slate-100 text-gray-600 bg-transparent rounded-lg border-2 border-slate-200 appearance-non dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                            className="block px-2.5 pb-4 pt-4 w-full text-md bg-slate-100 text-gray-600 rounded-lg border-2 border-slate-200 appearance-non dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
                           />
                           <label
@@ -57,7 +57,7 @@ export default function Contact() {
                           <input
                             type="email"
                             id="email"
-                            className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 bg-transparent rounded-lg border-2 border-slate-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                            className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg border-2 border-slate-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
                           />
                           <label
