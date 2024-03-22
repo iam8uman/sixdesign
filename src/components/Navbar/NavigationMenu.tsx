@@ -14,43 +14,44 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
+import crm from "@/../public/services/crm.jpg";
+import socials from "@/../public/services/social.webp";
+import mls from "@/../public/services/mls.jpeg";
+import email from "@/../public/services/email.png";
+import landing from "@/../public/services/landing.jpg";
+import custom from "@/../public/services/custom.jpg";
+import Image from "next/image";
 
-const components: { title: string; href: string; description: string }[] = [
+const components: { title: string; href: string; description: any }[] = [
   {
     title: "CRM for agents",
     href: "/services/crm",
-    description:
-      "Elevate client satisfaction with our real estate CRM. Efficiently manage leads and personalized communication for seamless transactions and lasting relationships.",
+    description: crm,
   },
   {
     title: "Social Media Marketing",
     href: "/services/socials",
-    description:
-      "Maximize your online presence with our expert social media management. Engage, grow, and build brand authority across platforms effortlessly.",
+    description: socials,
   },
   {
     title: "MLS Website Design",
     href: "/services/mls",
-    description:
-      "We specialize in creating MLS websites for real estate professionals. Our solutions offer seamless property listings integration, advanced search functionality, interactive maps, and customizable property details. ",
+    description: mls,
   },
   {
     title: "Email Marketing",
     href: "/services/email",
-    description:
-      "Email marketing is a great way to directly converse with your customers. We deliver targeted email marketing solutions to drive engagement and conversions.",
+    description: email,
   },
   {
     title: "Landing Page",
     href: "/services/landing",
-    description:
-      "Capture attention and drive conversions with captivating landing pages. Tailored designs, compelling content, and seamless user experience for optimal engagement and lead generation.",
+    description: landing,
   },
   {
     title: "Custom Solutions",
     href: "/services/custom",
-    description:
-      "Unlock your business &apos s full potential with our bespoke custom solutions. Tailored to your unique needs, we deliver innovative, efficient, and scalable results",
+    description: custom,
   },
 ];
 
@@ -99,14 +100,20 @@ export function NavigationMenuDemoz() {
             Services
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {components.map((component) => (
                 <ListItem
                   key={component.title}
                   title={component.title}
                   href={component.href}
+                  className="flex justify-start flex-col"
                 >
-                  {component.description}
+                  <Image
+                    height={40}
+                    width={40}
+                    src={component.description}
+                    alt={component.title}
+                  />
                 </ListItem>
               ))}
             </ul>

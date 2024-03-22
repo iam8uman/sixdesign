@@ -22,7 +22,7 @@ const Service = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6 mt-12 lg:mt-16 xl:gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            <div className=" service-item border-2 border-transparent shadow-lg rounded-md transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
+            <div className=" service-item border-2 border-transparent shadow-xl rounded-xl transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
               <Link href="/services/crm">
                 <div className="p-8">
                   <div className="flex items-center">
@@ -54,16 +54,14 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    Our platform offers lead tracking, automated follow-ups,
-                    task management, document storage, and personalized client
-                    insights. With our CRM, agents can efficiently nurture
-                    leads, close deals, and foster long-lasting relationships.
+                    With our CRM, agents can efficiently nurture
+                    leads, close deals & foster long-lasting relationships.
                   </p>
                 </div>
               </Link>
             </div>
 
-            <div className=" service-item border-2 border-transparent shadow-lg rounded-md transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
+            <div className=" service-item border-2 border-transparent shadow-xl rounded-xl transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
               <Link href="/services/socials">
                 <div className="p-8">
                   <div className="flex items-center">
@@ -96,14 +94,13 @@ const Service = () => {
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
                     Maximize your online presence with our expert social media
-                    management. Engage, grow, and build brand authority across
-                    platforms effortlessly.
+                    management.
                   </p>
                 </div>
               </Link>
             </div>
 
-            <div className=" service-item border-2 border-transparent shadow-lg rounded-md transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
+            <div className=" service-item border-2 border-transparent shadow-xl rounded-md transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
               <Link href="/services/mls">
                 <div className="p-8">
                   <div className="flex items-center">
@@ -135,8 +132,7 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    We specialize in creating MLS websites for real estate
-                    professionals. Our solutions offer seamless property
+                    Seamless property
                     listings integration, advanced search functionality,
                     interactive maps, and customizable property details.
                   </p>
@@ -144,7 +140,7 @@ const Service = () => {
               </Link>
             </div>
 
-            <div className="service-item border-2 border-transparent shadow-lg rounded-md transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
+            <div className="service-item border-2 border-transparent shadow-xl rounded-xl transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
               <Link href="/services/email">
                 <div className="p-8">
                   <div className="flex items-center">
@@ -176,15 +172,14 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    Email marketing is a great way to directly converse with
-                    your customers. We deliver targeted email marketing
+                    We deliver targeted email marketing
                     solutions to drive engagement and conversions.
                   </p>
                 </div>
               </Link>
             </div>
 
-            <div className="service-item border-2 border-transparent shadow-lg rounded-md transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
+            <div className="service-item border-2 border-transparent shadow-xl rounded-xl transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
               <Link href="/services/landing">
                 <div className="p-8">
                   <div className="flex items-center">
@@ -217,15 +212,13 @@ const Service = () => {
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
                     Capture attention and drive conversions with captivating
-                    landing pages. Tailored designs, compelling content, and
-                    seamless user experience for optimal engagement and lead
-                    generation.
+                    landing pages.
                   </p>
                 </div>
               </Link>
             </div>
 
-            <div className="service-item border-2 border-transparent shadow-lg rounded-md transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
+            <div className="service-item border-2 border-transparent shadow-xl rounded-xl transform transition-transform duration-300 hover:scale-105 hover:ease-out delay-100">
               <Link href="/services/custom">
                 <div className="p-8">
                   <div className="flex items-center">
@@ -258,8 +251,7 @@ const Service = () => {
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
                     Unlock your business &apos s full potential with our bespoke
-                    custom solutions. Tailored to your unique needs, we deliver
-                    innovative, efficient, and scalable results
+                    custom solutions.
                   </p>
                 </div>
               </Link>

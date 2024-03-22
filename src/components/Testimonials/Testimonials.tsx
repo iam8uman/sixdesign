@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import avatar from "@/../public/avatar.jpg";
+import avatar from "@/../public/avatar_1.jpg";
+import avatarr from "@/../public/avatarr.jpg";
+import avatarrr from "@/../public/avatarrr.jpg";
 
 const Testimonials = () => {
   return (
@@ -82,15 +84,15 @@ const Testimonials = () => {
                         height={44}
                         width={44}
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src={avatar}
+                        src={avatarr}
                         alt=""
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">
-                          Tony Stark
+                          Tony Ning
                         </p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">
-                          Freelance React Developer
+                          Real Estate Broker
                         </p>
                       </div>
                     </div>
@@ -163,10 +165,10 @@ const Testimonials = () => {
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">
-                          Jacob Jones
+                          Shruti Dua
                         </p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">
-                          Digital Marketer
+                          Sales Representative
                         </p>
                       </div>
                     </div>
@@ -234,15 +236,15 @@ const Testimonials = () => {
                         height={44}
                         width={44}
                         className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src={avatarrr}
                         alt=""
                       />
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">
-                          Jenny Wilson
+                          Sam Valji
                         </p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">
-                          Graphic Designer
+                          Real Estate Broker
                         </p>
                       </div>
                     </div>

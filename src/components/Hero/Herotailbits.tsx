@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Imgone from "@/../public/avatar.jpg";
-import Imgonee from "@/../public/avatarr.avif";
-import Imgoneee from "@/../public/avatarrr.avif";
+import Imgone from "@/../public/avatar_1.jpg";
+import Imgonee from "@/../public/avatarr.jpg";
+import Imgoneee from "@/../public/avatarrr.jpg";
 import imgHead from "@/../public/istockphoto-500558937-612x612.jpg";
 import {
   AreaChart,

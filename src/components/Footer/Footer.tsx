@@ -42,7 +42,7 @@ const Footerr = () => {
                   <Link
                     href="/about"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     About{" "}
@@ -53,7 +53,7 @@ const Footerr = () => {
                   <Link
                     href="/services"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     Services
@@ -64,7 +64,7 @@ const Footerr = () => {
                   <Link
                     href="/blog"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     Blogs
@@ -75,7 +75,7 @@ const Footerr = () => {
                   <Link
                     href="/contact"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     Contact
@@ -94,7 +94,7 @@ const Footerr = () => {
                   <Link
                     href="/faqs"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     Customer Support{" "}
@@ -105,7 +105,7 @@ const Footerr = () => {
                   <Link
                     href="/faqs"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     FAQS
@@ -116,7 +116,7 @@ const Footerr = () => {
                   <Link
                     href="#"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     Terms & Conditions{" "}
@@ -127,7 +127,7 @@ const Footerr = () => {
                   <Link
                     href="#"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-blue-600"
+                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
                     Privacy Policy{" "}
@@ -171,7 +171,7 @@ const Footerr = () => {
                           </svg>
                           <span className="block ml-3 text-base font-medium text-gray-900">
                             {" "}
-                            4517 Washington Ave. Manchester, Kentucky 39495{" "}
+                            635 Canal Bank St, Welland, ON L0S 1K0, Canada
                           </span>
                         </div>
 
