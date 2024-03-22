@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Imgone from "@/../public/hero/image-1.png";
+import Imgone from "@/../public/avatar.jpg";
+import Imgonee from "@/../public/avatarr.avif";
+import Imgoneee from "@/../public/avatarrr.avif";
 import imgHead from "@/../public/istockphoto-500558937-612x612.jpg";
 import {
   AreaChart,
@@ -113,7 +115,7 @@ const Herotailbits = () => {
                       height={40}
                       width={40}
                       className="object-cover w-10 h-10 rounded-full border-white border-2"
-                      src={Imgone}
+                      src={Imgonee}
                       alt=""
                     />
 
@@ -121,7 +123,7 @@ const Herotailbits = () => {
                       height={40}
                       width={40}
                       className="object-cover w-10 h-10 rounded-full border-white border-2"
-                      src={Imgone}
+                      src={Imgoneee}
                       alt=""
                     />
                     <div className="text-md pl-4">

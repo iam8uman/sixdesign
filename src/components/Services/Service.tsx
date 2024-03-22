@@ -54,9 +54,10 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    Elevate client satisfaction with our real estate CRM.
-                    Efficiently manage leads and personalized communication for
-                    seamless transactions and lasting relationships.
+                    Our platform offers lead tracking, automated follow-ups,
+                    task management, document storage, and personalized client
+                    insights. With our CRM, agents can efficiently nurture
+                    leads, close deals, and foster long-lasting relationships.
                   </p>
                 </div>
               </Link>
@@ -134,10 +135,10 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    Craft a captivating MLS website that showcases properties
-                    effectively. User-friendly design, advanced search
-                    functionalities, and seamless navigation for enhanced
-                    property browsing experience.
+                    We specialize in creating MLS websites for real estate
+                    professionals. Our solutions offer seamless property
+                    listings integration, advanced search functionality,
+                    interactive maps, and customizable property details.
                   </p>
                 </div>
               </Link>
@@ -175,9 +176,9 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    Elevate your marketing game with targeted email campaigns.
-                    Engage, convert, and retain clients effectively with
-                    personalized and compelling content strategies.
+                    Email marketing is a great way to directly converse with
+                    your customers. We deliver targeted email marketing
+                    solutions to drive engagement and conversions.
                   </p>
                 </div>
               </Link>
@@ -266,14 +267,7 @@ const Service = () => {
           </div>
 
           <div className="mt-12 text-center">
-            <Link
-              href="#"
-              title=""
-              className="inline-flex p-3 font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
-            >
-              {" "}
-              Check all 1,593 applications{" "}
-            </Link>
+           
           </div>
         </div>
       </section>

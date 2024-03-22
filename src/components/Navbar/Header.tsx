@@ -119,7 +119,7 @@ const Header = () => {
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
-                   <div className="flex justify-start bg-transparent relative right-5 ">
+                   <div className="flex justify-start bg-transparent relative right-5">
                 <NavigationMenuDemoz />
               </div>
                 </Link>

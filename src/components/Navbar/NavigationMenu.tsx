@@ -17,39 +17,40 @@ import Link from "next/link";
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    title: "CRM for agents",
+    href: "/services/crm",
     description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
+      "Elevate client satisfaction with our real estate CRM. Efficiently manage leads and personalized communication for seamless transactions and lasting relationships.",
   },
   {
-    title: "Hover Card",
-    href: "/docs/primitives/hover-card",
+    title: "Social Media Marketing",
+    href: "/services/socials",
     description:
-      "For sighted users to preview content available behind a link.",
+      "Maximize your online presence with our expert social media management. Engage, grow, and build brand authority across platforms effortlessly.",
   },
   {
-    title: "Progress",
-    href: "/docs/primitives/progress",
+    title: "MLS Website Design",
+    href: "/services/mls",
     description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "We specialize in creating MLS websites for real estate professionals. Our solutions offer seamless property listings integration, advanced search functionality, interactive maps, and customizable property details. ",
   },
   {
-    title: "Scroll-area",
-    href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
+    title: "Email Marketing",
+    href: "/services/email",
+    description:
+      "Email marketing is a great way to directly converse with your customers. We deliver targeted email marketing solutions to drive engagement and conversions.",
   },
   {
-    title: "Tabs",
-    href: "/docs/primitives/tabs",
+    title: "Landing Page",
+    href: "/services/landing",
     description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "Capture attention and drive conversions with captivating landing pages. Tailored designs, compelling content, and seamless user experience for optimal engagement and lead generation.",
   },
   {
-    title: "Tooltip",
-    href: "/docs/primitives/tooltip",
+    title: "Custom Solutions",
+    href: "/services/custom",
     description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "Unlock your business &apos s full potential with our bespoke custom solutions. Tailored to your unique needs, we deliver innovative, efficient, and scalable results",
   },
 ];
 
@@ -57,11 +58,11 @@ export function NavigationMenuDemoz() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        {/* about */}
-        <NavigationMenuItem className="hidden lg:inline-block">
-          <NavigationMenuTrigger className="bg-transparent text-lg">
-            Resources
-          </NavigationMenuTrigger>
+        {/* about
+        <NavigationMenuTrigger className="bg-transparent text-lg">
+          Services
+        </NavigationMenuTrigger> */}
+        <NavigationMenuItem>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -93,7 +94,6 @@ export function NavigationMenuDemoz() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-
         <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-transparent text-lg">
             Services
