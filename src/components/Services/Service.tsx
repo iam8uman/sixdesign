@@ -16,8 +16,8 @@ const Service = () => {
         <div className="px-2 mx-auto sm:px-2 lg:px-4 max-w-7xl">
           <div className="mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-              What we offer to grow you{" "}
-              <span className="text-primary">Real Estate</span>
+              What we offer to grow your{" "}
+              <span className="text-primary">Real Estate Business</span>
             </h2>
           </div>
 

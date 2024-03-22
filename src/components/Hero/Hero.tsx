@@ -23,7 +23,7 @@ const Herotailbits = () => {
                     </span>{" "}
                   </h1>
                   <div className="text-xl  mt-4">
-                    Enhancing your CRM for agents, MLS Website, Email Marketing,
+                    We build CRM for agents, MLS Website, Email Marketing,
                     Social Media Management, Landing Page, and Custom Solutions
                     with expert finesse and irresistible appeal!
                   </div>

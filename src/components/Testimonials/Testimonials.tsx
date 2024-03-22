@@ -13,11 +13,11 @@ const Testimonials = () => {
           <div className="flex flex-col items-center">
             <div className="text-center">
               <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">
-                Happy clients say about us
+                Don&apos;t just take our word for it
               </h2>
             </div>
 
-            <div className="relative mt-10 md:mt-24 md:order-2">
+            <div className="relative mt-8 md:mt-16 md:order-2">
               <div className="absolute -inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
                 <div className="w-full h-full max-w-5xl mx-auto rounded-3xl opacity-30 blur-lg filter"></div>
               </div>
