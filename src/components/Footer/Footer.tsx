@@ -16,10 +16,10 @@ const Footerr = () => {
       />
       <footer className="bg-white">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="flex flex-wrap items-start md:justify-between gap-y-12 gap-x-24 md:gap-x-12">
-            <div className="w-full lg:w-64 xl:w-full xl:max-w-xs">
+          <div className="flex flex-wrap items-start md:justify-between gap-y-4 gap-x-24 md:gap-x-12">
+            <div className="w-full lg:w-64 xl:w-full xl:max-w-xs ">
               <Link href="/" title="" className="flex">
-                <div className="text-2xl text-black sm:text-3xl lg:text-4xl flex gap-1 font-bold lg:justify-start align-middle mb-3 justify-center ">
+                <div className="text-2xl  sm:justify-center text-black sm:text-3xl lg:text-4xl flex gap-1 font-bold lg:justify-start align-middle mb-3 justify-center ">
                   <SixdesignLogo size="sm" />
                   <div className="text-black">SixDesign</div>
                 </div>
@@ -32,7 +32,7 @@ const Footerr = () => {
               </p>
             </div>
 
-            <div>
+            <div className="hidden lg:inline-block">
               <p className="text-xs font-semibold tracking-widest text-gray-400 uppercase">
                 Company
               </p>
@@ -84,7 +84,7 @@ const Footerr = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="hidden lg:inline-block">
               <p className="text-xs font-semibold tracking-widest text-gray-400 uppercase">
                 Help
               </p>
@@ -138,7 +138,7 @@ const Footerr = () => {
 
             <div className="w-full md:max-w-xs">
               <Link href="#" title="" className="flex">
-                <div className="text-2xl text-black sm:text-3xl lg:text-4xl flex gap-1 px-4 font-bold lg:justify-start align-middle mb-2 justify-center ">
+                <div className="text-2xl hidden lg:inline-flex text-black sm:text-3xl lg:text-4xl  gap-1 px-4 font-bold lg:justify-start align-middle mb-2 justify-center ">
                   <SixdesignLogo size="sm" />
                   <div className="text-black mx-1">SixDesign</div>
                 </div>

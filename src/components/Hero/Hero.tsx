@@ -1,17 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import Imgone from "@/../public/avatar_1.jpg";
+import profile from "@/../public/avatar.jpg";
 import Imgonee from "@/../public/avatarr.jpg";
 import Imgoneee from "@/../public/avatarrr.jpg";
 import imgHead from "@/../public/istockphoto-500558937-612x612.jpg";
-import {
-  AreaChart,
-  CircleFadingPlus,
-  Dribbble,
-  MailCheck,
-  Network,
-  NotebookText,
-} from "lucide-react";
+import contact from "@/../public/contact-bottom-2.png";
 
 const Herotailbits = () => {
   return (
@@ -29,7 +23,9 @@ const Herotailbits = () => {
                     </span>{" "}
                   </h1>
                   <div className="text-xl  mt-4">
-                  Enhancing your CRM for agents, MLS Website, Email Marketing, Social Media Management, Landing Page, and Custom Solutions with expert finesse and irresistible appeal!
+                    Enhancing your CRM for agents, MLS Website, Email Marketing,
+                    Social Media Management, Landing Page, and Custom Solutions
+                    with expert finesse and irresistible appeal!
                   </div>
 
                   <section className="bg-white">
@@ -67,11 +63,11 @@ const Herotailbits = () => {
                       </div>
                     </div>
                   </form>
-                  <div className="flex items-center mt-2 space-x-[-6px]">
+                  <div className="flex items-center mt-2 space-x-[-8px]">
                     <Image
                       height={40}
                       width={40}
-                      className="object-cover w-10 h-10 rounded-full border-white border-2"
+                      className="object-cover w-10 h-10 rounded-full border-slate-200 border-2"
                       src={Imgone}
                       alt=""
                     />
@@ -79,7 +75,7 @@ const Herotailbits = () => {
                     <Image
                       height={40}
                       width={40}
-                      className="object-cover w-10 h-10 rounded-full border-white border-2"
+                      className="object-cover w-10 h-10 rounded-full border-slate-200 border-2"
                       src={Imgonee}
                       alt=""
                     />
@@ -87,8 +83,24 @@ const Herotailbits = () => {
                     <Image
                       height={40}
                       width={40}
-                      className="object-cover w-10 h-10 rounded-full border-white border-2"
+                      className="object-cover w-10 h-10 rounded-full border-slate-200 border-2"
                       src={Imgoneee}
+                      alt=""
+                    />
+
+                    <Image
+                      height={40}
+                      width={40}
+                      className=" object-cover w-10 h-10 rounded-full border-slate-200 border-2"
+                      src={profile}
+                      alt=""
+                    />
+
+                    <Image
+                      height={40}
+                      width={40}
+                      className="bg-black object-cover w-10 h-10 rounded-full border-slate-200 border-2"
+                      src={contact}
                       alt=""
                     />
                     <div className="text-md pl-4">

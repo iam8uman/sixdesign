@@ -3,7 +3,40 @@ import Image from "next/image";
 import React from "react";
 import contact from "@/../public/contact-bottom-2.png";
 
+import { useState } from "react";
+
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e: { target: { id: any; value: any } }) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
+    e.preventDefault();
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      if (data.success) {
+        alert("Message sent successfully!");
+      } else {
+        alert("Failed to send message. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
   return (
     <>
       <section className="py-2 bg-white sm:py-4 lg:py-8">
@@ -18,28 +51,28 @@ export default function Contact() {
                   Register today!
                 </h3>
 
-                <form action="#" method="POST" className="mt-4 mx-32">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
-                    <div className="sm:col-span-2">
+                <form onSubmit={handleSubmit} className="mt-4 lg:mx-32">
+                  <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-4">
+                    <div className="lg:col-span-2 sm:col-span-1">
                       <div className="mt-2.5 relative">
                         <input
                           type="text"
                           id="name"
-                          className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600  rounded-lg border-2 border-gray-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                          className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg border-2 border-gray-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                           placeholder=""
                         />
                         <label
                           htmlFor="name"
-                          className="absolute  text-md text-gray-400 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-slate-100 pointer-events-none dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                          className="absolute text-md text-gray-400 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-slate-100 pointer-events-none dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                         >
                           Your Name
                         </label>
                       </div>
                     </div>
 
-                    <div className="sm:col-span-2">
-                      <div className="flex">
-                        <div className="w-1/2 mr-2.5 relative">
+                    <div className="lg:col-span-2 sm:col-span-1">
+                      <div className="flex ">
+                        <div className="lg:w-1/2 sm:w-full mr-2.5 relative">
                           <input
                             type="phone"
                             id="phone"
@@ -53,7 +86,7 @@ export default function Contact() {
                             Phone Number
                           </label>
                         </div>
-                        <div className="w-1/2 ml-2.5 relative">
+                        <div className="lg:w-1/2 sm:w-full ml-2.5 relative">
                           <input
                             type="email"
                             id="email"
@@ -62,7 +95,7 @@ export default function Contact() {
                           />
                           <label
                             htmlFor="email"
-                            className="absolute text-md text-gray-400 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0]  dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute text-md text-gray-400 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                           >
                             Email Address
                           </label>
@@ -70,7 +103,7 @@ export default function Contact() {
                       </div>
                     </div>
 
-                    <div className="sm:col-span-2">
+                    <div className="lg:col-span-2 sm:col-span-1">
                       <div className="mt-2.5 relative">
                         <textarea
                           name="textarea"
@@ -81,14 +114,14 @@ export default function Contact() {
                         ></textarea>
                         <label
                           htmlFor="textarea"
-                          className="absolute text-md text-gray-400 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0]  dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                          className="absolute text-md text-gray-400 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                         >
                           Your Message Here...
                         </label>
                       </div>
                     </div>
-                    <div className="col-span-2">
-                      <p className="text-xs text-center w-full">
+                    <div className="lg:col-span-2 sm:col-span-1">
+                      <p className="text-xs text-center">
                         I consent to receive future communications about Empire
                         Canals in Welland. I understand I can opt out at anytime
                         by sending an email.
