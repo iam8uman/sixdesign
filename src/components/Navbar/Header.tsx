@@ -59,10 +59,10 @@ const Header = () => {
               <Link
                 href="/services"
                 title=""
-                className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
+                className=" text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
               >
                 {" "}
-                <div className="flex gap-2 justify-center ">
+                <div className="flex gap-2 justify-center bg-transparent relative lg:right-2">
                   <NavigationMenuDemoz />
                 </div>
               </Link>
@@ -70,7 +70,7 @@ const Header = () => {
               <Link
                 href="/blog"
                 title=""
-                className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
+                className="text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600 relative lg:right-3"
               >
                 {" "}
                 Blog{" "}
@@ -107,7 +107,7 @@ const Header = () => {
             <div className="flow-root">
               <div className="flex flex-col px-6 -my-2 space-y-1">
                 <Link
-                  href="#"
+                  href="/about"
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
@@ -115,7 +115,7 @@ const Header = () => {
                 </Link>
 
                 <Link
-                  href="#"
+                  href="/services"
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >

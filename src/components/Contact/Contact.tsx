@@ -52,18 +52,18 @@ export default function Contact() {
                 </h3>
 
                 <form onSubmit={handleSubmit} className="mt-4 lg:mx-32">
-                  <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-4">
+                  <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-6">
                     <div className="lg:col-span-2 sm:col-span-1">
                       <div className="mt-2.5 relative">
                         <input
                           type="text"
                           id="name"
-                          className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg border-2 border-gray-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                          className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg bg-slate-100 appearance-none  focus:outline-none  focus:ring-0 focus:border-grey-600 peer"
                           placeholder=""
                         />
                         <label
                           htmlFor="name"
-                          className="absolute text-md text-gray-400 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-slate-100 pointer-events-none dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                          className="absolute text-md text-gray-600 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 origin-[0] bg-transparent pointer-events-none dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                         >
                           Your Name
                         </label>
@@ -76,13 +76,13 @@ export default function Contact() {
                           <input
                             type="phone"
                             id="phone"
-                            className="block px-2.5 pb-4 pt-4 w-full text-md bg-slate-100 text-gray-600 rounded-lg border-2 border-slate-200 appearance-non dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                            className="block px-2.5 pb-4 pt-4 w-full text-md bg-slate-100 text-gray-600 rounded-lg appearance-non 0 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
                             onChange={handleChange}
                           />
                           <label
                             htmlFor="phone"
-                            className="absolute text-md text-gray-400 bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-600 pointer-events-none px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute text-md text-gray-600 bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2  origin-[0] bg-transparent pointer-events-none px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                           >
                             Phone Number
                           </label>
@@ -91,13 +91,13 @@ export default function Contact() {
                           <input
                             type="email"
                             id="email"
-                            className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg border-2 border-slate-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                            className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg  bg-slate-100 appearance-none  focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
                             onChange={handleChange}
                           />
                           <label
                             htmlFor="email"
-                            className="absolute text-md text-gray-400 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute text-md text-gray-600 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2  origin-[0] dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                           >
                             Email Address
                           </label>
@@ -110,17 +110,13 @@ export default function Contact() {
                         <textarea
                           name="textarea"
                           id="textarea"
-                          placeholder=" "
-                          className="block w-full px-4 py-4 text-gray-600 placeholder-gray-500 transition-all duration-200 bg-slate-100 border border-slate-200 rounded-md resize-y focus:outline-none"
+                          placeholder="Your Message Here... "
+                          className="focus:outline-none px-2.5 bg-slate-100 w-full placeholder-gray-600 pb-4 pt-4 rounded-md "
                           rows={4}
                           onChange={handleChange}
                         ></textarea>
-                        <label
-                          htmlFor="textarea"
-                          className="absolute text-md text-gray-400 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
-                        >
-                          Your Message Here...
-                        </label>
+                        
+                          
                       </div>
                     </div>
                     <div className="lg:col-span-2 sm:col-span-1">
