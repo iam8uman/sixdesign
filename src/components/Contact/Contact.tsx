@@ -78,6 +78,7 @@ export default function Contact() {
                             id="phone"
                             className="block px-2.5 pb-4 pt-4 w-full text-md bg-slate-100 text-gray-600 rounded-lg border-2 border-slate-200 appearance-non dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
+                            onChange={handleChange}
                           />
                           <label
                             htmlFor="phone"
@@ -92,6 +93,7 @@ export default function Contact() {
                             id="email"
                             className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg border-2 border-slate-200 bg-slate-100 appearance-none dark:text-white dark:border-red-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
+                            onChange={handleChange}
                           />
                           <label
                             htmlFor="email"
@@ -111,6 +113,7 @@ export default function Contact() {
                           placeholder=" "
                           className="block w-full px-4 py-4 text-gray-600 placeholder-gray-500 transition-all duration-200 bg-slate-100 border border-slate-200 rounded-md resize-y focus:outline-none"
                           rows={4}
+                          onChange={handleChange}
                         ></textarea>
                         <label
                           htmlFor="textarea"
