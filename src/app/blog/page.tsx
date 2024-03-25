@@ -1,185 +1,71 @@
 import BlogWrapper from "@/components/BlogWrapper";
-import Image from "next/image";
-import Link from "next/link";
-import image1 from "@/../public/blog/thumbnail-1.png";
-import image2 from "@/../public/blog/thumbnail-2.png";
-import image3 from "@/../public/blog/thumbnail-3.png";
-import React from "react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import RealEstate from "@/app/blog/RealEstate";
 
-const page = () => {
+export default function Blog() {
   return (
-    <>
-      <BlogWrapper>
-        <section className="py-12 bg-white sm:py-16 lg:py-20">
-          <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-            <div className="max-w-lg mx-auto text-center">
-              <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-                Read Latest Articles
-              </h2>
-              <p className="max-w-md mx-auto mt-5 text-base font-normal leading-7 text-gray-500">
-                Create custom landing pages with Rareblocks that converts more
-                visitors than any website.
-              </p>
-            </div>
+    <BlogWrapper>
+      <div className="max-w-lg mx-auto text-center mb-2">
+        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl ">
+          Read Latest Articles
+        </h2>
+      </div>
+      <Tabs defaultValue="real" className="w-full bg-slate-100" >
+        <TabsList className="grid w-full grid-cols-8 p-2">
+          <TabsTrigger value="real" >Real Estate</TabsTrigger>
+          <TabsTrigger value="business">Business</TabsTrigger>
+          <TabsTrigger value="finance">Finance</TabsTrigger>
+          <TabsTrigger value="password">Password</TabsTrigger>
+          <TabsTrigger value="esport">E-Sports</TabsTrigger>
+          <TabsTrigger value="password">Password</TabsTrigger>
+          <TabsTrigger value="account">Account</TabsTrigger>
+          <TabsTrigger value="password">Password</TabsTrigger>
+        </TabsList>
 
-            <div className="grid max-w-md grid-cols-1 mx-auto mt-12 gap-y-12 md:grid-cols-3 gap-x-8 sm:mt-16 md:max-w-none">
-              <div className="flex flex-col group">
-                <Link
-                  href="/blog/blog-one"
-                  title=""
-                  className="flex overflow-hidden shrink-0 aspect-w-16 aspect-h-9"
-                >
-                  <Image
-                    height={500}
-                    width={500}
-                    className="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
-                    src={image1}
-                    alt=""
-                  />
-                </Link>
-                <Link
-                  href="blog/blog-one"
-                  title=""
-                  className="flex flex-col flex-1"
-                >
-                  <p className="mt-6 text-2xl font-bold text-gray-900">
-                    The unseen of spending three years at Pixelgrade
-                  </p>
-                  <p className="mt-4 text-sm leading-6 text-gray-500 line-clamp-2">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit.
-                    Sit quis auctor odio arcu et dolor.
-                  </p>
-                </Link>
-                <div className="mt-6 lg:mt-8">
-                  <Link
-                    href="blog/blog-one"
-                    title=""
-                    className="inline-flex items-center text-xs font-bold tracking-widest text-gray-900 uppercase group"
-                  >
-                    Continue Reading
-                    <svg
-                      className="w-4 h-4 ml-2 transition-all duration-200 transform group-hover:translate-x-1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M13 7l5 5m0 0l-5 5m5-5H6"
-                      />
-                    </svg>
-                  </Link>
-                </div>
-              </div>
+        {/* realEstate */}
+        <TabsContent value="real"> 
+          <Card>
+            <RealEstate />
+          </Card>
+        </TabsContent>
 
-              <div className="flex flex-col group">
-                <Link
-                  href="blog/blog-two"
-                  title=""
-                  className="flex overflow-hidden shrink-0 aspect-w-16 aspect-h-9"
-                >
-                  <Image
-                    height={500}
-                    width={500}
-                    className="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
-                    src={image2}
-                    alt=""
-                  />
-                </Link>
-                <Link
-                  href="blog/blog-two"
-                  title=""
-                  className="flex flex-col flex-1"
-                >
-                  <p className="mt-6 text-2xl font-bold text-gray-900">
-                    The unseen of spending three years at Pixelgrade
-                  </p>
-                  <p className="mt-4 text-sm leading-6 text-gray-500 line-clamp-2">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit.
-                    Sit quis auctor odio arcu et dolor.
-                  </p>
-                </Link>
-                <div className="mt-6 lg:mt-8">
-                  <Link
-                    href="blog/blog-two"
-                    title=""
-                    className="inline-flex items-center text-xs font-bold tracking-widest text-gray-900 uppercase group"
-                  >
-                    Continue Reading
-                    <svg
-                      className="w-4 h-4 ml-2 transition-all duration-200 transform group-hover:translate-x-1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M13 7l5 5m0 0l-5 5m5-5H6"
-                      />
-                    </svg>
-                  </Link>
-                </div>
+        {/* password */}
+        <TabsContent value="password">
+          <Card>
+            <CardHeader>
+              <CardTitle>Password</CardTitle>
+              <CardDescription>
+                Change your password here. After saving, you&apos;ll be logged
+                out.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <div className="space-y-1">
+                <Label htmlFor="current">Current password</Label>
+                <Input id="current" type="password" />
               </div>
-
-              <div className="flex flex-col group">
-                <Link
-                  href="#"
-                  title=""
-                  className="flex overflow-hidden shrink-0 aspect-w-16 aspect-h-9"
-                >
-                  <Image
-                    height={500}
-                    width={500}
-                    className="object-cover w-full h-full transition-all duration-200 transform group-hover:scale-110"
-                    src={image3}
-                    alt=""
-                  />
-                </Link>
-                <Link href="#" title="" className="flex flex-col flex-1">
-                  <p className="mt-6 text-2xl font-bold text-gray-900">
-                    The unseen of spending three years at Pixelgrade
-                  </p>
-                  <p className="mt-4 text-sm leading-6 text-gray-500 line-clamp-2">
-                    Lorem ipsum dolor sit amet, consec tetur adip iscing elit.
-                    Sit quis auctor odio arcu et dolor.
-                  </p>
-                </Link>
-                <div className="mt-6 lg:mt-8">
-                  <Link
-                    href="#"
-                    title=""
-                    className="inline-flex items-center text-xs font-bold tracking-widest text-gray-900 uppercase group"
-                  >
-                    Continue Reading
-                    <svg
-                      className="w-4 h-4 ml-2 transition-all duration-200 transform group-hover:translate-x-1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M13 7l5 5m0 0l-5 5m5-5H6"
-                      />
-                    </svg>
-                  </Link>
-                </div>
+              <div className="space-y-1">
+                <Label htmlFor="new">New password</Label>
+                <Input id="new" type="password" />
               </div>
-            </div>
-          </div>
-        </section>
-      </BlogWrapper>
-    </>
+            </CardContent>
+            <CardFooter>
+              <Button>Save password</Button>
+            </CardFooter>
+          </Card>
+        </TabsContent>
+      </Tabs>
+    </BlogWrapper>
   );
-};
-
-export default page;
+}
