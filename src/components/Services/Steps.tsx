@@ -7,11 +7,11 @@ const Steps = ({ it, img }: { it: string; img: string }) => {
     <>
       <BlogWrapper>
         <div className="relative">
-          <div className="h-56 bg-gray-900 sm:h-72 md:absolute md:right-0 md:h-full md:w-1/2">
+          <div className="h-56 bg-gray-900 sm:h-72 md:absolute md:right-0 md:h-full md:w-1/2 ">
             <Image
               height={500}
               width={500}
-              className="object-cover w-full h-full contrast-125 opacity-20 2xl:opacity-100 shadodw-2xl rounded-md"
+              className="object-cover w-full h-full contrast-125 opacity-20 2xl:opacity-100 shadodw-2xl rounded-md "
               src={img}
               alt=""
             />
@@ -30,8 +30,8 @@ const Steps = ({ it, img }: { it: string; img: string }) => {
           </div>
         </div>
 
-        <div className="py-12 bg-white sm:py-16 lg:py-20 xl:py-20">
-          <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        {/* <div className="py-12 bg-white sm:py-16 lg:py-20 xl:py-20"> */}
+          <div className="mx-auto  max-w-7xl">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-20 lg:gap-x-16">
               <div className="relative flex flex-row items-start lg:flex-col">
                 <span
@@ -94,7 +94,7 @@ const Steps = ({ it, img }: { it: string; img: string }) => {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </BlogWrapper>
     </>
   );

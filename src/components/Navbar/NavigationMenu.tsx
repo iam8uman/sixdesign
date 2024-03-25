@@ -60,7 +60,7 @@ export function NavigationMenuDemoz() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger  className="bg-transparent text-lg">
+          <NavigationMenuTrigger  className="text-lg">
             Services
           </NavigationMenuTrigger>
           <NavigationMenuContent>

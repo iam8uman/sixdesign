@@ -35,7 +35,9 @@ const Header = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                style={{
+                  transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
+                }}
               >
                 <path
                   strokeLinecap="round"
@@ -56,16 +58,12 @@ const Header = () => {
                 About{" "}
               </Link>
 
-              <Link
-                href="/services"
-                title=""
-                className=" text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
-              >
+              <div className=" text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600">
                 {" "}
                 <div className="flex gap-2 justify-center bg-transparent relative lg:right-2">
                   <NavigationMenuDemoz />
                 </div>
-              </Link>
+              </div>
 
               <Link
                 href="/blog"
@@ -100,9 +98,11 @@ const Header = () => {
             </Link>
           </nav>
 
-          <nav 
-            className={`pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden ${isOpen ? 'block' : 'hidden'}`}
-            style={{ transition: 'height 0.3s ease' }}
+          <nav
+            className={`pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden ${
+              isOpen ? "block" : "hidden"
+            }`}
+            style={{ transition: "height 0.3s ease" }}
           >
             <div className="flow-root">
               <div className="flex flex-col px-6 -my-2 space-y-1">
@@ -119,9 +119,9 @@ const Header = () => {
                   title=""
                   className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-red-600 focus:text-red-600"
                 >
-                   <div className="flex justify-start bg-transparent relative right-5">
-                <NavigationMenuDemoz />
-              </div>
+                  <div className="flex justify-start bg-transparent relative right-5">
+                    <NavigationMenuDemoz />
+                  </div>
                 </Link>
 
                 <Link
@@ -152,11 +152,7 @@ const Header = () => {
               >
                 {" "}
                 <div className="pr-3">
-                  <PhoneCall
-                    size={28}
-                    strokeWidth={1.75}
-                    absoluteStrokeWidth
-                  />
+                  <PhoneCall size={28} strokeWidth={1.75} absoluteStrokeWidth />
                 </div>
                 6475274970{" "}
               </Link>
