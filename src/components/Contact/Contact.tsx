@@ -58,12 +58,12 @@ export default function Contact() {
                         <input
                           type="text"
                           id="name"
-                          className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg bg-slate-100 appearance-none  focus:outline-none  focus:ring-0 focus:border-grey-600 peer"
+                          className="block px-2.5 py-5 -my-1 w-full text-md bg-slate-100 text-gray-600 rounded-lg appearance-non 0 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                           placeholder=""
                         />
                         <label
                           htmlFor="name"
-                          className="absolute text-md text-gray-600 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 origin-[0] bg-transparent pointer-events-none dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                          className="absolute text-md text-gray-600 bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-3  origin-[0] bg-transparent pointer-events-none px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-3 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                         >
                           Your Name
                         </label>
@@ -76,7 +76,7 @@ export default function Contact() {
                           <input
                             type="phone"
                             id="phone"
-                            className="block px-2.5 pb-4 pt-4 w-full text-md bg-slate-100 text-gray-600 rounded-lg appearance-non 0 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                            className="block px-2.5 py-5 -my-1 w-full text-md bg-slate-100 text-gray-600 rounded-lg appearance-non 0 focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
                             onChange={handleChange}
                           />
@@ -91,7 +91,7 @@ export default function Contact() {
                           <input
                             type="email"
                             id="email"
-                            className="block px-2.5 pb-4 pt-4 w-full text-md text-gray-600 rounded-lg  bg-slate-100 appearance-none  focus:outline-none focus:ring-0 focus:border-grey-600 peer"
+                            className="block px-2.5 py-5 -my-1 w-full text-md text-gray-600 rounded-lg  bg-slate-100 appearance-none  focus:outline-none focus:ring-0 focus:border-grey-600 peer"
                             placeholder=""
                             onChange={handleChange}
                           />
