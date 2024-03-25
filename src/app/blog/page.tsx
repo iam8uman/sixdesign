@@ -12,6 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import RealEstate from "@/app/blog/RealEstate";
+import Business from "@/app/blog/Business";
 
 export default function Blog() {
   return (
@@ -21,9 +22,9 @@ export default function Blog() {
           Read Latest Articles
         </h2>
       </div>
-      <Tabs defaultValue="real" className="w-full bg-slate-100" >
+      <Tabs defaultValue="real" className="w-full bg-slate-100">
         <TabsList className="grid w-full grid-cols-8 p-2">
-          <TabsTrigger value="real" >Real Estate</TabsTrigger>
+          <TabsTrigger value="real">Real Estate</TabsTrigger>
           <TabsTrigger value="business">Business</TabsTrigger>
           <TabsTrigger value="finance">Finance</TabsTrigger>
           <TabsTrigger value="password">Password</TabsTrigger>
@@ -34,35 +35,16 @@ export default function Blog() {
         </TabsList>
 
         {/* realEstate */}
-        <TabsContent value="real"> 
+        <TabsContent value="real">
           <Card>
             <RealEstate />
           </Card>
         </TabsContent>
 
         {/* password */}
-        <TabsContent value="password">
+        <TabsContent value="business">
           <Card>
-            <CardHeader>
-              <CardTitle>Password</CardTitle>
-              <CardDescription>
-                Change your password here. After saving, you&apos;ll be logged
-                out.
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-2">
-              <div className="space-y-1">
-                <Label htmlFor="current">Current password</Label>
-                <Input id="current" type="password" />
-              </div>
-              <div className="space-y-1">
-                <Label htmlFor="new">New password</Label>
-                <Input id="new" type="password" />
-              </div>
-            </CardContent>
-            <CardFooter>
-              <Button>Save password</Button>
-            </CardFooter>
+            <Business />
           </Card>
         </TabsContent>
       </Tabs>

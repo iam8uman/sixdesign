@@ -11,13 +11,13 @@ const Steps = ({ it, img }: { it: string; img: string }) => {
             <Image
               height={500}
               width={500}
-              className="object-cover w-full h-full contrast-125 opacity-20 2xl:opacity-100"
+              className="object-cover w-full h-full contrast-125 opacity-20 2xl:opacity-100 shadodw-2xl rounded-md"
               src={img}
               alt=""
             />
           </div>
 
-          <div className="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:py-16 lg:py-20 xl:py-24">
+          <div className="relative py-12 mx-auto max-w-7xl sm:py-16 lg:py-20 xl:py-24">
             <div className="md:mr-auto md:w-1/2 md:pr-10">
               <h2 className="text-3xl font-semibold tracking-tight text-black sm:text-4xl lg:text-5xl">
                 How <span className="text-primary">{it}</span>  works?

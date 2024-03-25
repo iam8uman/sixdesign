@@ -63,7 +63,7 @@ export default function Contact() {
                         />
                         <label
                           htmlFor="name"
-                          className="absolute text-md text-gray-600 bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-3  origin-[0] bg-transparent pointer-events-none px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-3 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                          className="absolute text-md text-gray-600 bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-3  origin-[0] bg-transparent pointer-events-none px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-4 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                         >
                           Your Name
                         </label>
@@ -82,7 +82,7 @@ export default function Contact() {
                           />
                           <label
                             htmlFor="phone"
-                            className="absolute text-md text-gray-600 bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2  origin-[0] bg-transparent pointer-events-none px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute text-md text-gray-600 bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2  origin-[0] bg-transparent pointer-events-none px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-3 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                           >
                             Phone Number
                           </label>
@@ -97,7 +97,7 @@ export default function Contact() {
                           />
                           <label
                             htmlFor="email"
-                            className="absolute text-md text-gray-600 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2  origin-[0] dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute text-md text-gray-600 pointer-events-none bg-slate-100 dark:text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2  origin-[0] dark:bg-gray-600 px-2 peer-focus:px-2 peer-focus:text-black peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-3 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                           >
                             Email Address
                           </label>
