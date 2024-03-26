@@ -6,6 +6,9 @@ import Feature from "@/components/Hero/Feature";
 import CrmTestimonials from "@/components/Services/CRM/CrmTestimonials";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
 import Contact from "@/components/Contact/Contact";
+import ServiceTestimonials from "@/components/Testimonials/ServiceTestimonials";
+import BeforeAfter from "@/components/Services/CRM/BeforeAfter";
+import { Slider } from "@/components/Slider/Slider";
 
 const page = () => {
   return (
@@ -20,8 +23,8 @@ const page = () => {
         three="Easily update your site
         "
         threeDetails="Clarity gives you the blocks & components you need to create a website."
-        servicepage="CRM"
       />
+      <Slider />
       <Feature
         Feature1="Load Management"
         Feature1_details="Clarity gives you the blocks & components you need to create a website."
@@ -35,8 +38,8 @@ const page = () => {
       {/* <Stats /> */}
       <Crmportfolio />
 
-      {/* <Contact /> */}
-      <CrmTestimonials />
+      <ServiceTestimonials />
+      <Contact />
     </>
   );
 };

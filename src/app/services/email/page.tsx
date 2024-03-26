@@ -20,7 +20,6 @@ const page = () => {
         three="Easily update your site
         "
         threeDetails="Clarity gives you the blocks & components you need to create a website."
-        servicepage="Email"
       />
       <Feature
         Feature1="Load Management"

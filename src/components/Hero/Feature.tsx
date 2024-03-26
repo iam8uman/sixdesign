@@ -22,13 +22,11 @@ const Feature = ({
 }) => {
   return (
     <>
-      <section className="py-12 bg-gray-50 sm:py-16 lg:py-20">
+      <section className="py-12 bg-gray-50 sm:py-20 lg:py-32">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="max-w-xl mx-auto text-center xl:max-w-2xl">
-            <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">
-              Features
-            </h2>
-          </div>
+          <h2 className="text-3xl font-bold leading-tight text-center  text-gray-900 sm:text-4xl xl:text-5xl font-pj lg:pb-10">
+            Illuminate Your Experience with Our Best!
+          </h2>
 
           <div className="grid max-w-4xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 sm:mt-12 lg:mt-20 sm:text-left">
             <div className="space-y-4 sm:space-y-8">
@@ -92,7 +90,8 @@ const Feature = ({
                   <div
                     className="w-full h-full rotate-180 opacity-30 blur-lg filter"
                     style={{
-                      background: "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)"
+                      background:
+                        "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)",
                     }}
                   ></div>
                 </div>

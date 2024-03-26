@@ -19,8 +19,8 @@ const Crmportfolio = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="sm:flex sm:items-center sm:justify-between sm:space-x-8">
             <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">
-              Some Glimpse of{" "}
-              <span className="text-primary sm:w-full"> Our Works</span>
+            Peek Inside Our Portfolio
+              {/* <span className="text-primary sm:w-full"> Our Works</span> */}
             </div>
 
             <div className="mt-6 sm:mt-0 sm:shrink-0 sm:text-center hidden md:inline-block">

@@ -6,6 +6,7 @@ import Imgonee from "@/../public/avatarr.jpg";
 import Imgoneee from "@/../public/avatarrr.jpg";
 import imgHead from "@/../public/istockphoto-500558937-612x612.jpg";
 import contact from "@/../public/contact-bottom-2.png";
+import { Slider } from "../Slider/Slider";
 
 const Herotailbits = () => {
   return (
@@ -13,7 +14,7 @@ const Herotailbits = () => {
       <div className="bg-white">
         <section className="py-12 sm:py-16 lg:pb-20">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div className="grid items-center max-w-6xl grid-cols-1 mx-auto lg:grid-cols-5 lg:gap-x-4 xl:gap-x-24 gap-y-12">
+            <div className="grid items-center max-w-7xl grid-cols-1 mx-auto lg:grid-cols-6 md:gap-x-4 xl:gap-x-8 gap-y-12">
               <div className="lg:col-span-3">
                 <div className="max-w-lg">
                   <h1 className="text-2xl font-bold text-black sm:text-4xl">
@@ -110,13 +111,8 @@ const Herotailbits = () => {
                 </div>
               </div>
 
-              <div className="lg:col-span-2">
-                <Image
-                  height={700}
-                  width={500}
-                  src={imgHead}
-                  alt="hero image"
-                />
+              <div className="lg:col-span-3">
+                <Slider />
               </div>
             </div>
           </div>

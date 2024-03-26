@@ -12,7 +12,6 @@ const Steps = ({
   twoDetails,
   three,
   threeDetails,
-  servicepage,
 }: {
   it: string;
   img: string;
@@ -22,7 +21,6 @@ const Steps = ({
   twoDetails: string;
   three: string;
   threeDetails: string;
-  servicepage: string;
 }) => {
   return (
     <>
@@ -38,7 +36,6 @@ const Steps = ({
             />
           </div>
 
-            <BreadcrumbDemo servicepage={servicepage} />
           <div className="relative py-12 mx-auto max-w-7xl sm:py-16 lg:py-20 xl:py-24">
             <div className="md:mr-auto md:w-1/2 md:pr-10">
 
