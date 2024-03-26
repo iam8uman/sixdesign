@@ -4,6 +4,8 @@ import crmImg from "@/../public/girl-smiling.png";
 import Stats from "@/components/Stats/Stats";
 import Feature from "@/components/Hero/Feature";
 import CrmTestimonials from "@/components/Services/CRM/CrmTestimonials";
+import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
+import Contact from "@/components/Contact/Contact";
 
 const page = () => {
   return (
@@ -18,6 +20,7 @@ const page = () => {
         three="Easily update your site
         "
         threeDetails="Clarity gives you the blocks & components you need to create a website."
+        servicepage="CRM"
       />
       <Feature
         Feature1="Load Management"
@@ -30,8 +33,9 @@ const page = () => {
         Feature4_details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend nullam consectetur placerat pellentesque ut massa volutpat at. Diam pretium orci dui sagittis."
       />
       {/* <Stats /> */}
+      <Crmportfolio />
 
-      
+      {/* <Contact /> */}
       <CrmTestimonials />
     </>
   );

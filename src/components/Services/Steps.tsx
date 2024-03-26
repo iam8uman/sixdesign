@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import BlogWrapper from "../BlogWrapper";
+import BreadcrumbDemo from "@/components/Breadcrumb/Breadcrumb";
 
 const Steps = ({
   it,
@@ -11,6 +12,7 @@ const Steps = ({
   twoDetails,
   three,
   threeDetails,
+  servicepage,
 }: {
   it: string;
   img: string;
@@ -20,6 +22,7 @@ const Steps = ({
   twoDetails: string;
   three: string;
   threeDetails: string;
+  servicepage: string;
 }) => {
   return (
     <>
@@ -35,8 +38,10 @@ const Steps = ({
             />
           </div>
 
+            <BreadcrumbDemo servicepage={servicepage} />
           <div className="relative py-12 mx-auto max-w-7xl sm:py-16 lg:py-20 xl:py-24">
             <div className="md:mr-auto md:w-1/2 md:pr-10">
+
               <h2 className="text-3xl font-semibold tracking-tight text-black sm:text-4xl lg:text-5xl">
                 How <span className="text-primary">{it}</span> works?
               </h2>
