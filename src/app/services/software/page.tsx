@@ -12,6 +12,7 @@ import TrustedBy from "@/components/Services/TrustedBy";
 import Whyus from "@/components/Services/Whyus";
 import Ourclient from "@/components/Services/Ourclient";
 import Whatwecan from "@/components/Services/Whatwecan";
+import Workfolio from "@/components/Services/Workfolio";
 
 const page = () => {
   return (
@@ -21,6 +22,7 @@ const page = () => {
       <Whyus />
       <Ourclient />
       <Whatwecan />
+      <Workfolio />
     </>
   );
 };
