@@ -25,8 +25,8 @@ const Ourclient = () => {
 
           <div className="w-full text-center my-16 flex justify-center">
             <Image
-              height={600}
-              width={800}
+              height={400}
+              width={700}
               className=""
               src={map}
               alt=""

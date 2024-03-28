@@ -11,6 +11,7 @@ import Hero from "@/components/Services/Hero";
 import TrustedBy from "@/components/Services/TrustedBy";
 import Whyus from "@/components/Services/Whyus";
 import Ourclient from "@/components/Services/Ourclient";
+import Whatwecan from "@/components/Services/Whatwecan";
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <TrustedBy />
       <Whyus />
       <Ourclient />
+      <Whatwecan />
     </>
   );
 };
