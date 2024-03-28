@@ -9,12 +9,14 @@ import { CircleArrowRight } from "lucide-react";
 import Link from "next/link";
 import Hero from "@/components/Services/Hero";
 import TrustedBy from "@/components/Services/TrustedBy";
+import Whyus from "@/components/Services/Whyus";
 
 const page = () => {
   return (
     <>
       <Hero />
       <TrustedBy />
+      <Whyus />
       </>
   );
 };
