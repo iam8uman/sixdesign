@@ -13,6 +13,8 @@ import Whyus from "@/components/Services/Whyus";
 import Ourclient from "@/components/Services/Ourclient";
 import Whatwecan from "@/components/Services/Whatwecan";
 import Workfolio from "@/components/Services/Workfolio";
+import MovingCard from "@/components/Card/MovingCard";
+import ServiceTestimonials from "@/components/Testimonials/ServiceTestimonials";
 
 const page = () => {
   return (
@@ -23,6 +25,7 @@ const page = () => {
       <Ourclient />
       <Whatwecan />
       <Workfolio />
+      <ServiceTestimonials />
     </>
   );
 };
