@@ -10,6 +10,7 @@ import Link from "next/link";
 import Hero from "@/components/Services/Hero";
 import TrustedBy from "@/components/Services/TrustedBy";
 import Whyus from "@/components/Services/Whyus";
+import Ourclient from "@/components/Services/Ourclient";
 
 const page = () => {
   return (
@@ -17,7 +18,8 @@ const page = () => {
       <Hero />
       <TrustedBy />
       <Whyus />
-      </>
+      <Ourclient />
+    </>
   );
 };
 
