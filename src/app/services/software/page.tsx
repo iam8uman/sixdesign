@@ -17,6 +17,7 @@ import ServiceTestimonials from "@/components/Testimonials/ServiceTestimonials";
 import Feature from "@/components/Services/Feature";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
 import Contact from "@/components/Contact/Contact";
+import MovingCard from "@/components/Card/MovingCard";
 
 const page = () => {
   return (
@@ -29,7 +30,8 @@ const page = () => {
       {/* <Ourclient /> */}
       {/* <Whatwecan /> */}
       {/* <Workfolio /> */}
-      <ServiceTestimonials />
+      {/* <ServiceTestimonials /> */}
+      <MovingCard />
       <Contact />
     </>
   );

@@ -5,13 +5,26 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-card";
 
 export default function MovingCard() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div>
+    <>
+      <div className="max-w-3xl mx-auto text-center my-10">
+        <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+          Don&apos;t just take our words. <br />{" "}
+          <span className="text-xl"> Over 1000+ people trust us.</span>
+        </h2>
+      </div>
+      <div className="h-[40rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+        />
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="left"
+          speed="slow"
+        />
+      </div>
+    </>
   );
 }
 
@@ -26,16 +39,17 @@ const testimonials = [
     quote:
       "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
     name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+    title: "CEO, Founder of Globe Bank",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+    name: "Edgar Allan Poe",
+    title: "CEO, Founder of Globe Bank",
+  },
+  {
+    quote:
+      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
     name: "Jane Austen",
     title: "Pride and Prejudice",
   },
