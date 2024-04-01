@@ -15,12 +15,14 @@ import Whatwecan from "@/components/Services/Whatwecan";
 import Workfolio from "@/components/Services/Workfolio";
 import MovingCard from "@/components/Card/MovingCard";
 import ServiceTestimonials from "@/components/Testimonials/ServiceTestimonials";
+import Feature from "@/components/Services/Feature";
 
 const page = () => {
   return (
     <>
       <Hero />
       <TrustedBy />
+      <Feature />
       <Whyus />
       <Ourclient />
       <Whatwecan />

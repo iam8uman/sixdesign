@@ -13,7 +13,7 @@ const TrustedBy = () => {
               <Image
                 height={100}
                 width={100}
-                className="object-contain w-auto mx-auto grayscale h-14"
+                className="object-contain w-auto mx-auto grayscale h-14 hover:grayscale-0"
                 src={logo}
                 alt=""
               />
@@ -23,7 +23,7 @@ const TrustedBy = () => {
               <Image
                 height={100}
                 width={100}
-                className="object-contain w-auto mx-auto grayscale h-14"
+                className="object-contain w-auto mx-auto hover:grayscale-0 grayscale h-14"
                 src={logo}
                 alt=""
               />
@@ -33,7 +33,7 @@ const TrustedBy = () => {
               <Image
                 height={100}
                 width={100}
-                className="object-contain w-auto mx-auto grayscale h-14"
+                className="object-contain w-auto mx-auto hover:grayscale-0 grayscale h-14"
                 src={logo}
                 alt=""
               />
@@ -43,7 +43,7 @@ const TrustedBy = () => {
               <Image
                 height={100}
                 width={100}
-                className="object-contain w-auto mx-auto grayscale h-14"
+                className="object-contain w-auto mx-auto hover:grayscale-0 grayscale h-14"
                 src={logo}
                 alt=""
               />
@@ -53,7 +53,7 @@ const TrustedBy = () => {
               <Image
                 height={100}
                 width={100}
-                className="object-contain w-auto mx-auto grayscale h-14"
+                className="object-contain w-auto mx-auto hover:grayscale-0 grayscale h-14"
                 src={logo}
                 alt=""
               />
