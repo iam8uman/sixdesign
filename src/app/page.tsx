@@ -8,6 +8,7 @@ import Trustedbyy from "@/components/Trustedby/Trustedbyy";
 import tonyning from "@/../public/avatarr.jpg";
 import shrutidua from "@/../public/avatar_1.jpg";
 import samvalji from "@/../public/avatarrr.jpg";
+import Ourclient from "@/components/Services/Ourclient";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <OurWork />
 
       <Testimonials />
+      <Ourclient />
       <Contact />
     </>
   );
