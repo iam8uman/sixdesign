@@ -190,7 +190,7 @@ const Crmportfolio = () => {
               </Link>
             </div>
 
-            <div className="relative overflow-hidden group rounded-xl">
+            {/* <div className="relative overflow-hidden group rounded-xl">
               <Link
                 href="https://knightsbridge-homes.ca/"
                 title=""
@@ -329,7 +329,7 @@ const Crmportfolio = () => {
                   </p>
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

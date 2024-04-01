@@ -13,9 +13,10 @@ import Whyus from "@/components/Services/Whyus";
 import Ourclient from "@/components/Services/Ourclient";
 import Whatwecan from "@/components/Services/Whatwecan";
 import Workfolio from "@/components/Services/Workfolio";
-import MovingCard from "@/components/Card/MovingCard";
 import ServiceTestimonials from "@/components/Testimonials/ServiceTestimonials";
 import Feature from "@/components/Services/Feature";
+import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
+import Contact from "@/components/Contact/Contact";
 
 const page = () => {
   return (
@@ -23,11 +24,13 @@ const page = () => {
       <Hero />
       <TrustedBy />
       <Feature />
-      <Whyus />
-      <Ourclient />
-      <Whatwecan />
-      <Workfolio />
+      <Crmportfolio />
+      {/* <Whyus /> */}
+      {/* <Ourclient /> */}
+      {/* <Whatwecan /> */}
+      {/* <Workfolio /> */}
       <ServiceTestimonials />
+      <Contact />
     </>
   );
 };
