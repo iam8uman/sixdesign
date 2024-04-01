@@ -2,6 +2,10 @@
 
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "../ui/infinite-moving-card";
+import tonyning from "@/../public/avatarr.jpg";
+import shrutidua from "@/../public/avatar_1.jpg";
+import samvalji from "@/../public/avatarrr.jpg";
+import avatar from "@/../public/avatar.jpg";
 
 export default function MovingCard() {
   return (
@@ -31,32 +35,37 @@ export default function MovingCard() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "SixDesign.ca delivers exceptional web design, exceeding expectations with professionalism, creativity, and seamless communication. Highly recommended for outstanding results.",
+    name: "Tony Ning",
+    title: "Real Estate Broker",
+    img: tonyning,
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "CEO, Founder of Globe Bank",
+      "Transformative web design services by SixDesign.ca redefine online presence. With creativity, professionalism, and seamless communication, they ensure remarkable results. Highly recommended.",
+    name: "Shruti Dua",
+    title: "Sales Representive",
+    img: shrutidua,
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "Edgar Allan Poe",
-    title: "CEO, Founder of Globe Bank",
+      "Elevate your online presence with exceptional web design services from SixDesign.ca. Experience creativity, professionalism, and seamless communication for remarkable results.",
+    name: "Sam Valji",
+    title: "Real Estate Broker",
+    img: samvalji,
   },
   {
     quote:
       "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
     name: "Jane Austen",
-    title: "Pride and Prejudice",
+    title: "CEO, SixDesign.ca",
+    img: avatar,
   },
   {
     quote:
       "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
     name: "Herman Melville",
-    title: "Moby-Dick",
+    title: "CEO, Garima Bikas Bank",
+    img: avatar,
   },
 ];

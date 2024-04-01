@@ -15,6 +15,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
+    img: any;
     quote: string;
     name: string;
     title: string;
@@ -109,13 +110,13 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-10 flex flex-row items-center">
                 <span className="flex flex-row gap-4">
                   <Image
-                    src={avatar}
+                    src={item.img || avatar}
                     height={40}
                     width={40}
                     alt="avatar"
-                    className="rounded-full"
+                    className="rounded-full border border-gray-200"
                   />
-                  <div className="flex flex-col gap-1">
+                  <div className="flex flex-col gap-0">
                     <span className=" text-sm leading-[1.6] text-black font-normal flex gap-4">
                     {item.name}
                     </span>

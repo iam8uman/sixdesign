@@ -9,6 +9,7 @@ import tonyning from "@/../public/avatarr.jpg";
 import shrutidua from "@/../public/avatar_1.jpg";
 import samvalji from "@/../public/avatarrr.jpg";
 import Ourclient from "@/components/Services/Ourclient";
+import MovingCard from "@/components/Card/MovingCard";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       </div>
       <OurWork />
 
-      <Testimonials />
+      <MovingCard />
       <Ourclient />
       <Contact />
     </>
