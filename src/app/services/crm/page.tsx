@@ -36,7 +36,6 @@ const page = () => {
         feature4="Integration"
         feature4desc="Integrate our CRM seamlessly with MLS listings, email marketing, transaction management, and other tools. Streamline workflow, eliminate data silos, and make informed decisions effortlessly."
         feature4icon={integration_management.src}
-
       />
 
       <Crmportfolio />

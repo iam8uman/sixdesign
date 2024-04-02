@@ -100,9 +100,47 @@ const Feature = ({
                   </p>
                 </div>
               </div>
+              <div className="py-6 px-4 flex gap-3">
+                <div className="logo mt-9">
+                  <Image
+                    height={150}
+                    width={150}
+                    src={feature2icon || design_support}
+                    alt="image of service"
+                  />
+                </div>
+                <div className="">
+                  <h3 className="mt-6 text-xl text-start font-bold text-black">
+                    {feature2 || "Design Service"}
+                  </h3>
+                  <p className="mt-1 text-sm text-gray-600">
+                    {feature2desc ||
+                      " Tailored website designs that reflect your brand identity and captivate your audience"}
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="transition-all duration-200 bg-white">
+              <div className="py-4 px-4 flex gap-3">
+                <div className="logo mt-9">
+                  <Image
+                    height={150}
+                    width={150}
+                    src={feature3icon || conntact_management}
+                    alt="image of service"
+                  />
+                </div>
+                <div className="">
+                  <h3 className="mt-6 text-xl text-start font-bold text-black">
+                    {feature3 || "Design Service"}
+                  </h3>
+                  <p className="mt-1 text-sm text-gray-600">
+                    {feature3desc ||
+                      " Tailored website designs that reflect your brand identity and captivate your audience"}
+                  </p>
+                </div>
+              </div>
               <div className="py-4 px-4 flex gap-3">
                 <div className="logo mt-9">
                   <Image
