@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "@/../public/crowny-logo.svg";
 import React from "react";
-import Trustedbyy from "../Trustedby/Trustedbyy";
+import Trustedbyy from "../../Trustedby/Trustedbyy";
 
 const TrustedBy = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselCard from "../Card/CarouselCard";
+import CarouselCard from "../../Card/CarouselCard";
 
 const Workfolio = () => {
   return (

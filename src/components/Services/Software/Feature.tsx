@@ -1,6 +1,9 @@
 import React from "react";
 import { CornerDownRight, IndentDecrease } from "lucide-react";
 import SixdesignLogo from "@/icons/Sixdesign-logo";
+import arrowicon from "@/../public/XMLID_43_.png";
+import Image from "next/image";
+import design_support from "@/../public/services/icons/design support.png";
 
 const Feature = () => {
   return (
@@ -9,29 +12,42 @@ const Feature = () => {
         <div className="px-4 mx-auto max-w-9xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-3 lg:mt-20 lg:gap-x-8">
             <div className="transition-all duration-200 bg-white ">
-              <button className="my-2 mx-16 px-6 py-1   text-center rounded-3xl text-3xl font-semibold border-2 border-black  text-black">
+              <button className="my-4 mx-16 px-6 py-2   text-center rounded-full text-2xl font-semibold border-2 border-black shadow-sm drop-shadow-md   text-black border-t-[5px] border-l-[5px]">
                 Features
               </button>
               <div className=" mx-16">
-                <h3 className="mt-6 text-4xl  text-start font-bold text-black">
+                <h3 className="mt-6 text-[34px]  text-start font-bold text-black">
                   Explore The Features Of Our Email Marketing
                 </h3>
-                <CornerDownRight size={64} className="relative ml-60" />
+                {/* <CornerDownRight size={64} className="relative ml-60" /> */}
+                <Image
+                  height={40}
+                  width={55}
+                  src={arrowicon}
+                  alt="Arrow Icon"
+                  className="relative contrast-200 ml-72 bottom-7"
+                />
               </div>
             </div>
 
             <div className="transition-all duration-200 bg-white ">
               <div className="py-4 px-4 flex gap-3">
                 <div className="logo mt-9">
-                  <SixdesignLogo size="md" />
+                  {/* <SixdesignLogo size="md" /> */}
+                  <Image
+                    height={100}
+                    width={100}
+                    src={design_support}
+                    alt="image of service"
+                  />
                 </div>
                 <div className="">
                   <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    Mobile Device Compatibility
+                    Design Service
                   </h3>
-                  <p className="mt-1 text-base text-gray-600">
-                    Intuitive interfaces that enhance user experience and guide
-                    visitors towards desired actions.
+                  <p className="mt-1 text-md text-gray-600">
+                    Tailored website designs that reflect your brand identity
+                    and captivate your audience
                   </p>
                 </div>
               </div>
@@ -75,8 +91,8 @@ const Feature = () => {
                     Support
                   </h3>
                   <p className="mt-1 text-base text-gray-600">
-                    We are part of your team and we&apos;ll never leave you on your
-                    own. If you have issues or questions
+                    We are part of your team and we&apos;ll never leave you on
+                    your own. If you have issues or questions
                   </p>
                 </div>
               </div>

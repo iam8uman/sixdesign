@@ -19,7 +19,7 @@ const Hero = () => {
                 <div className="font-semibold tracking-wider text-xl text-gray-600">
                   Unleash Your Website&apos;s Potential
                 </div>
-                <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-7xl underline-offset-3   z-10 underline decoration-yellow-400">
+                <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-7xl underline-offset-3   z-10 underline decoration-gray-600">
                   Website Design {" "}
                   
                   <span className="decoration-white underline">Service</span>
@@ -49,7 +49,7 @@ const Hero = () => {
                 <Link
                   href="#"
                   title=""
-                  className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-md lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400"
+                  className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-black rounded-md lg:mt-16 hover:bg-gray-600 focus:bg-gray-600"
                   role="button"
                 >
                   Join for free
