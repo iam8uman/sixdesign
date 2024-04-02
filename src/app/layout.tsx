@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
-import { Jost } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Navbar/Header";
 import Footerr from "@/components/Footer/Footer";
 
-//👇 Configure our font object
-const openSans = Jost({
-  subsets: ["latin"],
-  display: "swap",
-});
+import { Inter } from 'next/font/google'
+ 
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
+ 
+
 export const metadata: Metadata = {
   title: "SixDesign - Business Solution",
   description:
@@ -22,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={openSans.className}>
+      <body className={inter.className}>
         {" "}
         <Header />
         {children}

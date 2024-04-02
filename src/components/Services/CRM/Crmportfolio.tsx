@@ -19,7 +19,7 @@ const Crmportfolio = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="sm:flex sm:items-center sm:justify-between sm:space-x-8">
             <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">
-            Peek Inside Our Portfolio
+              Peek Inside Our Portfolio
               {/* <span className="text-primary sm:w-full"> Our Works</span> */}
             </div>
 
@@ -49,145 +49,157 @@ const Crmportfolio = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="relative overflow-hidden group rounded-xl">
-              <Link
-                href="https://shrutidua.com/"
-                target="_blank"
-                title=""
-                className="block"
-              >
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgtwo}
-                  alt=""
-                />
-                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div>
-                      <svg
-                        className="w-6 h-6 text-white absolute top-4 right-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z"></path>
-                        <line x1="17" y1="7" x2="7" y2="17"></line>
-                        <polyline points="8 7 17 7 17 16"></polyline>
-                      </svg>
+            <div>
+              <div className="relative overflow-hidden group rounded-xl">
+                <Link
+                  href="https://shrutidua.com/"
+                  target="_blank"
+                  title=""
+                  className="block"
+                >
+                  <Image
+                    height={300}
+                    width={300}
+                    className="object-cover w-full h-full"
+                    src={imgtwo}
+                    alt=""
+                  />
+                  <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                    <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div>
+                        <svg
+                          className="w-6 h-6 text-white absolute top-4 right-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z"></path>
+                          <line x1="17" y1="7" x2="7" y2="17"></line>
+                          <polyline points="8 7 17 7 17 16"></polyline>
+                        </svg>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    Shruti Dua
-                    <span
-                      className="absolute inset-0"
-                      aria-hidden="true"
-                    ></span>
-                  </p>
-                </div>
-              </Link>
+                  <div className="absolute inset-x-0 bottom-2 p-2 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                    <p className="text-md leading-tight text-white">
+                      Landing page design
+                      <span
+                        className="absolute inset-0"
+                        aria-hidden="true"
+                      ></span>
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className="text-xl text-center">Shruti Dua</div>
             </div>
 
-            <div className="relative overflow-hidden group rounded-xl shadow-md">
-              <Link
-                href="https://oakparkvillage.ca/"
-                title=""
-                className="block"
-                target="_blank"
-              >
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgthree}
-                  alt=""
-                />
-                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div>
-                      <svg
-                        className="w-6 h-6 text-white absolute top-4 right-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z"></path>
-                        <line x1="17" y1="7" x2="7" y2="17"></line>
-                        <polyline points="8 7 17 7 17 16"></polyline>
-                      </svg>
+            <div>
+              <div className="relative overflow-hidden group rounded-xl shadow-md">
+                <Link
+                  href="https://oakparkvillage.ca/"
+                  title=""
+                  className="block"
+                  target="_blank"
+                >
+                  <Image
+                    height={300}
+                    width={300}
+                    className="object-cover w-full h-full"
+                    src={imgthree}
+                    alt=""
+                  />
+                  <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                    <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div>
+                        <svg
+                          className="w-6 h-6 text-white absolute top-4 right-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z"></path>
+                          <line x1="17" y1="7" x2="7" y2="17"></line>
+                          <polyline points="8 7 17 7 17 16"></polyline>
+                        </svg>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    Oak Park Village
-                    <span
-                      className="absolute inset-0"
-                      aria-hidden="true"
-                    ></span>
-                  </p>
-                </div>
-              </Link>
+                  <div className="absolute inset-x-0 bottom-2 p-2 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                    <p className="text-md leading-tight text-white">
+                      Social Media Marketing
+                      <span
+                        className="absolute inset-0"
+                        aria-hidden="true"
+                      ></span>
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className="text-xl text-center text-gray-600">
+                {" "}
+                Oak Park Village
+              </div>
             </div>
 
-            <div className="relative overflow-hidden group rounded-xl">
-              <Link
-                href="https://empire-wynfield.ca/"
-                title=""
-                className="block"
-                target="_blank"
-              >
-                <Image
-                  height={300}
-                  width={300}
-                  className="object-cover w-full h-full"
-                  src={imgfour}
-                  alt=""
-                />
-                <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div>
-                      <svg
-                        className="w-6 h-6 text-white absolute top-4 right-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        strokeWidth="2"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z"></path>
-                        <line x1="17" y1="7" x2="7" y2="17"></line>
-                        <polyline points="8 7 17 7 17 16"></polyline>
-                      </svg>
+            <div>
+              <div className="relative overflow-hidden group rounded-xl">
+                <Link
+                  href="https://empire-wynfield.ca/"
+                  title=""
+                  className="block"
+                  target="_blank"
+                >
+                  <Image
+                    height={300}
+                    width={300}
+                    className="object-cover w-full h-full"
+                    src={imgfour}
+                    alt=""
+                  />
+                  <div className="absolute inset-0 transition-all duration-200 opacity-0 group-hover:opacity-100">
+                    <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/80 to-transparent"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div>
+                        <svg
+                          className="w-6 h-6 text-white absolute top-4 right-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z"></path>
+                          <line x1="17" y1="7" x2="7" y2="17"></line>
+                          <polyline points="8 7 17 7 17 16"></polyline>
+                        </svg>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="absolute inset-x-0 bottom-6 p-6 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
-                  <p className="text-lg font-bold leading-tight text-white">
-                    Empire Wynfield
-                    <span
-                      className="absolute inset-0"
-                      aria-hidden="true"
-                    ></span>
-                  </p>
-                </div>
-              </Link>
+                  <div className="absolute inset-x-0 bottom-2 p-2 transition-all duration-300 transform translate-y-full group-hover:translate-y-0">
+                    <p className="text-md leading-tight text-white">
+                      Landing page design
+                      <span
+                        className="absolute inset-0"
+                        aria-hidden="true"
+                      ></span>
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className="text-xl text-center">Empire Wynfield</div>
             </div>
 
             {/* <div className="relative overflow-hidden group rounded-xl">

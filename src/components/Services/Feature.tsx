@@ -5,7 +5,7 @@ import SixdesignLogo from "@/icons/Sixdesign-logo";
 const Feature = () => {
   return (
     <>
-      <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
+      <section className="py-10 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto max-w-9xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-3 lg:mt-20 lg:gap-x-8">
             <div className="transition-all duration-200 bg-white ">
