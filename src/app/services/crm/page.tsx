@@ -1,44 +1,48 @@
-import Steps from "@/components/Services/Steps";
 import React from "react";
-import crmImg from "@/../public/girl-smiling.png";
-import Stats from "@/components/Stats/Stats";
-import Feature from "@/components/Hero/Feature";
-import CrmTestimonials from "@/components/Services/CRM/CrmTestimonials";
-import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
+import Feature from "@/components/Services/CRM/Feature";
 import Contact from "@/components/Contact/Contact";
-import ServiceTestimonials from "@/components/Testimonials/ServiceTestimonials";
-import BeforeAfter from "@/components/Services/CRM/BeforeAfter";
-import { Slider } from "@/components/Slider/Slider";
+import HeroService from "@/components/Services/Software/HeroService";
+import Trustedbyy from "@/components/Trustedby/Trustedbyy";
+import contact_management from "@/../public/services/icons/contact_management.png";
+import document_management from "@/../public/services/icons/document.png";
+import integration_management from "@/../public/services/icons/Integration.png";
+import MovingCard from "@/components/Card/MovingCard";
+import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
+
+
 
 const page = () => {
   return (
     <>
-      <Steps
-        it="CRM"
-        img={crmImg.src}
-        one="Start with a great design"
-        oneDetails="Clarity gives you the blocks & components you need to create a website."
-        two="Add clever content areas"
-        twoDetails="Clarity gives you the blocks & components you need to create a website."
-        three="Easily update your site
-        "
-        threeDetails="Clarity gives you the blocks & components you need to create a website."
+      <HeroService
+        title="CRM"
+        description="With our CRM, agents can efficiently nurture leads, close deals & foster long-lasting relationships."
       />
-      <Slider />
-      <Feature
-        Feature1="Load Management"
-        Feature1_details="Clarity gives you the blocks & components you need to create a website."
-        Feature2="Contact Management"
-        Feature2_details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend nullam consectetur placerat pellentesque ut massa volutpat at. Diam pretium orci dui sagittis."
-        Feature3="Task Management"
-        Feature3_details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend nullam consectetur placerat pellentesque ut massa volutpat at. Diam pretium orci dui sagittis."
-        Feature4="Document Storage"
-        Feature4_details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend nullam consectetur placerat pellentesque ut massa volutpat at. Diam pretium orci dui sagittis."
+      <Trustedbyy />
+
+      <Feature title="Customer Relationship Management"
+       feature1="Lead Management"
+        feature1desc="Organize and track your leads effectively with our intuitive lead management tools. Never miss an opportunity with automated lead capture and assignment features."
+        feature1icon={contact_management.src}
+
+        feature2="Contact Management"
+        feature2desc="Keep all your client information in one place with our comprehensive contact management system. Easily access client details, communication history, and important documents whenever you need them."
+        feature2icon={contact_management.src}
+
+        feature3="Document Storage"
+        feature3desc="Store all your important documents securely in the cloud and access them from anywhere, anytime. Say goodbye to paper clutter and never lose a document again."
+        feature3icon={document_management.src}
+
+        feature4="Integration"
+        feature4desc="Integrate our CRM seamlessly with MLS listings, email marketing, transaction management, and other tools. Streamline workflow, eliminate data silos, and make informed decisions effortlessly."
+        feature4icon={integration_management.src}
+
       />
-      {/* <Stats /> */}
+
       <Crmportfolio />
 
-      <ServiceTestimonials />
+      <MovingCard />
+
       <Contact />
     </>
   );

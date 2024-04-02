@@ -1,14 +1,17 @@
-import Header from "@/components/Navbar/Header";
-import Service from "@/components/Services/Service";
 import Image from "next/image";
 import React from "react";
-import logo from "@/../public/crowny-logo.svg";
 import hero from "@/../public/hero-img.png";
-import { CheckCircledIcon } from "@radix-ui/react-icons";
 import { CircleArrowRight } from "lucide-react";
 import Link from "next/link";
+import { title } from "process";
 
-const Hero = () => {
+const HeroService = ({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) => {
   return (
     <>
       <div className="bg-white">
@@ -16,20 +19,16 @@ const Hero = () => {
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
-                <div className="font-semibold tracking-wider text-xl text-gray-600">
-                  Unleash Your Website&apos;s Potential
+                <div className="font-sans  tracking-wider text-xl text-gray-600">
+                  Unleash Your Business&apos;s Potential In
                 </div>
-                <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-7xl underline-offset-3   z-10 underline decoration-gray-600">
-                  Website Design {" "}
-                  
-                  <span className="decoration-white underline">Service</span>
+                <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-7xl leading-10 inline-block text-primary">
+                  {title || "SixDesign "}
+
+                  <div className="decoration-white underline text-black">Service</div>
                 </h1>
                 <div className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
-                  Elevate your online presence with our professional website
-                  redesign solutions, delivering immediate results through Link
-                  complete cycle of services. Experience amplified visitor
-                  engagement, extended session durations, and boosted conversion
-                  rates with our tailored approach to website redesign.
+                 {description || "  Elevate your online presence with our professional website redesign solutions, delivering immediate results through Link complete cycle of services. Experience amplified visitor engagement, extended session durations, and boosted conversion rates with our tailored approach to website redesign."}
                 </div>
                 <div className="flex gap-6 mt-5 ">
                   <div className="flex gap-2">
@@ -52,7 +51,7 @@ const Hero = () => {
                   className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-black rounded-md lg:mt-16 hover:bg-gray-600 focus:bg-gray-600"
                   role="button"
                 >
-                  Join for free
+                  Contact Us
                   <svg
                     className="w-6 h-6 ml-8 -mr-2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -95,4 +94,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroService;

@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-opacity-1 sticky top-0 z-10 w-full bg-white">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="px-2 mx-auto max-w-7xl lg:px-2">
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0 px-6">
               <Link href="/" title="" className="flex">

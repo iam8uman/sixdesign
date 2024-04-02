@@ -5,10 +5,26 @@ import arrowicon from "@/../public/XMLID_43_.png";
 import Image from "next/image";
 import design_support from "@/../public/services/icons/design support.png";
 
-const Feature = () => {
+const Feature = ({
+  title,
+  feature1icon,
+  feature1,
+  feature1desc,
+  feature2icon,
+  feature2,
+  feature2desc,
+}: {
+  title: string;
+  feature1icon: string;
+  feature1: string;
+  feature1desc: string;
+  feature2icon: string;
+  feature2: string;
+  feature2desc: string;
+}) => {
   return (
     <>
-      <section className="py-10 sm:py-16 lg:py-24">
+      <section className="py-10 sm:py-16 lg:py-24 ml-16 mr-24">
         <div className="px-4 mx-auto max-w-9xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-3 lg:mt-20 lg:gap-x-8">
             <div className="transition-all duration-200 bg-white ">
@@ -17,7 +33,7 @@ const Feature = () => {
               </button>
               <div className=" mx-16">
                 <h3 className="mt-6 text-[34px]  text-start font-bold text-black">
-                  Explore The Features Of Our Email Marketing
+                  Explore The Features Of Our {title || "Email Marketing"}
                 </h3>
                 {/* <CornerDownRight size={64} className="relative ml-60" /> */}
                 <Image
@@ -35,33 +51,38 @@ const Feature = () => {
                 <div className="logo mt-9">
                   {/* <SixdesignLogo size="md" /> */}
                   <Image
-                    height={100}
-                    width={100}
-                    src={design_support}
+                    height={150}
+                    width={150}
+                    src={feature1icon || design_support}
                     alt="image of service"
                   />
                 </div>
                 <div className="">
                   <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    Design Service
+                    {feature1 || "Design Service"}
                   </h3>
-                  <p className="mt-1 text-md text-gray-600">
-                    Tailored website designs that reflect your brand identity
-                    and captivate your audience
+                  <p className="mt-1 text-sm text-gray-600">
+                    {feature1desc ||
+                      " Tailored website designs that reflect your brand identity and captivate your audience"}
                   </p>
                 </div>
               </div>
               <div className="py-6 px-4 flex gap-3">
                 <div className="logo mt-9">
-                  <SixdesignLogo size={"md"} />
+                  <Image
+                    height={150}
+                    width={150}
+                    src={feature1icon || design_support}
+                    alt="image of service"
+                  />
                 </div>
                 <div className="">
                   <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    Design Service
+                    {feature1 || "Design Service"}
                   </h3>
-                  <p className="mt-1 text-base text-gray-600">
-                    Tailored website designs that reflect your brand identity
-                    and captivate your audience.
+                  <p className="mt-1 text-sm text-gray-600">
+                    {feature1desc ||
+                      " Tailored website designs that reflect your brand identity and captivate your audience"}
                   </p>
                 </div>
               </div>
@@ -70,29 +91,39 @@ const Feature = () => {
             <div className="transition-all duration-200 bg-white">
               <div className="py-4 px-4 flex gap-3">
                 <div className="logo mt-9">
-                  <SixdesignLogo size="md" />
+                  <Image
+                    height={150}
+                    width={150}
+                    src={feature1icon || design_support}
+                    alt="image of service"
+                  />
                 </div>
                 <div className="">
                   <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    Responsiveness
+                    {feature1 || "Design Service"}
                   </h3>
-                  <p className="mt-1 text-base text-gray-600">
-                    Websites optimized for seamless viewing and navigation
-                    across all devices tablets.
+                  <p className="mt-1 text-sm text-gray-600">
+                    {feature1desc ||
+                      " Tailored website designs that reflect your brand identity and captivate your audience"}
                   </p>
                 </div>
               </div>
               <div className="py-6 px-4 flex gap-3">
                 <div className="logo mt-9">
-                  <SixdesignLogo size={"md"} />
+                  <Image
+                    height={150}
+                    width={150}
+                    src={feature1icon || design_support}
+                    alt="image of service"
+                  />
                 </div>
                 <div className="">
                   <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    Support
+                    {feature1 || "Design Service"}
                   </h3>
-                  <p className="mt-1 text-base text-gray-600">
-                    We are part of your team and we&apos;ll never leave you on
-                    your own. If you have issues or questions
+                  <p className="mt-1 text-sm text-gray-600">
+                    {feature1desc ||
+                      " Tailored website designs that reflect your brand identity and captivate your audience"}
                   </p>
                 </div>
               </div>
