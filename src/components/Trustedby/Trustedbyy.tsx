@@ -24,7 +24,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-4 h-14  sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-4 h-14 mix-blend-multiply sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
                 src={bay}
                 alt=""
               />
@@ -34,7 +34,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-4 h-14  sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-4 h-14 mix-blend-multiply  sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
                 src={dolphine}
                 alt=""
               />
@@ -44,7 +44,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-24 mx-4 h-20 sm:scale-75 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-125 hover:grayscale-0 grayscale"
+                className="object-contain w-24 mx-4 h-20 mix-blend-multiply sm:scale-75 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-125 hover:grayscale-0 grayscale"
                 src={elixir}
                 alt=""
               />
@@ -53,7 +53,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-24 mx-4 h-20 sm:scale-50 lg:scale-125 sm:h-16 md:h-24 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale hidden lg:flex"
+                className="object-contain w-24 mx-4 h-20 mix-blend-multiply sm:scale-50 lg:scale-125 sm:h-16 md:h-24 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale hidden lg:flex"
                 src={dolphy}
                 alt=""
               />
@@ -63,7 +63,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-4 h-14 hidden md:inline-flex  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-4 h-14 mix-blend-multiply hidden md:inline-flex  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale"
                 src={Imgoneeee}
                 alt=""
               />
@@ -73,7 +73,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-4 h-14 hidden md:inline-flex lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-4 h-14 mix-blend-multiply hidden md:inline-flex lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
                 src={savemax}
                 // style={{ filter:  }}
                 alt=""
@@ -84,7 +84,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-20 mx-4 h-14 hidden md:inline-flex  lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-20 mx-4 h-14 mix-blend-multiply  hidden md:inline-flex  lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
                 src={Imgoneeeee}
                 alt=""
               />
