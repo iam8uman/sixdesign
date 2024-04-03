@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import avatar from "@/../public/avatar_1.jpg";
 import avatarcontact from "@/../public/contact-bottom-2.png";
+import { Slider } from "@/components/Slider/Slider";
 
 const page = () => {
   return (
@@ -178,6 +179,8 @@ const page = () => {
           </div>
         </div>
       </section>
+
+      <Slider />
     </>
   );
 };

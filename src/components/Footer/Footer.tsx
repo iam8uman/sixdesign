@@ -14,7 +14,7 @@ const Footerr = () => {
         height={400}
         className="w-full grayscale"
       />
-      <footer className="bg-white mt-20">
+      <footer className="bg-white my-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-wrap items-start md:justify-between gap-y-4 md:gap-x-4">
             <div className="md:max-w-lg ">
@@ -164,11 +164,7 @@ const Footerr = () => {
             </div> */}
           </div>
 
-          <div className="pt-12  text-center border-t border-gray-200 sm:mb-4 lg:mb-6">
-            <p className="text-sm font-normal text-gray-900">
-              © Copyright 2022, All Rights Reserved by SixDesign.ca
-            </p>
-          </div>
+        
         </div>
       </footer>
     </>

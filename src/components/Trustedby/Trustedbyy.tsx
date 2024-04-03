@@ -12,7 +12,7 @@ import savemax from "@/../public/savemax.jpg";
 const Trustedbyy = () => {
   return (
     <>
-      <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
+      <section className="py-10  sm:pt-16 lg:pt-24">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-center gap-4 py-2">
             <h2 className="text-3xl font-bold leading-tight text-center  text-black sm:text-4xl lg:text-5xl">

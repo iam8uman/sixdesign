@@ -48,7 +48,7 @@ export default function Contact() {
             <div className="overflow-hidden bg-white rounded-xl">
               <div className="px-6 py-8 sm:p-6">
                 <h3 className=" text-3xl font-bold text-center text-gray-900 sm:text-4xl xl:text-5xl">
-                  Register today!
+                  Contact Us!
                 </h3>
 
                 <form onSubmit={handleSubmit} className="mt-4 lg:mx-32">
@@ -115,15 +115,13 @@ export default function Contact() {
                           rows={4}
                           onChange={handleChange}
                         ></textarea>
-                        
-                          
                       </div>
                     </div>
                     <div className="lg:col-span-2 sm:col-span-1">
                       <p className="text-xs text-center">
-                        I consent to receive future communications about Empire
-                        Canals in Welland. I understand I can opt out at anytime
-                        by sending an email.
+                        I consent to receive future communications about
+                        Sixdesigns. I understand I can opt out at anytime by
+                        sending am email.
                       </p>
                     </div>
                     <div className="sm:col-span-2">

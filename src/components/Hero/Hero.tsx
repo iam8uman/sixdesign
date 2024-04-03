@@ -4,12 +4,11 @@ import Imgone from "@/../public/avatar_1.jpg";
 import profile from "@/../public/avatar.jpg";
 import Imgonee from "@/../public/avatarr.jpg";
 import Imgoneee from "@/../public/avatarrr.jpg";
-import imgHead from "@/../public/istockphoto-500558937-612x612.jpg";
+import heroimg from "@/../public/heroimg.jpg";
 import contact from "@/../public/contact-bottom-2.png";
 import { Slider } from "../Slider/Slider";
 import { Button } from "../ui/button";
 import beforeafter from "@/../public/beforeafter.png";
-import beff from "@/../public/beff.svg";
 
 const Herotailbits = () => {
   return (
@@ -92,13 +91,13 @@ const Herotailbits = () => {
                 </div>
               </div>
 
-              <div className="lg:col-span-3">
+              <div className="lg:col-span-3 mt-8">
                 {/* <Slider /> */}
                 <Image
-                  height={500}
-                  width={500}
-                  className="object-cover w-full h-full contrast-125"
-                  src={beff}
+                  height={400}
+                  width={450}
+                  className="object-cover ml-10"
+                  src={heroimg}
                   alt=""
                 />
               </div>
