@@ -8,6 +8,8 @@ import document_management from "@/../public/services/icons/document.png";
 import integration_management from "@/../public/services/icons/Integration.png";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
+import support from "@/../public/services/icons/support.png";
+import mobile from "@/../public/services/icons/mobile device compatibility.png";
 
 
 
@@ -20,30 +22,30 @@ const page = () => {
       />
       <Trustedbyy />
 
-      <Feature title="Customer Relationship Management"
-       feature1="Lead Management"
-        feature1desc="Organize and track your leads effectively with our intuitive lead management tools. Never miss an opportunity with automated lead capture and assignment features."
+      <Feature title="CRM"
+       feature1="Design Service"
+        feature1desc="Tailored website designs that reflect your brand identity and captivate your audience."
         feature1icon={contact_management.src}
 
-        feature2="Contact Management"
-        feature2desc="Keep all your client information in one place with our comprehensive contact management system. Easily access client details, communication history, and important documents whenever you need them."
+        feature2="Responsiveness"
+        feature2desc="Websites optimized for seamless viewing and navigation across all devices, including desktops, tablets, and smartphones."
         feature2icon={contact_management.src}
 
-        feature3="Document Storage"
-        feature3desc="Store all your important documents securely in the cloud and access them from anywhere, anytime. Say goodbye to paper clutter and never lose a document again."
-        feature3icon={document_management.src}
+        feature3=""
+        feature3desc=""
+        feature3icon=""
 
-        feature4="Integration"
-        feature4desc="Integrate our CRM seamlessly with MLS listings, email marketing, transaction management, and other tools. Streamline workflow, eliminate data silos, and make informed decisions effortlessly."
-        feature4icon={integration_management.src}
+        feature4="Support"
+        feature4desc="We are part of your team and we'll never leave you on your own. If you have issues or questions - just let us know. We'll be glad to help you ASAP."
+        feature4icon={support.src}
 
-        feature5="Task Management"
-        feature5desc="Stay on top of your tasks and never miss a deadline with our task management tools. Set reminders, create to-do lists, and track your progress with ease."
-        feature5icon={contact_management.src}
+        feature5="Mobile Device Compatibility"
+        feature5desc="Intuitive interfaces that enhance user experience and guide visitors towards desired actions."
+        feature5icon={mobile.src}
 
-        feature6="Automated Follow-ups"
-        feature6desc="Nurture your leads and stay engaged with your clients effortlessly using our automated follow-up features. Schedule emails, phone calls, and reminders to keep your leads warm and your clients satisfied."
-        feature6icon={contact_management.src}
+        feature6=""
+        feature6desc=""
+        feature6icon= ""
 
       />
 

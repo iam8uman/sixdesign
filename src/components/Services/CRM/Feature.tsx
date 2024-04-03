@@ -26,7 +26,6 @@ const Feature = ({
   feature6,
   feature6desc,
   feature6icon,
-   
 }: {
   title: string;
   feature1icon: string;
@@ -35,19 +34,18 @@ const Feature = ({
   feature2icon: string;
   feature2: string;
   feature2desc: string;
-  feature3:string,
-  feature3desc:string,
-  feature3icon:string,
-  feature4:string,
-  feature4desc:string,
-  feature4icon:string,
-  feature5:string,
-  feature5desc:string,
-  feature5icon:string,
-  feature6:string,
-  feature6desc:string,
-  feature6icon:string,
-
+  feature3: string;
+  feature3desc: string;
+  feature3icon: string;
+  feature4: string;
+  feature4desc: string;
+  feature4icon: string;
+  feature5: string;
+  feature5desc: string;
+  feature5icon: string;
+  feature6: string;
+  feature6desc: string;
+  feature6icon: string;
 }) => {
   return (
     <>
@@ -68,7 +66,7 @@ const Feature = ({
                   width={55}
                   src={arrowicon}
                   alt="Arrow Icon"
-                  className="relative contrast-200 ml-72 bottom-7"
+                  className="relative contrast-200 ml-72 bottom-7 -rotate-45"
                 />
               </div>
             </div>
@@ -113,25 +111,27 @@ const Feature = ({
                   </p>
                 </div>
               </div>
+
+              {feature3icon && 
               <div className="py-6 px-4 flex gap-3">
                 <div className="logo mt-9">
                   <Image
                     height={150}
                     width={150}
-                    src={feature3icon || design_support}
+                    src={feature3icon}
                     alt="image of service"
                   />
                 </div>
                 <div className="">
                   <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    {feature3 || "Design Service"}
+                    {feature3}
                   </h3>
                   <p className="mt-1 text-sm text-gray-600">
-                    {feature3desc ||
-                      " Tailored website designs that reflect your brand identity and captivate your audience"}
+                    {feature3desc}
                   </p>
                 </div>
               </div>
+                    }
             </div>
 
             <div className="transition-all duration-200 bg-white">
@@ -154,46 +154,44 @@ const Feature = ({
                   </p>
                 </div>
               </div>
-              <div className="py-4 px-4 flex gap-3">
-                <div className="logo mt-9">
-                  <Image
-                    height={150}
-                    width={150}
-                    src={feature5icon || conntact_management}
-                    alt="image of service"
-                  />
-                </div>
-                <div className="">
-                  <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    {feature5 || "Design Service"}
-                  </h3>
-                  <p className="mt-1 text-sm text-gray-600">
-                    {feature5desc ||
-                      " Tailored website designs that reflect your brand identity and captivate your audience"}
-                  </p>
-                </div>
-              </div>
 
-              
-              <div className="py-6 px-4 flex gap-3">
-                <div className="logo mt-9">
-                  <Image
-                    height={150}
-                    width={150}
-                    src={feature6icon || design_support}
-                    alt="image of service"
-                  />
+              {feature5icon && (
+                <div className="py-4 px-4 flex gap-3">
+                  <div className="logo mt-9">
+                    <Image
+                      height={150}
+                      width={150}
+                      src={feature5icon}
+                      alt="image of service"
+                    />
+                  </div>
+                  <div className="">
+                    <h3 className="mt-6 text-xl text-start font-bold text-black">
+                      {feature5}
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-600">{feature5desc}</p>
+                  </div>
                 </div>
-                <div className="">
-                  <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    {feature6 || "Design Service"}
-                  </h3>
-                  <p className="mt-1 text-sm text-gray-600">
-                    {feature6desc ||
-                      " Tailored website designs that reflect your brand identity and captivate your audience"}
-                  </p>
+              )}
+
+              {feature6icon && (
+                <div className="py-6 px-4 flex gap-3">
+                  <div className="logo mt-9">
+                    <Image
+                      height={150}
+                      width={150}
+                      src={feature6icon}
+                      alt="image of service"
+                    />
+                  </div>
+                  <div className="">
+                    <h3 className="mt-6 text-xl text-start font-bold text-black">
+                      {feature6}
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-600">{feature6desc}</p>
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
           </div>
         </div>
