@@ -37,6 +37,14 @@ const page = () => {
         feature4desc="Integrate our CRM seamlessly with MLS listings, email marketing, transaction management, and other tools. Streamline workflow, eliminate data silos, and make informed decisions effortlessly."
         feature4icon={integration_management.src}
 
+        feature5="Task Management"
+        feature5desc="Stay on top of your tasks and never miss a deadline with our task management tools. Set reminders, create to-do lists, and track your progress with ease."
+        feature5icon={contact_management.src}
+
+        feature6="Automated Follow-ups"
+        feature6desc="Nurture your leads and stay engaged with your clients effortlessly using our automated follow-up features. Schedule emails, phone calls, and reminders to keep your leads warm and your clients satisfied."
+        feature6icon={contact_management.src}
+
       />
 
       <Crmportfolio />
