@@ -17,33 +17,9 @@ const Ourwork = () => {
     <>
       <section className="py-8 bg-white sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="sm:flex sm:items-center sm:justify-between sm:space-x-8">
+          <div className="sm:flex sm:items-center sm:justify-center sm:space-x-8">
             <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">
               Some Glimpse of <span className="text-primary sm:w-full"> Our Works</span>
-            </div>
-
-            <div className="mt-6 sm:mt-0 sm:shrink-0 sm:text-center hidden md:inline-block">
-              <Link
-                href="/"
-                title=""
-                className="inline-flex items-center text-base font-medium  text-gray-900 group"
-              >
-                See all our works
-                <svg
-                  className="w-5 h-5 ml-2 transition-all duration-200 transform group-hover:translate-x-1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13 7l5 5m0 0l-5 5m5-5H6"
-                  />
-                </svg>
-              </Link>
             </div>
           </div>
 
@@ -470,7 +446,34 @@ const Ourwork = () => {
                 </div>
               </Link>
             </div>
+            
           </div>
+
+
+          <div className="flex justify-center mt-10 hover:text-blue-600">
+              <Link
+                href="/"
+                title=""
+                className="inline-flex items-center text-base font-medium  text-gray-900 group"
+              >
+                See all our works
+                <svg
+                  className="w-5 h-5 ml-2 transition-all duration-200 transform group-hover:translate-x-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
+              </Link>
+            </div>
+          
         </div>
       </section>
     </>

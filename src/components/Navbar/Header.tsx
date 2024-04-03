@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-opacity-1 sticky top-0 z-10 w-full bg-white">
+      <header className="bg-opacity-1 sticky top-0 z-10 w-full bg-white drop-shadow-md ">
         <div className="px-2 mx-auto max-w-7xl lg:px-2">
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0 px-6">

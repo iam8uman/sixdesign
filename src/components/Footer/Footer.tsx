@@ -2,7 +2,7 @@ import SixdesignLogo from "@/icons/Sixdesign-logo";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import footerImage from "@/../public/footer-seperator.svg";
+import footerImage from "@/../public/mouse.png";
 
 const Footerr = () => {
   return (
@@ -10,42 +10,40 @@ const Footerr = () => {
       <Image
         src={footerImage}
         alt="Footer Image"
-        width={200}
-        height={200}
+        width={1200}
+        height={400}
         className="w-full grayscale"
       />
-      <footer className="bg-white">
+      <footer className="bg-white mt-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="flex flex-wrap items-start md:justify-between gap-y-4 gap-x-24 md:gap-x-12">
-            <div className="w-full lg:w-64 xl:w-full xl:max-w-xs ">
+          <div className="flex flex-wrap items-start md:justify-between gap-y-4 md:gap-x-4">
+            <div className="md:max-w-lg ">
               <Link href="/" title="" className="flex">
                 <div className="text-2xl  sm:justify-center text-black sm:text-3xl lg:text-4xl flex gap-1 font-bold lg:justify-start align-middle mb-3 justify-center ">
-                  <SixdesignLogo size="sm" />
-                  <div className="text-black">SixDesign</div>
+                  <SixdesignLogo size="md" />
+                  {/* <div className="text-black">SixDesign</div> */}
                 </div>
               </Link>
 
-              <p className="my-4 text-base font-normal text-gray-500">
-                We specialize in creating high-quality websites, captivating
-                landing pages, and visually appealing designs tailored for
-                realtors, brokerages, and builders.
+              <p className="my-4 text-base font-normal  text-gray-500">
+              We specialize in creating high-quality websites, captivating landing pages, and visually appealing designs tailored for realtors, brokerages, and builders. Please note that the information provided on this website is for general reference only, and we cannot be held liable for any misuse of the content, including copyrighted materials such as logos and images from builders
               </p>
             </div>
 
             <div className="hidden lg:inline-block">
-              <p className="text-xs font-semibold tracking-widest text-gray-400 uppercase">
-                Company
+              <p className="text-xl font-bold tracking-widest text-black mt-12">
+                About 
               </p>
 
-              <ul className="mt-8 space-y-5">
+              <ul className="mt-4 space-y-2">
                 <li>
                   <Link
                     href="/about"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
+                    className="inline-flex text-base font-normal text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
-                    About{" "}
+                    Company : Sixdesign
                   </Link>
                 </li>
 
@@ -53,21 +51,34 @@ const Footerr = () => {
                   <Link
                     href="/services"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
+                    className="inline-flex text-base font-normal text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
-                    Services
+                    Services : Project Marketing
+
                   </Link>
                 </li>
 
                 <li>
                   <Link
-                    href="/blog"
+                    href="/services/crm"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
+                    className="inline-flex text-base font-normal text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
-                    Blogs
+                    CRM Integration & Branding for Realtors,
+
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="/services"
+                    title=""
+                    className="inline-flex text-base font-normal text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
+                  >
+                    {" "}
+                    Brokerages & Builderss
                   </Link>
                 </li>
 
@@ -75,69 +86,19 @@ const Footerr = () => {
                   <Link
                     href="/contact"
                     title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
+                    className="inline-flex text-base font-normal text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
                   >
                     {" "}
-                    Contact
+                    Contact : 647-527-4970
                   </Link>
                 </li>
               </ul>
             </div>
 
-            <div className="hidden lg:inline-block">
-              <p className="text-xs font-semibold tracking-widest text-gray-400 uppercase">
-                Help
-              </p>
+            
 
-              <ul className="mt-8 space-y-5">
-                <li>
-                  <Link
-                    href="/faqs"
-                    title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
-                  >
-                    {" "}
-                    Customer Support{" "}
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/faqs"
-                    title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
-                  >
-                    {" "}
-                    FAQS
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="#"
-                    title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
-                  >
-                    {" "}
-                    Terms & Conditions{" "}
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="#"
-                    title=""
-                    className="inline-flex text-base font-medium text-gray-900 transition-all duration-200 hover:translate-x-1 hover:text-red-400"
-                  >
-                    {" "}
-                    Privacy Policy{" "}
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-full md:max-w-xs">
-              <Link href="#" title="" className="flex">
+            {/* <div className="w-full md:max-w-xs">
+              <Link href="/" title="" className="flex">
                 <div className="text-2xl hidden lg:inline-flex text-black sm:text-3xl lg:text-4xl  gap-1 px-4 font-bold lg:justify-start align-middle mb-2 justify-center ">
                   <SixdesignLogo size="sm" />
                   <div className="text-black mx-1">SixDesign</div>
@@ -200,7 +161,7 @@ const Footerr = () => {
                   </div>
                 </section>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="pt-12  text-center border-t border-gray-200 sm:mb-4 lg:mb-6">
