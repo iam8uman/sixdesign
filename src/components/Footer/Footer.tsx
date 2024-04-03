@@ -7,15 +7,19 @@ import footerImage from "@/../public/mouse.png";
 const Footerr = () => {
   return (
     <>
-      <Image
+    {/* <div className=" max-w-full"> */}
+
+     <Image
         src={footerImage}
         alt="Footer Image"
-        width={1200}
-        height={400}
-        className="w-full grayscale"
-      />
+        width={1000}
+        height={200}
+        className="w-full object-contain h-80 grayscale"
+        />
+        {/* </div> */}
       <footer className="bg-white my-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+     
           <div className="flex flex-wrap items-start md:justify-between gap-y-4 md:gap-x-4">
             <div className="md:max-w-lg ">
               <Link href="/" title="" className="flex">

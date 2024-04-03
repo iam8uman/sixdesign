@@ -10,23 +10,30 @@ import avatar from "@/../public/avatar.jpg";
 export default function MovingCard() {
   return (
     <>
-      <div className="max-w-3xl mx-auto text-center my-10">
+      <div className="max-w-3xl mx-auto text-center ">
         <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
           Don&apos;t just take our words. <br />{" "}
           <span className="text-xl"> Over 1000+ people trust us.</span>
         </h2>
       </div>
-      <div className="h-[40rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards
-          items={testimonials}
-          direction="right"
-          speed="slow"
-        />
-        <InfiniteMovingCards
-          items={testimonials}
-          direction="left"
-          speed="slow"
-        />
+      <div className=" rounded-md flex flex-col antialiased  items-center justify-center  overflow-hidden my-10 lg:my-12">
+        <div>
+          <InfiniteMovingCards
+            items={testimonials}
+            direction="right"
+            speed="slow"
+            // className="pt-10"
+          />
+        </div>
+
+        <div className="">
+          <InfiniteMovingCards
+            items={testimonials}
+            direction="left"
+            speed="slow"
+            // className="pb-10"
+          />
+        </div>
       </div>
     </>
   );
