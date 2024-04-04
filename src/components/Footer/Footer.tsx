@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import footerImage from "@/../public/mouse.png";
+import avatarr from "@/../public/avatar.jpg"
 
 const Footerr = () => {
   return (
@@ -171,6 +172,7 @@ const Footerr = () => {
           </div>
         </div>
       </footer>
+    
     </>
   );
 };

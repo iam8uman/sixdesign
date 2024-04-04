@@ -53,10 +53,10 @@ const Feature = ({
         <div className="px-4 mx-auto max-w-9xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-3 lg:mt-20 lg:gap-x-8">
             <div className="transition-all duration-200 bg-white ">
-              <button className="my-4 mx-16 px-6 py-2   text-center rounded-full text-2xl font-semibold border-2 border-black shadow-sm drop-shadow-md   text-black border-t-[5px] border-l-[5px]">
+              <button className="my-4 px-6 py-2   text-center rounded-full text-2xl font-semibold border-2 border-black shadow-sm drop-shadow-md   text-black border-t-[5px] border-l-[5px]">
                 Features
               </button>
-              <div className=" mx-16">
+              <div className="">
                 <h3 className="mt-6 text-[34px]  text-start font-bold text-black">
                   Explore The Features Of Our {title || "Email Marketing"}
                 </h3>
@@ -66,7 +66,7 @@ const Feature = ({
                   width={55}
                   src={arrowicon}
                   alt="Arrow Icon"
-                  className="relative contrast-200 ml-72 bottom-7 -rotate-45"
+                  className="relative contrast-200 ml-64 bottom-7 sm:-rotate-90 lg:-rotate-45"
                 />
               </div>
             </div>

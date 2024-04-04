@@ -47,8 +47,8 @@ export default function Contact() {
             </div>
             <div className="overflow-hidden bg-white rounded-xl">
               <div className="px-6 py-8 sm:p-6">
-                <h3 className=" text-3xl font-bold text-center text-gray-900 sm:text-4xl xl:text-5xl">
-                  Contact Us!
+                <h3 className=" text-3xl font-extrabold text-center text-gray-900 sm:text-4xl xl:text-5xl">
+                  Contact us
                 </h3>
 
                 <form onSubmit={handleSubmit} className="mt-4 lg:mx-32">

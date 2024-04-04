@@ -15,9 +15,8 @@ const Service = () => {
       <section className="py-8 sm:pb-8 lg:pb-12">
         <div className="px-2 mx-auto sm:px-2 lg:px-4 max-w-7xl">
           <div className="mx-auto text-center">
-            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-             Our {" "}
-              <span className="text-primary"> Services </span>
+            <h2 className="text-3xl font-extrabold inline-block leading-tight text-black sm:text-4xl lg:text-5xl aaa">
+              Our Services
             </h2>
           </div>
 
@@ -54,8 +53,8 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    With our CRM, agents can efficiently nurture
-                    leads, close deals & foster long-lasting relationships.
+                    With our CRM, agents can efficiently nurture leads, close
+                    deals & foster long-lasting relationships.
                   </p>
                 </div>
               </Link>
@@ -132,9 +131,9 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    Seamless property
-                    listings integration, advanced search functionality,
-                    interactive maps, and customizable property details.
+                    Seamless property listings integration, advanced search
+                    functionality, interactive maps, and customizable property
+                    details.
                   </p>
                 </div>
               </Link>
@@ -172,8 +171,8 @@ const Service = () => {
                     </svg>
                   </div>
                   <p className="text-base leading-relaxed text-gray-600 mt-7">
-                    We deliver targeted email marketing
-                    solutions to drive engagement and conversions.
+                    We deliver targeted email marketing solutions to drive
+                    engagement and conversions.
                   </p>
                 </div>
               </Link>
@@ -258,9 +257,7 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="mt-12 text-center">
-           
-          </div>
+          <div className="mt-12 text-center"></div>
         </div>
       </section>
     </>

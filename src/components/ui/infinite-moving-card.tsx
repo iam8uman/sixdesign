@@ -105,7 +105,7 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               <span className=" relative z-20 font-normal text-md my-4 leading-[1.6] text-black ">
-              <Quote size={28} color="#ff0000" absoluteStrokeWidth />   {item.quote}
+                 {item.quote}
               </span>
               <div className="relative z-20 mt-10 flex flex-row items-center">
                 <span className="flex flex-row gap-4">
@@ -114,7 +114,7 @@ export const InfiniteMovingCards = ({
                     height={40}
                     width={40}
                     alt="avatar"
-                    className="rounded-full border border-gray-200"
+                    className="rounded-full border h-12 w-12 border-gray-200"
                   />
                   <div className="flex flex-col gap-0">
                     <span className=" text-sm leading-[1.6] text-black font-normal flex gap-4">

@@ -37,13 +37,13 @@ const ServiceTestimonials = () => {
                   Real Estate Broker
                 </p>
                 <div className="flex items-center justify-between pt-5 mt-5 border-t border-gray-200">
-                  <Image
+                  {/* <Image
                     height={500}
                     width={500}
-                    className="w-auto h-7"
+                    className="w-11 h-11"
                     src={logo}
                     alt=""
-                  />
+                  /> */}
                   <Image
                     height={500}
                     width={500}
@@ -73,13 +73,13 @@ const ServiceTestimonials = () => {
                   Real Estate Broker
                 </p>
                 <div className="flex items-center justify-between pt-5 mt-5 border-t border-gray-200">
-                  <Image
+                  {/* <Image
                     height={500}
                     width={500}
-                    className="w-auto h-7"
+                    className="w-11 h-11"
                     src={logo}
                     alt=""
-                  />
+                  /> */}
                   <Image
                     height={500}
                     width={500}
@@ -109,13 +109,13 @@ const ServiceTestimonials = () => {
                   Sales Representative{" "}
                 </p>
                 <div className="flex items-center justify-between pt-5 mt-5 border-t border-gray-200">
-                  <Image
+                  {/* <Image
                     height={500}
                     width={500}
                     className="w-auto h-7"
                     src={logo}
                     alt=""
-                  />
+                  /> */}
                   <Image
                     height={500}
                     width={500}

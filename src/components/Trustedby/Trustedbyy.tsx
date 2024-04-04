@@ -11,10 +11,10 @@ import Image from "next/image";
 const TrustedBy = () => {
   return (
     <div>
-      <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
+      <section className="py-10 sm:py-16 lg:py-24">
       <div className="flex items-center justify-center gap-4 py-2 ">
-            <h2 className="text-3xl font-bold leading-tight text-center  text-black sm:text-4xl lg:text-5xl ">
-              Just Look at Our <span className="text-primary ">Partners</span>
+            <h2 className="text-3xl font-bold leading-tight text-center aaa text-black sm:text-4xl lg:text-5xl ">
+              Just Look at Our Partners
             </h2>
           </div>
         <div className="px-4 mt-10 mx-auto max-w-7xl sm:px-6 lg:px-8">

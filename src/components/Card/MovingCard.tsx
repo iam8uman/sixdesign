@@ -10,11 +10,11 @@ import avatar from "@/../public/avatar.jpg";
 export default function MovingCard() {
   return (
     <>
-      <div className="max-w-3xl mx-auto text-center ">
-        <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-          Don&apos;t just take our words. <br />{" "}
-          <span className="text-xl"> Over 1000+ people trust us.</span>
+      <div className=" mx-auto text-center  mt-10">
+        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl inline-block aaa">
+          What people say about us! <br />{" "}
         </h2>
+          <p className="text-xl mt-6"> Over 1000+ people trust us.</p>
       </div>
       <div className=" rounded-md flex flex-col antialiased  items-center justify-center  overflow-hidden my-10 lg:my-12">
         <div>

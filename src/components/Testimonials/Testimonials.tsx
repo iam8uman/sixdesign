@@ -26,7 +26,7 @@ const Testimonials = () => {
 
                 <div className="flex flex-col overflow-hidden rounded-xl shadow-xl">
                   <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
-                    <div className="flex-1">
+                    {/* <div className="flex-1">
                       <div className="flex items-center">
                         <svg
                           className="w-5 h-5 text-[#FDB241]"
@@ -78,13 +78,13 @@ const Testimonials = () => {
                           recommended for outstanding results.”
                         </p>
                       </blockquote>
-                    </div>
+                    </div> */}
 
                     <div className="flex items-center mt-8">
                       <Image
                         height={44}
                         width={44}
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                        className="flex-shrink-0 object-contain"
                         src={avatarr}
                         alt=""
                       />
@@ -158,9 +158,9 @@ const Testimonials = () => {
 
                     <div className="flex items-center mt-8">
                       <Image
-                        height={44}
-                        width={44}
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                        height={40}
+                        width={48}
+                        className="flex-shrink-0 object-cover rounded-full"
                         src={avatar}
                         alt=""
                       />

@@ -9,7 +9,7 @@ const Ourclient = () => {
       <section className="pt-12 overflow-hidden bg-gray-50 sm:pt-16 lg:pt-24 xl:pt-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 ">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
+            <h2 className=" text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 inline-block aaa">
               Our Clients
             </h2>
             <p className="mt-4 text-xl font-normal leading-7 text-gray-600 lg:text-xl lg:mt-6 lg:leading-8">
