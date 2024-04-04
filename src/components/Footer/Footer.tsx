@@ -17,11 +17,11 @@ const Footerr = () => {
         className="w-full object-contain h-80 grayscale"
         /> */}
         {/* </div> */}
-      <footer className="bg-white my-20">
+      <footer className="bg-white my-20 sm:mx-10">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
      
           <div className="flex flex-wrap items-start md:justify-between gap-y-4 md:gap-x-4">
-            <div className="md:max-w-lg ">
+            <div className="md:max-w-lg sm:max-w-sm  mx-6">
               <Link href="/" title="" className="flex">
                 <div className="text-2xl  sm:justify-center text-black sm:text-3xl lg:text-4xl flex gap-1 font-bold lg:justify-start align-middle mb-3 justify-center ">
                   <SixdesignLogo size="md" />

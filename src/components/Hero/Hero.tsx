@@ -21,15 +21,19 @@ const Herotailbits = () => {
     <>
       <div className="bg-white pb-12">
         <section className="sm:py-2 ">
-          <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center max-w-7xl grid-cols-1 mx-auto lg:grid-cols-6 md:gap-x-2 xl:gap-x-8  ">
               <div className="lg:col-span-3">
                 <div className="max-w-lg mt-10">
-                  <div className="text-2xl font-medium leading-10 text-black sm:text-4xl lg:text-7xl">
-                    <div className="mb-4">We Know</div>
-                    <div className="mb-4">
+                  <div className="text-2xl lg:font-medium leading-10 sm:font-bold  text-black sm:text-6xl lg:text-7xl">
+                    <div className="text-5xl font-bold lg:mb-4   lg:text-7xl">
+                      We Know
+                    </div>
+                    <div className="text-5xl font-bold lg:text-7xl">
                       Real Estate
-                      <span className="text-primary font-bold">.</span>{" "}
+                      <span className="text-primary font-bold text-5xl lg:text-7xl">
+                        .
+                      </span>{" "}
                     </div>
                   </div>
                   <div className="text-md text-gray-600 mt-8">
@@ -45,7 +49,7 @@ const Herotailbits = () => {
 
                     <Button
                       variant="outline"
-                      className="m-1 text-md border-2 border-gray-700 text-black px-6 py-6 rounded-md"
+                      className="m-1 text-md border-2 border-gray-700 text-black px-6 py-6 rounded-md hidden lg:inline-flex"
                     >
                       Book Free Consulation
                     </Button>
@@ -54,12 +58,12 @@ const Herotailbits = () => {
               </div>
 
               <div className="lg:col-span-3 mt-8">
-                <div className="mero flex justify-between gap-16 ml-32 w-[28rem]">
+                <div className="mero flex justify-between lg:gap-16 gap-10 ml-4 lg:ml-32 sm:w-[12rem] lg:w-[28rem]">
                   <div className="imgone">
                     <Image
-                      height={200}
-                      width={250}
-                      className="object-contain ml-10 contrast-100 relative bottom-6  border-t-gray-700 rounded-full border-r-gray-700 border-t-[5px] border-r-[5px] hover:object-cover hover:scale-105 transition-transform delay-150 ease-linear"
+                      height={150}
+                      width={200}
+                      className="object-contain ml-10 contrast-100  relative bottom-6  border-t-gray-700 rounded-full border-r-gray-700 border-t-[5px] border-r-[5px] hover:object-cover hover:scale-105 transition-transform delay-150 ease-linear"
                       src={uncle}
                       alt=""
                     />
@@ -99,8 +103,8 @@ const Herotailbits = () => {
                       />
                     </div>
                     <Image
-                      height={200}
-                      width={250}
+                      height={150}
+                      width={200}
                       className="object-contain contrast-100 ml-10 relative top-16 border-t-gray-700 rounded-full border-r-gray-700  shadow-gray-600 shadow-sm drop-shadow-md   border-t-[5px] border-r-[5px] hover:object-cover hover:scale-105 transition-transform delay-150 ease-linear"
                       quality={100}
                       src={uncletwo}
