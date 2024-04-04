@@ -43,7 +43,7 @@ const Herotailbits = () => {
                   </div>
 
                   <div className="button flex  lg:gap-1 sm:gap-0 mt-12 ">
-                    <Button className="bg-black text-md text-white m-2  px-10 py-6 rounded-md hover:bg-black/80">
+                    <Button className="bg-black text-md text-white mt-2 mr-2 px-10 py-6 rounded-md hover:bg-black/80">
                       Contact Us
                     </Button>
 
