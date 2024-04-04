@@ -5,13 +5,15 @@ import Header from "@/components/Hero/Hero";
 import Trustedbyy from "@/components/Trustedby/Trustedbyy";
 import Ourclient from "@/components/Services/Ourclient";
 import MovingCard from "@/components/Card/MovingCard";
+import BeforeAfter from "@/components/beforeafter/BeforeAter";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Trustedbyy />
-      <div className="mt-20">
+      <BeforeAfter />
+      <div className="mt-10">
         <Service />
       </div>
       <OurWork />

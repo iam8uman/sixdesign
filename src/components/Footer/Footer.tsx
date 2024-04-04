@@ -7,19 +7,19 @@ import footerImage from "@/../public/mouse.png";
 const Footerr = () => {
   return (
     <>
-    {/* <div className=" max-w-full"> */}
-
-     {/* <Image
+      <div className="bg-white my-16  sm:mx-10ll">
+      <Image
         src={footerImage}
         alt="Footer Image"
-        width={1000}
-        height={200}
-        className="w-full object-contain h-80 grayscale"
-        /> */}
-        {/* </div> */}
-      <footer className="bg-white my-20 sm:mx-10">
+        width={600}
+        height={300}
+        layout="responsive"
+        className="h-40 w-fit object-cover grayscale"
+        />
+      </div>
+      <footer className="bg-white my-16  sm:mx-10">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-     
+       
           <div className="flex flex-wrap items-start md:justify-between gap-y-4 md:gap-x-4">
             <div className="md:max-w-lg sm:max-w-sm  mx-6">
               <Link href="/" title="" className="flex">
@@ -30,13 +30,19 @@ const Footerr = () => {
               </Link>
 
               <p className="my-4 text-base font-normal  text-gray-500">
-              We specialize in creating high-quality websites, captivating landing pages, and visually appealing designs tailored for realtors, brokerages, and builders. Please note that the information provided on this website is for general reference only, and we cannot be held liable for any misuse of the content, including copyrighted materials such as logos and images from builders
+                We specialize in creating high-quality websites, captivating
+                landing pages, and visually appealing designs tailored for
+                realtors, brokerages, and builders. Please note that the
+                information provided on this website is for general reference
+                only, and we cannot be held liable for any misuse of the
+                content, including copyrighted materials such as logos and
+                images from builders
               </p>
             </div>
 
             <div className="hidden lg:inline-block">
               <p className="text-xl font-bold tracking-widest text-black mt-12">
-                About 
+                About
               </p>
 
               <ul className="mt-4 space-y-2">
@@ -59,7 +65,6 @@ const Footerr = () => {
                   >
                     {" "}
                     Services : Project Marketing
-
                   </Link>
                 </li>
 
@@ -71,7 +76,6 @@ const Footerr = () => {
                   >
                     {" "}
                     CRM Integration & Branding for Realtors,
-
                   </Link>
                 </li>
 
@@ -98,8 +102,6 @@ const Footerr = () => {
                 </li>
               </ul>
             </div>
-
-            
 
             {/* <div className="w-full md:max-w-xs">
               <Link href="/" title="" className="flex">
@@ -167,8 +169,6 @@ const Footerr = () => {
               </div>
             </div> */}
           </div>
-
-        
         </div>
       </footer>
     </>
