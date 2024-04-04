@@ -20,7 +20,7 @@ const Header = () => {
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0 px-6">
               <Link href="/" title="" className="flex">
-                <SixdesignLogo size="sm" />
+                <SixdesignLogo height={48} width={48} />
               </Link>
             </div>
 

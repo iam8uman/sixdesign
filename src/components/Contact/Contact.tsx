@@ -118,7 +118,7 @@ export default function Contact() {
                       </div>
                     </div>
                     <div className="lg:col-span-2 sm:col-span-1">
-                      <p className="text-xs text-center">
+                      <p className="sm:text-xs text-center">
                         I consent to receive future communications about
                         Sixdesigns. I understand I can opt out at anytime by
                         sending am email.

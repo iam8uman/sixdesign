@@ -10,6 +10,7 @@ import integration from "@/../public/services/icons/integrationn.png";
 import calendar from "@/../public/services/icons/calendar.png";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
+import Trustedbyyyy from "@/components/Trustedby/Trustedbyy";
 
 
 

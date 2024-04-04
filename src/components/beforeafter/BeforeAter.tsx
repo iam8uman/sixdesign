@@ -12,10 +12,7 @@ const BeforeAter = () => {
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
               Witness the <span className="text-primary">Difference</span>
             </h2>
-            <p className="max-w-3xl mx-auto mt-4 lg:text-sm sm:text-xs text-gray-600">
-              Experience the transformational power of our website development
-              expertise. From captivating designs to seamless functionality.
-            </p>
+           
           </div>
 
           <div className="flex sm:justify-center sm:gap-y-4 lg:justify-between py-10">

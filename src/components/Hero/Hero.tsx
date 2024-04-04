@@ -42,14 +42,14 @@ const Herotailbits = () => {
                     with expert finesse and irresistible appeal.
                   </div>
 
-                  <div className="button flex lg:gap-1 sm:gap-0 mt-12 ">
-                    <Button className="bg-black text-md text-white m-2  border-transparent px-10 py-6 rounded-md hover:bg-black/80">
+                  <div className="button flex  lg:gap-1 sm:gap-0 mt-12 ">
+                    <Button className="bg-black text-md text-white m-2  px-10 py-6 rounded-md hover:bg-black/80">
                       Contact Us
                     </Button>
 
                     <Button
                       variant="outline"
-                      className="m-2 text-md shadow-black inner-shadow-xs border-t-[1px]  text-black px-4 py-6 rounded-md lg:inline-flex"
+                      className="m-2 text-md shrink border-t-[1px] border-black  text-black px-4 pt-[22px] pb-[24px] rounded-md lg:inline-flex"
                     >
                       Book Free Consulation
                     </Button>
