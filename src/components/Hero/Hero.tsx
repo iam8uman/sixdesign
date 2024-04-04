@@ -24,7 +24,7 @@ const Herotailbits = () => {
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center max-w-7xl grid-cols-1 mx-auto lg:grid-cols-6 md:gap-x-2 xl:gap-x-8  ">
               <div className="lg:col-span-3">
-                <div className="max-w-lg mt-10">
+                <div className="max-w-lg mt-10 ml-6">
                   <div className="text-2xl lg:font-medium leading-10 sm:font-bold  text-black sm:text-6xl lg:text-7xl">
                     <div className="text-5xl font-bold lg:mb-4   lg:text-7xl">
                       We Know
@@ -42,14 +42,14 @@ const Herotailbits = () => {
                     with expert finesse and irresistible appeal.
                   </div>
 
-                  <div className="button flex gap-1 mt-12 mx-auto">
+                  <div className="button flex lg:gap-1 sm:gap-0 mt-12 ">
                     <Button className="bg-black text-md text-white m-2  border-transparent px-10 py-6 rounded-md hover:bg-black/80">
                       Contact Us
                     </Button>
 
                     <Button
                       variant="outline"
-                      className="m-1 text-md border-2 border-gray-700 text-black px-6 py-6 rounded-md hidden lg:inline-flex"
+                      className="m-2 text-md shadow-black inner-shadow-xs border-t-[1px]  text-black px-4 py-6 rounded-md lg:inline-flex"
                     >
                       Book Free Consulation
                     </Button>
@@ -57,7 +57,7 @@ const Herotailbits = () => {
                 </div>
               </div>
 
-              <div className="lg:col-span-3 mt-8">
+              <div className="lg:col-span-3 mt-16">
                 <div className="mero flex justify-between lg:gap-16 gap-10 ml-4 lg:ml-32 sm:w-[12rem] lg:w-[28rem]">
                   <div className="imgone">
                     <Image
@@ -84,7 +84,7 @@ const Herotailbits = () => {
                       />
                     </div>
                   </div>
-                  <div className="imgtwo">
+                  <div className="imgtwo mr-16">
                     {" "}
                     <div className="flex justify-center gap-12">
                       <Image

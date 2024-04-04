@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Trustedbyy />
+      {/* <Trustedbyy /> */}
       <BeforeAfter />
       <div className="mt-10">
         <Service />

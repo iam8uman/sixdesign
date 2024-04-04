@@ -10,9 +10,9 @@ const BeforeAter = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
-              Witness the Difference
+              Witness the <span className="text-primary">Difference</span>
             </h2>
-            <p className="max-w-4xl mx-auto mt-4 text-sm sm:text-xs text-gray-600">
+            <p className="max-w-3xl mx-auto mt-4 lg:text-sm sm:text-xs text-gray-600">
               Experience the transformational power of our website development
               expertise. From captivating designs to seamless functionality.
             </p>

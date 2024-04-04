@@ -19,8 +19,8 @@ const Trustedbyy = () => {
               Just Look at Our <span className="text-primary ">Partners</span>
             </h2>
           </div>
-          <div className="grid items-center mt-10 grid-cols-3  sm:grid-cols-7   xl:grid-cols-7 xs:overflow-x-auto  lg:overflow-hidden">
-            <div>
+          <div className=" mt-10 flex justify-center gap-16  sm:snap-x ">
+            <div className="scroll-ml-6 snap-start">
               <Image
                 height={1000}
                 width={1000}
@@ -30,7 +30,7 @@ const Trustedbyy = () => {
               />
             </div>
 
-            <div>
+            <div className="scroll-ml-6 snap-start">
               <Image
                 height={1000}
                 width={1000}
@@ -40,7 +40,7 @@ const Trustedbyy = () => {
               />
             </div>
 
-            <div>
+            <div className="scroll-ml-6 snap-start">
               <Image
                 height={1000}
                 width={1000}
@@ -49,7 +49,7 @@ const Trustedbyy = () => {
                 alt=""
               />
             </div>
-            <div>
+            <div className="scroll-ml-6 snap-start">
               <Image
                 height={1000}
                 width={1000}
@@ -59,7 +59,7 @@ const Trustedbyy = () => {
               />
             </div>
 
-            <div>
+            <div className="scroll-ml-6 snap-start">
               <Image
                 height={1000}
                 width={1000}
@@ -69,7 +69,7 @@ const Trustedbyy = () => {
               />
             </div>
 
-            <div>
+            <div className="scroll-ml-6 snap-start">
               <Image
                 height={1000}
                 width={1000}
@@ -80,7 +80,7 @@ const Trustedbyy = () => {
               />
             </div>
 
-            <div>
+            <div className="scroll-ml-6 snap-start">
               <Image
                 height={1000}
                 width={1000}
