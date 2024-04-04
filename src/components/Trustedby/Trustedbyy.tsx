@@ -14,12 +14,12 @@ const Trustedbyy = () => {
     <>
       <section className="py-10  sm:pt-16 lg:pt-24">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="flex items-center justify-center gap-4 py-2">
-            <h2 className="text-3xl font-bold leading-tight text-center  text-black sm:text-4xl lg:text-5xl">
+          <div className="flex items-center justify-center gap-4 py-2 ">
+            <h2 className="text-3xl font-bold leading-tight text-center  text-black sm:text-4xl lg:text-5xl ">
               Just Look at Our <span className="text-primary ">Partners</span>
             </h2>
           </div>
-          <div className="grid items-center mt-10 grid-cols-3  sm:grid-cols-3 xl:grid-cols-7">
+          <div className="grid items-center mt-10 grid-cols-3  sm:grid-cols-7   xl:grid-cols-7 xs:overflow-x-auto  lg:overflow-hidden">
             <div>
               <Image
                 height={1000}
@@ -63,7 +63,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-4 h-14 mix-blend-multiply hidden md:inline-flex  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-4 h-14 mix-blend-multiply  sm:w-16 max-w-full sm:scale-50 lg:scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform lg:hover:scale-150 sm:hover:scale-75 hover:grayscale-0 grayscale"
                 src={Imgoneeee}
                 alt=""
               />
@@ -73,7 +73,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-auto mx-4 h-14 mix-blend-multiply hidden md:inline-flex lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-auto mx-4 h-14 mix-blend-multiply  lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
                 src={savemax}
                 // style={{ filter:  }}
                 alt=""
@@ -84,7 +84,7 @@ const Trustedbyy = () => {
               <Image
                 height={1000}
                 width={1000}
-                className="object-contain w-20 mx-4 h-14 mix-blend-multiply  hidden md:inline-flex  lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
+                className="object-contain w-20 mx-4 h-14 mix-blend-multiply  lg:w-24 sm:w-16 max-w-full scale-125 sm:h-16 md:h-20 transition-transform duration-300 ease-in-out transform hover:scale-150 hover:grayscale-0 grayscale"
                 src={Imgoneeeee}
                 alt=""
               />

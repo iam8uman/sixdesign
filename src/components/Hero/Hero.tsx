@@ -11,6 +11,10 @@ import { Button } from "../ui/button";
 import beforeafter from "@/../public/beforeafter.png";
 import uncle from "@/../public/uncle.png";
 import uncletwo from "@/../public/unclekochora.png";
+import thulopink from "@/../public/services/thulopink.png";
+import thuloblack from "@/../public/services/thuloblack.png";
+import sanoblack from "@/../public/services/sanoblck.png";
+import sanopink from "@/../public/services/sanopink.png";
 
 const Herotailbits = () => {
   return (
@@ -46,64 +50,11 @@ const Herotailbits = () => {
                       Book Free Consulation
                     </Button>
                   </div>
-
-                  {/* <div className="flex items-center mt-2 space-x-[-8px]">
-                    <Image
-                      height={40}
-                      width={40}
-                      className="object-cover w-10 h-10 rounded-full border-slate-200 border-2"
-                      src={Imgone}
-                      alt=""
-                    />
-
-                    <Image
-                      height={40}
-                      width={40}
-                      className="object-cover w-10 h-10 rounded-full border-slate-200 border-2"
-                      src={Imgonee}
-                      alt=""
-                    />
-
-                    <Image
-                      height={40}
-                      width={40}
-                      className="object-cover w-10 h-10 rounded-full border-slate-200 border-2"
-                      src={Imgoneee}
-                      alt=""
-                    />
-
-                    <Image
-                      height={40}
-                      width={40}
-                      className=" object-cover w-10 h-10 rounded-full border-slate-200 border-2"
-                      src={profile}
-                      alt=""
-                    />
-
-                    <Image
-                      height={40}
-                      width={40}
-                      className="bg-black object-cover w-10 h-10 rounded-full border-slate-200 border-2"
-                      src={contact}
-                      alt=""
-                    />
-                    <div className="text-sm pl-4">
-                      +100 other expanded their real estate business!
-                    </div>
-                  </div> */}
                 </div>
               </div>
 
               <div className="lg:col-span-3 mt-8">
-                {/* <Slider /> */}
-                {/* <Image
-                  height={400}
-                  width={450}
-                  className="object-cover ml-10"
-                  src={heroimg}
-                  alt=""
-                /> */}
-                <div className="mero flex justify-between gap-6">
+                <div className="mero flex justify-between gap-16 ml-32 w-[28rem]">
                   <div className="imgone">
                     <Image
                       height={200}
@@ -112,10 +63,41 @@ const Herotailbits = () => {
                       src={uncle}
                       alt=""
                     />
-
+                    <div className="flex justify-center gap-12">
+                      <Image
+                        height={40}
+                        width={40}
+                        className="object-cover w-12 h-12 contrast-125 rounded-full border-slate-200 border-2 relative bottom-8"
+                        src={thuloblack}
+                        alt=""
+                      />
+                      <Image
+                        height={80}
+                        width={80}
+                        className="object-cover rounded-full mt-1 ml-2 contrast-125 border-black border-[1px] border-t-[3px] mr-3  border-r-[4px]"
+                        src={sanopink}
+                        alt=""
+                      />
+                    </div>
                   </div>
                   <div className="imgtwo">
                     {" "}
+                    <div className="flex justify-center gap-12">
+                      <Image
+                        height={80}
+                        width={80}
+                        className="object-cover rounded-full mt-1 ml-2 contrast-125 border-black border-[1px] border-t-[3px] border-r-[4px]"
+                        src={sanoblack}
+                        alt=""
+                      />
+                      <Image
+                        height={50}
+                        width={50}
+                        className="object-cover w-12 h-12 contrast-125 rounded-full border-slate-200 border-2 relative top-12"
+                        src={thulopink}
+                        alt=""
+                      />
+                    </div>
                     <Image
                       height={200}
                       width={250}
