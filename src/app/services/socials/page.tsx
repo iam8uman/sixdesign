@@ -51,28 +51,30 @@ const page = () => {
         feature6icon={award.src}
       />
 
-      <Benefits
-      buttonvalue="Platform"
-        title="Improve Your Social Media Presence"
-        feature1="Facebook"
-        feature1desc="Facebook marketing encompasses page optimization, engaging content creation, targeted ad usage, community building, and performance analysis to drive business growth and engagement."
-        feature1icon={facebook.src}
-        feature2="TikTok"
-        feature2desc="TikTok marketing involves creating catchy videos, engaging with trends, using ads, building community, and tracking performance for brand visibility and growth."
-        feature2icon={tiktok.src}
-        feature3=""
-        feature3desc=""
-        feature3icon=""
-        feature4="Instagram"
-        feature4desc="Instagram marketing means making your profile shine, sharing interesting posts, using ads, connecting with your community, and checking results for business growth."
-        feature4icon={instagram.src}
-        feature5="Linkedin"
-        feature5desc="LinkedIn marketing means polishing your profile, sharing relevant posts, using ads, networking, and tracking progress for professional growth."
-        feature5icon={linkedin.src}
-        feature6=""
-        feature6desc=""
-        feature6icon=""
-      />
+      <div className="bg-slate-200 lg:bg-white">
+        <Benefits
+          buttonvalue="Platform"
+          title="Improve Your Social Media Presence"
+          feature1="Facebook"
+          feature1desc="Facebook marketing encompasses page optimization, engaging content creation, targeted ad usage, community building, and performance analysis to drive business growth and engagement."
+          feature1icon={facebook.src}
+          feature2="TikTok"
+          feature2desc="TikTok marketing involves creating catchy videos, engaging with trends, using ads, building community, and tracking performance for brand visibility and growth."
+          feature2icon={tiktok.src}
+          feature3=""
+          feature3desc=""
+          feature3icon=""
+          feature4="Instagram"
+          feature4desc="Instagram marketing means making your profile shine, sharing interesting posts, using ads, connecting with your community, and checking results for business growth."
+          feature4icon={instagram.src}
+          feature5="Linkedin"
+          feature5desc="LinkedIn marketing means polishing your profile, sharing relevant posts, using ads, networking, and tracking progress for professional growth."
+          feature5icon={linkedin.src}
+          feature6=""
+          feature6desc=""
+          feature6icon=""
+        />
+      </div>
 
       <Crmportfolio />
 

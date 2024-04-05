@@ -13,12 +13,12 @@ import mobile from "@/../public/services/mls/userfriendly.svg";
 import fastloading from "@/../public/services/mls/fastloading.svg";
 import Benefits from "@/components/Services/CRM/Benefits";
 
-import expertise from "@/../public/services/mls/expertise.png";
-import technical from "@/../public/services/mls/technical.png";
-import customization from "@/../public/services/mls/customization.png";
-import reliability from "@/../public/services/mls/reliability.png";
-import seamless from "@/../public/services/mls/seamless.png";
-import support from "@/../public/services/mls/support.png";
+import expertise from "@/../public/services/mls/expertise.svg";
+import technical from "@/../public/services/mls/technical.svg";
+import customization from "@/../public/services/mls/customizable.svg";
+import reliability from "@/../public/services/mls/reliability.svg";
+import seamless from "@/../public/services/mls/seamless.svg";
+import support from "@/../public/services/mls/support.svg";
 
 const page = () => {
   return (
@@ -51,6 +51,8 @@ const page = () => {
         feature6icon={fastloading.src}
       />
 
+<div className="bg-slate-200 lg:bg-white">
+
       <Benefits
       buttonvalue="Why Us"
         title="Why Choose Us For Designing MLS Website"
@@ -73,6 +75,7 @@ const page = () => {
         feature6desc="We're here for you, providing technical guidance and swift issue resolution. Count on personalized support that exceeds expectations."
         feature6icon={support.src}
       />
+</div>
 
       <Crmportfolio />
 

@@ -3,8 +3,8 @@ import Feature from "@/components/Services/CRM/Feature";
 import Contact from "@/components/Contact/Contact";
 import HeroService from "@/components/Services/Software/HeroService";
 import Trustedbyy from "@/components/Trustedby/Trustedbyy";
-import responsive from "@/../public/services/icons/responsive.png";
-import lifetime_support from "@/../public/services/icons/lifetime_support.png";
+import responsive from "@/../public/services/icons/responsive.svg";
+import lifetime_support from "@/../public/services/landingpage/image 209.svg";
 import property from "@/../public/services/icons/property_listing.png";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
@@ -12,13 +12,12 @@ import animation from "@/../public/services/icons/simple animation.png";
 import Benefits from "@/components/Services/CRM/Benefits";
 import { toASCII } from "punycode";
 
-import tailored from "@/../public/services/landingpage/tailored.png";
-import getmore from "@/../public/services/landingpage/getmore.png";
-import loadfast from "@/../public/services/landingpage/loadfast.png";
-import seewhatlooks from "@/../public/services/landingpage/seewhatlooks.png";
-import eyecatchy from "@/../public/services/landingpage/eyecatching.png";
-import workseverywhere from "@/../public/services/landingpage/workseverywhere.png";
-
+import tailored from "@/../public/services/landingpage/tailored.svg";
+import getmore from "@/../public/services/landingpage/getmore.svg";
+import loadfast from "@/../public/services/landingpage/loadfast.svg";
+import seewhatlooks from "@/../public/services/landingpage/seewhatlooks.svg";
+import eyecatchy from "@/../public/services/landingpage/eyecatchy.svg";
+import workseverywhere from "@/../public/services/landingpage/workseverywhere.svg";
 
 const page = () => {
   return (
@@ -51,34 +50,30 @@ const page = () => {
         feature6icon=""
       />
 
-      <Benefits
-        buttonvalue="Why Us"
-        title="Why Choose Us For Designing Landing Page"
-        feature1="Tailored Design"
-        feature1desc="Tailored design to attract more customers, crafted just for you."
-        feature1icon={tailored.src}
-
-        feature2="Get More Leads"
-        feature2desc="We specialize in helping you attract more people to your offerings."
-        feature2icon={getmore.src}
-
-        feature3="Load Fast"
-        feature3desc="Instant loading ensures visitors stay to explore your offerings."
-        feature3icon={loadfast.src}
-
-        feature4="See What Works"
-        feature4desc="Analyze to see what works and what doesn't, empowering you to improve."
-        feature4icon={seewhatlooks.src}
-
-        feature5="Eye-Catching Look"
-        feature5desc="Eye-catching design effortlessly grabs attention and prompts immediate action."
-        feature5icon={eyecatchy.src}
-
-        feature6="Works Everywhere"
-        feature6desc="Access your CRM anywhere with our mobile-friendly app, staying connected on the go."
-        feature6icon={workseverywhere.src}
-      />
-
+      <div className="bg-slate-200 lg:bg-white">
+        <Benefits
+          buttonvalue="Why Us"
+          title="Why Choose Us For Designing Landing Page"
+          feature1="Tailored Design"
+          feature1desc="Tailored design to attract more customers, crafted just for you."
+          feature1icon={tailored.src}
+          feature2="Get More Leads"
+          feature2desc="We specialize in helping you attract more people to your offerings."
+          feature2icon={getmore.src}
+          feature3="Load Fast"
+          feature3desc="Instant loading ensures visitors stay to explore your offerings."
+          feature3icon={loadfast.src}
+          feature4="See What Works"
+          feature4desc="Analyze to see what works and what doesn't, empowering you to improve."
+          feature4icon={seewhatlooks.src}
+          feature5="Eye-Catching Look"
+          feature5desc="Eye-catching design effortlessly grabs attention and prompts immediate action."
+          feature5icon={eyecatchy.src}
+          feature6="Works Everywhere"
+          feature6desc="Access your CRM anywhere with our mobile-friendly app, staying connected on the go."
+          feature6icon={workseverywhere.src}
+        />
+      </div>
       <Crmportfolio />
 
       <MovingCard />

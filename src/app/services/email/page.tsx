@@ -3,13 +3,13 @@ import Feature from "@/components/Services/CRM/Feature";
 import Contact from "@/components/Contact/Contact";
 import HeroService from "@/components/Services/Software/HeroService";
 import Trustedbyy from "@/components/Trustedby/Trustedbyy";
-import contact_management from "@/../public/services/icons/contact_management.png";
+import contact_management from "@/../public/services/mls/design.svg";
 import document_management from "@/../public/services/icons/document.png";
-import integration_management from "@/../public/services/icons/Integration.png";
+import responsive from "@/../public/services/icons/responsive.svg";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
-import support from "@/../public/services/icons/support.png";
-import mobile from "@/../public/services/icons/mobile device compatibility.png";
+import support from "@/../public/services/mls/support.svg";
+import mobile from "@/../public/services/mls/mobile.svg";
 
 
 
@@ -29,7 +29,7 @@ const page = () => {
 
         feature2="Responsiveness"
         feature2desc="Websites optimized for seamless viewing and navigation across all devices, including desktops, tablets, and smartphones."
-        feature2icon={contact_management.src}
+        feature2icon={responsive.src}
 
         feature3=""
         feature3desc=""

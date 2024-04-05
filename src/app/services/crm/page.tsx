@@ -7,7 +7,7 @@ import contact_management from "@/../public/services/icons/contact_management.sv
 import document_management from "@/../public/services/icons/document.svg";
 import reso from "@/../public/services/icons/reso.svg";
 import integration from "@/../public/services/icons/integration.svg";
-import calendar from "@/../public/services/icons/calendar.png";
+import calendar from "@/../public/services/icons/calendar.svg";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
 import Trustedbyyyy from "@/components/Trustedby/Trustedbyy";
