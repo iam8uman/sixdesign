@@ -4,6 +4,11 @@ import hero from "@/../public/hero-img.png";
 import { CircleArrowRight } from "lucide-react";
 import Link from "next/link";
 import { title } from "process";
+import mousesvg from "@/../public/services/hero/mouse.svg";
+import ServiceHero from "@/../public/services/hero/mobile.svg";
+import imgtop from "@/../public/services/hero/tabler_click-1.svg";
+import imgbottom from "@/../public/services/hero/tabler_click.svg";
+import arrow from "@/../public/services/hero/arrow.svg";
 
 const HeroService = ({
   title,
@@ -17,50 +22,88 @@ const HeroService = ({
       <div className="bg-white">
         <section className="bg-[#FCF8F1] bg-opacity-30 py-10 ">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+            <div className="grid items-center grid-cols-1 gap-6 lg:grid-cols-2">
               <div>
-                <div className="font-sans  tracking-wider text-xl text-gray-600">
-                  Unleash Your Business&apos;s Potential In
+                <div className="font-sans  tracking-wider flex gap-1 items-center text-xl text-gray-600">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="lucide lucide-minus"
+                  >
+                    <path d="M5 12h14" />
+                  </svg>{" "}
+                  Service
                 </div>
-                <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-7xl leading-10 inline-block text-primary">
-                  {title || "SixDesign "}
+                <h1 className="mt-4 text-3xl font-extrabold text-black lg:mt-8 sm:text-6xl  leading-10 inline-block text-primary">
+                  {/* {title || "SixDesign "} */}
 
-                  <div className="decoration-white underline text-black">Service</div>
+                  <div className="decoration-white underline text-black">
+                    Simple. Fast. Safe
+                    <span className="span text-primary">.</span>
+                  </div>
                 </h1>
-                <div className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
-                 {description || "  Elevate your online presence with our professional website redesign solutions, delivering immediate results through Link complete cycle of services. Experience amplified visitor engagement, extended session durations, and boosted conversion rates with our tailored approach to website redesign."}
+                <div className="mt-4 text-base font-sans text-black lg:mt-8 sm:text-xl">
+                  {description ||
+                    "  Elevate your online presence with our professional website redesign solutions, delivering immediate results through Link complete cycle of services. Experience amplified visitor engagement, extended session durations, and boosted conversion rates with our tailored approach to website redesign."}
                 </div>
-                
+
+                <div className="underline underline-offset-4  decoration-primary font-bold mt-4">
+                  Trusted by 300+ amazing clients across Greater Toronto Area
+                </div>
 
                 <Link
                   href="#"
                   title=""
-                  className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-black rounded-md lg:mt-16 hover:bg-gray-600 focus:bg-gray-600"
+                  className="inline-flex items-center px-6 py-4 font-semibold mt-4 text-white transition-all duration-200 bg-black rounded-md  hover:bg-gray-600 focus:bg-gray-600"
                   role="button"
                 >
-                  Contact Us
-                  <svg
-                    className="w-6 h-6 ml-8 -mr-2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
-                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
+                  Get a Demo
                 </Link>
 
-                <div className="m-4 text-xs text-gray-600">
-                  <ul className="flex gap-10  list list-disc">
-                    <li>No Payment Required</li>
-                    <li>No Strings Attached</li>
-                    <li>100% Risk-Free</li>
-                  </ul>
+                <div className="mouseSvg w-44 flex justify-end ">
+                  {/* <div className="imgtop">
+                    <Image
+                      height={44}
+                      width={44}
+                      src={mousesvg}
+                      className="right-20"
+                      alt=""
+                    />
+                  </div>
+                  <div className="imgmiddle">
+                    <Image
+                      height={44}
+                      width={44}
+                      src={mousesvg}
+                      className="right-20"
+                      alt=""
+                    />
+                  </div> */}
+                    {/* main image */}
+                  <Image
+                    height={44}
+                    width={44}
+                    src={mousesvg}
+                    className="right-20"
+                    alt=""
+                  />
+
+                  {/* <div className="imgbottom">
+                    <Image
+                      height={44}
+                      width={44}
+                      src={mousesvg}
+                      className="right-20"
+                      alt=""
+                    />
+                  </div> */}
                 </div>
               </div>
 
@@ -69,7 +112,7 @@ const HeroService = ({
                   height={500}
                   width={500}
                   className="w-full"
-                  src={hero}
+                  src={ServiceHero}
                   alt=""
                 />
               </div>

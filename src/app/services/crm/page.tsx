@@ -25,7 +25,7 @@ const page = () => {
     <>
       <HeroService
         title="CRM"
-        description="With our CRM, agents can efficiently nurture leads, close deals & foster long-lasting relationships."
+        description="With our CRM, agents can effectively nurture leads, close deals & foster long-lasting relationship."
       />
       <Trustedbyy />
 
