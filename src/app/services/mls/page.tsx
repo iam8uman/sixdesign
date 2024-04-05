@@ -5,12 +5,12 @@ import HeroService from "@/components/Services/Software/HeroService";
 import Trustedbyy from "@/components/Trustedby/Trustedbyy";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
-import contact_management from "@/../public/services/icons/design support.png";
-import responsive from "@/../public/services/icons/responsive.png";
-import reso from "@/../public/services/icons/reso.png";
-import Seo from "@/../public/services/icons/seo.png";
-import mobile from "@/../public/services/icons/mobile device compatibility.png";
-import fastloading from "@/../public/services/icons/simple animation.png";
+import contact_management from "@/../public/services/mls/design.svg";
+import responsive from "@/../public/services/mls/responsive.svg";
+import reso from "@/../public/services/mls/resp.svg";
+import Seo from "@/../public/services/mls/seo.svg";
+import mobile from "@/../public/services/mls/userfriendly.svg";
+import fastloading from "@/../public/services/mls/fastloading.svg";
 import Benefits from "@/components/Services/CRM/Benefits";
 
 import expertise from "@/../public/services/mls/expertise.png";
@@ -38,13 +38,13 @@ const page = () => {
         feature2desc="Websites optimized for seamless viewing and navigation across all devices, including desktops, tablets, and smartphones."
         feature2icon={responsive.src}
         feature3="Reso Compliance"
-        feature3desc="Development of RESO-compliant websites to ensure adherence to industry standards and compatibility with real estate data services."
+        feature3desc="RESO-compliant websites to ensure adherence to industry standards with real estate data services."
         feature3icon={reso.src}
         feature4="SEO Optimization"
         feature4desc="Implementation of SEO best practices to improve search engine visibility and drive organic traffic to your website."
         feature4icon={Seo.src}
         feature5="User Friendly Interfaces"
-        feature5desc="Integration of MLS listings, property search tools, interactive maps, and other features to enhance user experience and functionality."
+        feature5desc="Integration of MLS listings, property search tools, interactive maps, and other features to enhance user experience."
         feature5icon={mobile.src}
         feature6="Fast Loading Time"
         feature6desc="Optimized performance for quick loading times, reducing bounce rates and improving user satisfaction."

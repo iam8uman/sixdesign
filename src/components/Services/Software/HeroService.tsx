@@ -30,20 +30,7 @@ const HeroService = ({
                 <div className="mt-4 text-base text-black lg:mt-8 sm:text-xl">
                  {description || "  Elevate your online presence with our professional website redesign solutions, delivering immediate results through Link complete cycle of services. Experience amplified visitor engagement, extended session durations, and boosted conversion rates with our tailored approach to website redesign."}
                 </div>
-                <div className="flex gap-6 mt-5 ">
-                  <div className="flex gap-2">
-                    <CircleArrowRight color="#000000" />
-                    Pilot Run
-                  </div>
-                  <div className="flex gap-2">
-                    <CircleArrowRight color="#000000" />
-                    Pilot Run
-                  </div>
-                  <div className="flex gap-2">
-                    <CircleArrowRight color="#000000" />
-                    Pilot Run
-                  </div>
-                </div>
+                
 
                 <Link
                   href="#"

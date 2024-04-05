@@ -6,18 +6,18 @@ import Trustedbyy from "@/components/Trustedby/Trustedbyy";
 import reso from "@/../public/services/icons/reso.png";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
-import Social_media from "@/../public/services/icons/social media strategy.png";
+import Social_media from "@/../public/services/icons/social media strategy.svg";
 import document_management from "@/../public/services/icons/mobile device compatibility.png";
-import integration_management from "@/../public/services/icons/Integration.png";
-import award from "@/../public/services/icons/award.png";
-import advertise from "@/../public/services/icons/advertise.png";
-import massenger from "@/../public/services/icons/massenger.png";
+import integration_management from "@/../public/services/icons/integration.svg";
+import award from "@/../public/services/icons/award.svg";
+import advertise from "@/../public/services/icons/advertise.svg";
+import massenger from "@/../public/services/icons/massenger.svg";
 import Benefits from "@/components/Services/CRM/Benefits";
 
-import facebook from "@/../public/services/social/facebook.png";
-import tiktok from "@/../public/services/social/tiktok.png";
-import instagram from "@/../public/services/social/instagram.png";
-import linkedin from "@/../public/services/social/linkedin.png";
+import facebook from "@/../public/services/social/facebook.svg";
+import tiktok from "@/../public/services/social/tiktok.svg";
+import instagram from "@/../public/services/social/instagram.svg";
+import linkedin from "@/../public/services/social/linkedin.svg";
 
 const page = () => {
   return (

@@ -79,8 +79,9 @@ const Feature = ({
                     height={200}
                     width={200}
                     src={feature1icon || design_support}
+                    quality={100}
                     alt="image of service "
-                    className="object-cover "
+                    className="object-contain contrast-125 "
                   />
                 </div>
                 <div className="">
@@ -120,7 +121,9 @@ const Feature = ({
                       height={200}
                       width={200}
                       src={feature3icon}
+                      quality={100}
                       alt="image of service"
+                      className="object-contain contrast-125"
                     />
                   </div>
                   <div className="">

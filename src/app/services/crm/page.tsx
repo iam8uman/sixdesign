@@ -3,22 +3,22 @@ import Feature from "@/components/Services/CRM/Feature";
 import Contact from "@/components/Contact/Contact";
 import HeroService from "@/components/Services/Software/HeroService";
 import Trustedbyy from "@/components/Trustedby/Trustedbyy";
-import contact_management from "@/../public/services/icons/contact_management.png";
-import document_management from "@/../public/services/icons/document.png";
-import reso from "@/../public/services/icons/reso.png";
-import integration from "@/../public/services/icons/integrationn.png";
+import contact_management from "@/../public/services/icons/contact_management.svg";
+import document_management from "@/../public/services/icons/document.svg";
+import reso from "@/../public/services/icons/reso.svg";
+import integration from "@/../public/services/icons/integration.svg";
 import calendar from "@/../public/services/icons/calendar.png";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
 import Trustedbyyyy from "@/components/Trustedby/Trustedbyy";
 import Benefits from "@/components/Services/CRM/Benefits";
 
-import efficiency from "@/../public/services/benefits/efficiency.png";
-import productivity from "@/../public/services/benefits/producitivy.png";
-import collaboration from "@/../public/services/benefits/collaboaration.png";
-import organization from "@/../public/services/benefits/oragnization.png";
-import engagement from "@/../public/services/benefits/engagement.png";
-import flexibility from "@/../public/services/benefits/flexibility.png";
+import efficiency from "@/../public/services/benefits/efficiency.svg";
+import productivity from "@/../public/services/benefits/productivity.svg";
+import collaboration from "@/../public/services/benefits/collaboration.svg";
+import organization from "@/../public/services/benefits/organization.svg";
+import engagement from "@/../public/services/benefits/engagement.svg";
+import flexibility from "@/../public/services/benefits/flexibility.svg";
 
 const page = () => {
   return (
@@ -50,29 +50,30 @@ const page = () => {
         feature6desc="Nurture your leads and stay engaged with your clients effortlessly using our automated follow-up features. Schedule emails, phone calls, and reminders to keep your leads warm and your clients satisfied."
         feature6icon={calendar.src}
       />
-
-      <Benefits
-        buttonvalue="Benefits"
-        title="Explore The Benefits Of Our CRM"
-        feature1="Efficiency"
-        feature1desc="Streamline your workflow and save time with automated lead capture, task management, and follow-ups."
-        feature1icon={efficiency.src}
-        feature2="Productivity"
-        feature2desc="Stay on top of your tasks and deadlines, prioritize your activities, and maximize your productivity."
-        feature2icon={productivity.src}
-        feature3="Collaboration"
-        feature3desc="Collaborate seamlessly with team members and share important information in real-time."
-        feature3icon={collaboration.src}
-        feature4="Organization"
-        feature4desc="Keep all your client information, communication history, and documents in one centralized platform for easy access."
-        feature4icon={organization.src}
-        feature5="Engagement"
-        feature5desc="Nurture your leads and stay engaged with your clients effortlessly with automated follow-ups and reminders."
-        feature5icon={engagement.src}
-        feature6="Flexibility"
-        feature6desc="Access your CRM anytime, anywhere, with our mobile-friendly app, and stay connected on the go."
-        feature6icon={flexibility.src}
-      />
+      <div className="bg-slate-200 lg:bg-white">
+        <Benefits
+          buttonvalue="Benefits"
+          title="Explore The Benefits Of Our CRM"
+          feature1="Efficiency"
+          feature1desc="Streamline your workflow and save time with automated lead capture, task management, and follow-ups."
+          feature1icon={efficiency.src}
+          feature2="Productivity"
+          feature2desc="Stay on top of your tasks and deadlines, prioritize your activities, and maximize your productivity."
+          feature2icon={productivity.src}
+          feature3="Collaboration"
+          feature3desc="Collaborate seamlessly with team members and share important information in real-time."
+          feature3icon={collaboration.src}
+          feature4="Organization"
+          feature4desc="Keep all your client information, communication history, and documents in one centralized platform for easy access."
+          feature4icon={organization.src}
+          feature5="Engagement"
+          feature5desc="Nurture your leads and stay engaged with your clients effortlessly with automated follow-ups and reminders."
+          feature5icon={engagement.src}
+          feature6="Flexibility"
+          feature6desc="Access your CRM anytime, anywhere, with our mobile-friendly app, and stay connected on the go."
+          feature6icon={flexibility.src}
+        />
+      </div>
 
       <Crmportfolio />
 
