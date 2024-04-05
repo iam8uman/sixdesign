@@ -49,10 +49,10 @@ const Feature = ({
 }) => {
   return (
     <>
-      <section className="py-10 sm:py-16 lg:py-24 ml-16 lg:ml-28 mr-[62px]">
+      <section className="py-10 sm:py-16 lg:py-24 mx-4 lg:mx-28 ">
         <div className="px-4 mx-auto max-w-9xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-3 lg:mt-20 lg:gap-x-8">
-          <div className="transition-all duration-200 bg-white">
+            <div className="transition-all duration-200 bg-white">
               <button className="my-4 px-12 py-2   text-left rounded-full text-2xl font-semibold border-2 border-black shadow-sm drop-shadow-md   text-black border-t-[5px] border-l-[5px]">
                 Features
               </button>
@@ -67,130 +67,144 @@ const Feature = ({
                   src={arrowicon}
                   alt="Arrow Icon"
                   className="relative contrast-200 mt-8 ml-52 bottom-7 rotate-[135deg] lg:rotate-[1deg]"
-                  />
+                />
               </div>
             </div>
 
             <div className="transition-all duration-200 bg-white ">
-              <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-center gap-3">
-                <div className="logo  mt-9">
-                  {/* <SixdesignLogo size="md" /> */}
-                  <Image
-                    height={200}
-                    width={200}
-                    src={feature1icon || design_support}
-                    quality={100}
-                    alt="image of service "
-                    className="object-contain contrast-125 "
-                  />
-                </div>
-                <div className="">
-                  <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    {feature1 || "Design Service"}
-                  </h3>
-                  <p className="mt-1 text-sm text-left text-gray-600">
-                    {feature1desc ||
-                      " Tailored website designs that reflect your brand identity and captivate your audience"}
-                  </p>
-                </div>
-              </div>
-              <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-center gap-3">
-                <div className="logo mt-9">
-                  <Image
-                    height={200}
-                    width={200}
-                    src={feature2icon || design_support}
-                    alt="image of service"
-                  />
-                </div>
-                <div className="">
-                  <h3 className="mt-6 text-xl text-left lg:text-start font-bold text-black">
-                    {feature2 || "Design Service"}
-                  </h3>
-                  <p className="mt-1 text-sm text-gray-600 sm:text-center lg:text-left">
-                    {feature2desc ||
-                      " Tailored website designs that reflect your brand identity and captivate your audience"}
-                  </p>
+              <div className="transition-all duration-200 bg-white">
+                <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-left rounded-sm border-2 border-slate-100 lg:border-none gap-3">
+                  <div className="logo mt-9">
+                    <Image
+                      height={100}
+                      width={100}
+                      src={feature1icon || design_support}
+                      alt="image of service"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="mx-6 mt-6 lg:mt-0">
+                    <h3 className="text-2xl lg:text-xl text-center md:text-start font-bold text-black">
+                      {feature1 || "Design Service"}
+                    </h3>
+                    <p className="mt-1 text-sm text-center md:text-left text-gray-600">
+                      {feature1desc ||
+                        " Tailored website designs that reflect your brand identity and captivate your audience"}
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              {feature3icon && (
-                <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-center gap-3">
-                  <div className="logo mt-9">
-                    <Image
-                      height={200}
-                      width={200}
-                      src={feature3icon}
-                      quality={100}
+              <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-left rounded-sm border-2 border-slate-100 lg:border-none gap-3">
+                <div className="logo mt-9">
+                <Image
+                      height={100}
+                      width={100}
+                      src={feature2icon || design_support}
                       alt="image of service"
-                      className="object-contain contrast-125"
+                      className="object-cover"
                     />
                   </div>
-                  <div className="">
-                    <h3 className="mt-6 text-xl text-start font-bold text-black">
-                      {feature3}
+                  <div className="mx-6 mt-6 lg:mt-0">
+                    <h3 className="text-2xl lg:text-xl text-center md:text-start font-bold text-black">
+                      {feature2 || "Design Service"}
                     </h3>
-                    <p className="mt-1 text-sm text-gray-600">{feature3desc}</p>
+                    <p className="mt-1 text-sm text-center md:text-left text-gray-600">
+                      {feature2desc ||
+                        " Tailored website designs that reflect your brand identity and captivate your audience"}
+                    </p>
+                  </div>
+                </div>
+
+
+              {feature3icon && (
+                <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-left rounded-sm border-2 border-slate-100 lg:border-none gap-3">
+                  <div className="logo mt-9">
+                  <Image
+                      height={100}
+                      width={100}
+                      src={feature3icon || design_support}
+                      alt="image of service"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="mx-6 mt-6 lg:mt-0">
+                    <h3 className="text-2xl lg:text-xl text-center md:text-start font-bold text-black">
+                      {feature3 || "Design Service"}
+                    </h3>
+                    <p className="mt-1 text-sm text-center md:text-left text-gray-600">
+                      {feature3desc ||
+                        " Tailored website designs that reflect your brand identity and captivate your audience"}
+                    </p>
                   </div>
                 </div>
               )}
             </div>
 
             <div className="transition-all duration-200 bg-white">
-              <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-center gap-3">
+              <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-left rounded-sm border-2 border-slate-100 lg:border-none gap-3">
                 <div className="logo mt-9">
-                  <Image
-                    height={200}
-                    width={200}
-                    src={feature4icon || conntact_management}
-                    alt="image of service"
-                  />
-                </div>
-                <div className="">
-                  <h3 className="mt-6 text-xl text-start font-bold text-black">
-                    {feature4 || "Design Service"}
-                  </h3>
-                  <p className="mt-1 text-sm text-gray-600">
-                    {feature4desc ||
-                      " Tailored website designs that reflect your brand identity and captivate your audience"}
-                  </p>
-                </div>
-              </div>
-
-              {feature5icon && (
-                <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-center gap-3">
-                  <div className="logo mt-9">
-                    <Image
-                      height={200}
-                      width={200}
-                      src={feature5icon}
+                <Image
+                      height={100}
+                      width={100}
+                      src={feature4icon || design_support}
                       alt="image of service"
+                      className="object-cover"
                     />
                   </div>
-                  <div className="">
-                    <h3 className="mt-6 text-xl text-start font-bold text-black">
-                      {feature5}
+                  <div className="mx-6 mt-6 lg:mt-0">
+                    <h3 className="text-2xl lg:text-xl text-center md:text-start font-bold text-black">
+                      {feature4 || "Design Service"}
                     </h3>
-                    <p className="mt-1 text-sm text-gray-600">{feature5desc}</p>
+                    <p className="mt-1 text-sm text-center md:text-left text-gray-600">
+                      {feature4desc ||
+                        " Tailored website designs that reflect your brand identity and captivate your audience"}
+                    </p>
+                  </div>
+                </div>
+
+              {feature5icon && (
+                <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-left rounded-sm border-2 border-slate-100 lg:border-none gap-3">
+                  <div className="logo mt-9">
+                  <Image
+                      height={100}
+                      width={100}
+                      src={feature5icon || design_support}
+                      alt="image of service"
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="mx-6 mt-6 lg:mt-0">
+                    <h3 className="text-2xl lg:text-xl text-center md:text-start font-bold text-black">
+                      {feature5 || "Design Service"}
+                    </h3>
+                    <p className="mt-1 text-sm text-center md:text-left text-gray-600">
+                      {feature5desc ||
+                        " Tailored website designs that reflect your brand identity and captivate your audience"}
+                    </p>
                   </div>
                 </div>
               )}
 
               {feature6icon && (
-                <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-center gap-3">
+                <div className="py-4 px-4 flex flex-col items-center lg:flex-row justify-left rounded-sm border-2 border-slate-100 lg:border-none gap-3">
                   <div className="logo mt-9">
-                    <Image
-                      height={200}
-                      width={200}
-                      src={feature6icon}
+                  <Image
+                      height={100}
+                      width={100}
+                      src={feature6icon || design_support}
                       alt="image of service"
+                      className="object-cover"
                     />
                   </div>
-                  <div className="">
-                    <h3 className="mt-6 text-xl text-start font-bold text-black">
-                      {feature6}
+                  <div className="mx-6 mt-6 lg:mt-0">
+                    <h3 className="text-2xl lg:text-xl text-center md:text-start font-bold text-black">
+                      {feature6 || "Design Service"}
                     </h3>
-                    <p className="mt-1 text-sm text-gray-600">{feature6desc}</p>
+                    <p className="mt-1 text-sm text-center md:text-left text-gray-600">
+                      {feature6desc ||
+                        " Tailored website designs that reflect your brand identity and captivate your audience"}
+                    </p>
                   </div>
                 </div>
               )}

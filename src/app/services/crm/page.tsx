@@ -32,24 +32,26 @@ const page = () => {
       <Feature
         title="CRM"
         feature1="Lead Management"
-        feature1desc="Organize and track your leads effectively with our intuitive lead management tools. Never miss an opportunity with automated lead capture and assignment features."
+        feature1desc="Track your leads effectively with our intuitive lead management tools."
         feature1icon={contact_management.src}
         feature2="Contact Management"
-        feature2desc="Keep all your client information in one place with our comprehensive contact management system. Easily access client details, communication history, and important documents whenever you need them."
+        feature2desc="Efficiently manage client info with our integrated contact management solution."
         feature2icon={calendar.src}
         feature3="Document Storage"
-        feature3desc="Store all your important documents securely in the cloud and access them from anywhere, anytime. Say goodbye to paper clutter and never lose a document again."
+        feature3desc="Securely store and access documents anywhere, anytime, eliminating paper clutter."
         feature3icon={document_management.src}
         feature4="Integration"
-        feature4desc="Integrate our CRM seamlessly with MLS listings, email marketing, transaction management, and other tools. Streamline workflow, eliminate data silos, and make informed decisions effortlessly."
+        feature4desc="Effortlessly integrate CRM with MLS listings and make informed decisions"
         feature4icon={integration.src}
         feature5="Task Management"
-        feature5desc="Stay on top of your tasks and never miss a deadline with our task management tools. Set reminders, create to-do lists, and track your progress with ease."
+        feature5desc="Efficiently manage tasks, set reminders, and track progress effortlessly."
         feature5icon={reso.src}
         feature6="Automated Follow-ups"
-        feature6desc="Nurture your leads and stay engaged with your clients effortlessly using our automated follow-up features. Schedule emails, phone calls, and reminders to keep your leads warm and your clients satisfied."
+        feature6desc="Automate follow-ups, nurture leads, and engage clients effortlessly."
         feature6icon={calendar.src}
       />
+
+      
       <div className="bg-slate-200 lg:bg-white">
         <Benefits
           buttonvalue="Benefits"
