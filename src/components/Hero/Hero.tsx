@@ -36,13 +36,13 @@ const Herotailbits = () => {
                       </span>{" "}
                     </div>
                   </div>
-                  <div className="text-md text-black leading-7 mt-8">
+                  <div className="text-md mx-2 text-black leading-7 mt-8">
                     We build CRM for agents, MLS Website, Email Marketing,
                     Social Media Management, Landing Page, and Custom Solutions
                     with expert finesse and irresistible appeal.
                   </div>
 
-                  <div className="button flex lg:gap-1 sm:gap-0 mt-12 ">
+                  <div className="button flex lg:gap-1 sm:gap-0 mt-12">
                     <Button className="bg-black text-md text-white mt-2 mr-2 px-10 py-6 rounded-md hover:bg-black/80">
                       Contact Us
                     </Button>
