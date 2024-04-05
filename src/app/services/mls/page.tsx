@@ -23,7 +23,7 @@ const page = () => {
       />
       <Trustedbyy />
 
-      <Feature title="Customer Relationship Management"
+      <Feature title="MLS"
        feature1="Custom Design"
         feature1desc="Tailored website designs that reflect your brand identity and captivate your audience."
         feature1icon={contact_management.src}

@@ -12,6 +12,12 @@ import integration_management from "@/../public/services/icons/Integration.png";
 import award from "@/../public/services/icons/award.png";
 import advertise from "@/../public/services/icons/advertise.png";
 import massenger from "@/../public/services/icons/massenger.png";
+import Benefits from "@/components/Services/CRM/Benefits";
+
+import facebook from "@/../public/services/social/facebook.png";
+import tiktok from "@/../public/services/social/tiktok.png";
+import instagram from "@/../public/services/social/instagram.png";
+import linkedin from "@/../public/services/social/linkedin.png";
 
 const page = () => {
   return (
@@ -26,29 +32,45 @@ const page = () => {
       <Feature
         title="Social Media Marketing"
         feature1="Social Media Strategy"
-        feature1desc="We'll develop a social media strategy to help build your brand on major platforms such as Facebook, Instagram & Tiktok."
+        feature1desc="We'll develop a strategy to help build your brand on major platforms such as Facebook, Instagram & Tiktok."
         feature1icon={Social_media.src}
-
         feature2="Social Media Management"
         feature2desc="Our social media management includes creation of high quality content and regular posting to keep your audience engaged."
         feature2icon={integration_management.src}
-
         feature3="Apps & Messenger Marketing"
-        feature3desc="Messenger campaigns are an effective way of driving engagement with large audiences. Speak to an expert from our team about how this could work for your business."
+        feature3desc="Engage large audiences effectively with Messenger campaigns. Connect with our experts to explore how it can benefit your business."
         feature3icon={massenger.src}
-
         feature4="Social Content Calendar"
-        feature4desc="Once you have a social media strategy, you'll need to create a content calendar. Creating a content calendar will help you achieve your social media goals quicker and easier."
+        feature4desc="Creating a content calendar will help you achieve your social media goals quicker and easier."
         feature4icon={reso.src}
-
         feature5="Social Media Advertising"
-        feature5desc="Social media advertising is the best way to cut through the clutter online. We can help your brand with Facebook Ads, Instagram Ads, Tiktok Ads & More."
+        feature5desc=" We can help your brand with Facebook Ads, Instagram Ads, Tiktok Ads & More."
         feature5icon={advertise.src}
-
         feature6="Social Competitions"
-        feature6desc="We are experienced at developing online competitions and can assist from idea inception through to landing pages and promotion. We can also write the copy for your online competitions, including any additional promotional material needed."
+        feature6desc="We are experienced at developing online competitions & can assist from idea inception through to landing pages"
         feature6icon={award.src}
+      />
 
+      <Benefits
+        title=""
+        feature1="Facebook"
+        feature1desc="Facebook marketing encompasses page optimization, engaging content creation, targeted ad usage, community building, and performance analysis to drive business growth and engagement."
+        feature1icon={facebook.src}
+        feature2="TikTok"
+        feature2desc="TikTok marketing involves creating catchy videos, engaging with trends, using ads, building community, and tracking performance for brand visibility and growth."
+        feature2icon={tiktok.src}
+        feature3=""
+        feature3desc=""
+        feature3icon=""
+        feature4="Instagram"
+        feature4desc="Instagram marketing means making your profile shine, sharing interesting posts, using ads, connecting with your community, and checking results for business growth."
+        feature4icon={instagram.src}
+        feature5="Linkedin"
+        feature5desc="LinkedIn marketing means polishing your profile, sharing relevant posts, using ads, networking, and tracking progress for professional growth."
+        feature5icon={linkedin.src}
+        feature6=""
+        feature6desc=""
+        feature6icon=""
       />
 
       <Crmportfolio />

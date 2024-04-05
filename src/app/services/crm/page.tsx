@@ -11,6 +11,14 @@ import calendar from "@/../public/services/icons/calendar.png";
 import MovingCard from "@/components/Card/MovingCard";
 import Crmportfolio from "@/components/Services/CRM/Crmportfolio";
 import Trustedbyyyy from "@/components/Trustedby/Trustedbyy";
+import Benefits from "@/components/Services/CRM/Benefits";
+
+import efficiency from "@/../public/services/benefits/efficiency.png"
+import productivity from "@/../public/services/benefits/producitivy.png"
+import collaboration from "@/../public/services/benefits/collaboaration.png"
+import organization from "@/../public/services/benefits/oragnization.png"
+import engagement from "@/../public/services/benefits/engagement.png"
+import flexibility from "@/../public/services/benefits/flexibility.png"
 
 
 
@@ -23,14 +31,14 @@ const page = () => {
       />
       <Trustedbyy />
 
-      <Feature title="Customer Relationship Management"
+      <Feature title="CRM"
        feature1="Lead Management"
         feature1desc="Organize and track your leads effectively with our intuitive lead management tools. Never miss an opportunity with automated lead capture and assignment features."
         feature1icon={contact_management.src}
 
         feature2="Contact Management"
         feature2desc="Keep all your client information in one place with our comprehensive contact management system. Easily access client details, communication history, and important documents whenever you need them."
-        feature2icon={contact_management.src}
+        feature2icon={calendar.src}
 
         feature3="Document Storage"
         feature3desc="Store all your important documents securely in the cloud and access them from anywhere, anytime. Say goodbye to paper clutter and never lose a document again."
@@ -50,6 +58,36 @@ const page = () => {
 
 
       />
+
+      <Benefits title="CRM"
+       feature1="Efficiency"
+        feature1desc="Streamline your workflow and save time with automated lead capture, task management, and follow-ups."
+        feature1icon={efficiency.src}
+
+        feature2="Productivity"
+        feature2desc="Stay on top of your tasks and deadlines, prioritize your activities, and maximize your productivity."
+        feature2icon={productivity.src}
+
+        feature3="Collaboration"
+        feature3desc="Collaborate seamlessly with team members and share important information in real-time."
+        feature3icon={collaboration.src}
+
+        feature4="Organization"
+        feature4desc="Keep all your client information, communication history, and documents in one centralized platform for easy access."
+        feature4icon={organization.src}
+
+        feature5="Engagement"
+        feature5desc="Nurture your leads and stay engaged with your clients effortlessly with automated follow-ups and reminders."
+        feature5icon={engagement.src}
+
+        feature6="Flexibility"
+        feature6desc="Access your CRM anytime, anywhere, with our mobile-friendly app, and stay connected on the go."
+        feature6icon={flexibility.src}
+
+
+      />
+
+
 
       <Crmportfolio />
 
