@@ -18,8 +18,8 @@ const Crmportfolio = () => {
       <section className="py-8 bg-white sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="sm:flex sm:items-center sm:justify-center sm:space-x-8">
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 text-center">
-              Peek Inside Our <span className="text-primary">Portfolio</span>
+            <div className="text-3xl md:text-4xl aaa inline-block lg:text-5xl font-bold text-gray-900 text-center">
+              Peek Inside Our Portfolio
               {/* <span className="text-primary sm:w-full"> Our Works</span> */}
             </div>
 
