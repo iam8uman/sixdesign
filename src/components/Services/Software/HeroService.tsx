@@ -9,6 +9,7 @@ import ServiceHero from "@/../public/services/hero/mobile.svg";
 import imgtop from "@/../public/services/hero/tabler_click-1.svg";
 import imgbottom from "@/../public/services/hero/tabler_click.svg";
 import arrow from "@/../public/services/hero/arrow.svg";
+import thuloblack from "@/../public/services/thuloblack.png";
 
 const HeroService = ({
   title,
@@ -23,7 +24,7 @@ const HeroService = ({
         <section className="bg-[#FCF8F1] bg-opacity-30 py-10 ">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-6 lg:grid-cols-2">
-              <div>
+              <div className="relative">
                 <div className="font-sans  tracking-wider flex gap-1 items-center text-xl text-gray-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,8 +69,7 @@ const HeroService = ({
                 </Link>
 
                 <div className="mouseSvg w-44 flex justify-end ">
-                 
-                    {/* main image */}
+                  {/* main image */}
                   <Image
                     height={44}
                     width={44}
@@ -77,31 +77,37 @@ const HeroService = ({
                     className="right-20"
                     alt=""
                   />
-
-                
+                </div>
+                <div className="img">
+                  <Image
+                    height={100}
+                    width={100}
+                    src={thuloblack}
+                    alt=""
+                    className="object-contain absolute -top-20 -left-48 contrast-125 border-2 border-black border-r-2 rounded-full pl-1 pt-2 -pb-2 -pr-2"
+                  />
                 </div>
               </div>
 
               <div className="relative">
-
-                 <span className="imgtop">
-                    <Image
-                      height={88}
-                      width={88}
-                      src={imgtop}
-                      className="-left-10 absolute -top-10 -rotate-90"
-                      alt=""
-                    />
-                  </span>
-                  <span className="imgmiddle">
-                    <Image
-                      height={66}
-                      width={66}
-                      src={arrow}
-                      className="absolute -left-36 bottom-32"
-                      alt=""
-                    />
-                  </span>
+                <span className="imgtop">
+                  <Image
+                    height={88}
+                    width={88}
+                    src={imgtop}
+                    className="-left-10 absolute -top-10 -rotate-90"
+                    alt=""
+                  />
+                </span>
+                <span className="imgmiddle">
+                  <Image
+                    height={66}
+                    width={66}
+                    src={arrow}
+                    className="absolute -left-36 bottom-32"
+                    alt=""
+                  />
+                </span>
                 <Image
                   height={500}
                   width={500}
@@ -109,15 +115,15 @@ const HeroService = ({
                   src={ServiceHero}
                   alt=""
                 />
-                  <span className="imgbottom">
-                    <Image
-                      height={50}
-                      width={50}
-                      src={imgbottom}
-                      className="-right-6 absolute bottom-[316px] rotate-90 "
-                      alt=""
-                    />
-                  </span>
+                <span className="imgbottom">
+                  <Image
+                    height={50}
+                    width={50}
+                    src={imgbottom}
+                    className="-right-6 absolute bottom-[316px] rotate-90 "
+                    alt=""
+                  />
+                </span>
               </div>
             </div>
           </div>
