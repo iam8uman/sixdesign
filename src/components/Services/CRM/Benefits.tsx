@@ -26,6 +26,8 @@ const Benefits = ({
   feature6,
   feature6desc,
   feature6icon,
+  buttonvalue,
+  
 }: {
   title: string;
   feature1icon: string;
@@ -46,6 +48,7 @@ const Benefits = ({
   feature6: string;
   feature6desc: string;
   feature6icon: string;
+  buttonvalue:string;
 }) => {
   return (
     <>
@@ -53,7 +56,7 @@ const Benefits = ({
         <div className="px-4 mx-auto max-w-9xl sm:px-6 lg:px-8">
             <div className="transition-all duration-200 bg-white flex flex-col justify-center  items-center">
               <button className="my-4 px-12 py-2   text-left rounded-full text-2xl font-semibold border-2 border-black shadow-sm drop-shadow-md   text-black border-t-[5px] border-l-[5px]">
-                Platform
+              {buttonvalue || ""}
               </button>
               <Image
                   height={40}
@@ -64,7 +67,7 @@ const Benefits = ({
                   />
               <div className="">
                 <h3 className=" text-4xl lg:text-5xl  text-start font-bold text-black">
-                Improve Your Social Media Presence {title || ""}
+                 {title || ""}
                 </h3>
                 {/* <CornerDownRight size={64} className="relative ml-60" /> */}
              

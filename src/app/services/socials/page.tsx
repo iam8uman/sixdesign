@@ -52,7 +52,8 @@ const page = () => {
       />
 
       <Benefits
-        title=""
+      buttonvalue="Platform"
+        title="Improve Your Social Media Presence"
         feature1="Facebook"
         feature1desc="Facebook marketing encompasses page optimization, engaging content creation, targeted ad usage, community building, and performance analysis to drive business growth and engagement."
         feature1icon={facebook.src}
