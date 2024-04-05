@@ -55,7 +55,7 @@ const HeroService = ({
                     "  Elevate your online presence with our professional website redesign solutions, delivering immediate results through Link complete cycle of services. Experience amplified visitor engagement, extended session durations, and boosted conversion rates with our tailored approach to website redesign."}
                 </div>
 
-                <div className="underline underline-offset-4  decoration-primary font-bold mt-4">
+                <div className="underline underline-offset-4  decoration-primary font-semibold text-xs lg:text-base lg:font-bold mt-4">
                   Trusted by 300+ amazing clients across Greater Toronto Area
                 </div>
 
